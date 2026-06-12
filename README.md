@@ -140,20 +140,6 @@ screenguard/
 ├── best_accuracy.py               # Model definition
 └── requirements.txt
 ```
-
----
-
-## Citation
-
-If you use ScreenGuard in your research, please cite:
-
-```bibtex
-@inproceedings{beyel2025screenguard,
-  title  = {Redacting Sensitive Information in Screenshots},
-  author = {Beyel, Harry H. and van der Aalst, Wil M. P.},
-}
-```
-
 ---
 
 ## License
