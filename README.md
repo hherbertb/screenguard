@@ -1,9 +1,6 @@
 # ScreenGuard
 
-ScreenGuard is a tool for automatically redacting sensitive (private) information from screenshots of web applications and desktop software. It was developed for the paper:
-
-> **Redacting Sensitive Information in Screenshots**  
-> H. H. Beyel and W. M. P. van der Aalst
+ScreenGuard is a tool for automatically redacting sensitive (private) information from screenshots of web applications and desktop software.
 
 Given a screenshot as input, ScreenGuard detects text and UI components, classifies each detected term for privacy sensitivity, and replaces private terms with a neutral placeholder block. Three classification strategies are supported: rule-based, LLM with a general prompt, and LLM with a specific prompt.
 
@@ -26,7 +23,7 @@ pip install -r requirements.txt
 **EasyOCR fine-tuned model** — ScreenGuard uses a fine-tuned EasyOCR recognition model (`best_accuracy`). Install it by following the custom model instructions at:  
 https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md
 
-Place `best_accuracy.pth` and `best_accuracy.yaml` in the EasyOCR model directory (typically `~/.EasyOCR/model/`). The model files (`best_accuracy.pth`, `best_accuracy.yaml`, `best_accuracy.py`) are included in this repository for reference.
+Place `best_accuracy.pth` and `best_accuracy.yaml` in the EasyOCR model directory (typically `~/.EasyOCR/model/`). The model files (`best_accuracy.pth`, `best_accuracy.yaml`, `best_accuracy.py`) are included in this repository.
 
 **ActivityGen component classifier** — The rule-based workflow requires the ResNet component classifier from ActivityGen. Download `classifier_model.pth` from:  
 https://zenodo.org/records/13375065
@@ -74,7 +71,7 @@ Output is written to a timestamped subfolder under `output/`, containing:
 
 ## Prompts
 
-The LLM prompts used in the paper are provided in `configs/prompts/`:
+The LLM prompts are provided in `configs/prompts/`:
 
 - `main.txt` — general prompt (classifies any private term)
 - `main2.txt` — specific prompt (extended guidelines covering names, IBANs, credit card numbers, addresses, medical values, etc.)
@@ -108,26 +105,26 @@ screenguard/
 │   │   └── TableDetector.py       # Table detection (DETR-based)
 │   └── logging/
 │       └── ScreenLogger.py
-├── activitygen/                   # UI component detection (from ActivityGen [9])
+├── activitygen/                   # UI component detection (from ActivityGen)
 │   ├── compo_detector/            # Component detection
 │   ├── compo_classifier/          # ResNet-based component classification
 │   ├── merge/                     # Element merging
-│   └── config/
+│   ├── config/
+│   └── models/                    # Place classifier_model.pth here (see setup)
 ├── configs/
 │   ├── main.cfg                   # Detection parameters
 │   ├── api_keys.cfg               # API keys (not tracked in git)
+│   ├── api_keys.cfg.template      # API key template (copy to api_keys.cfg)
 │   ├── prompts/
 │   │   ├── main.txt               # General LLM prompt
 │   │   └── main2.txt              # Specific LLM prompt
-│   ├── api_keys.cfg.template      # API key template (copy to api_keys.cfg)
 │   └── fonts/
 │       └── Arial.ttf
 ├── data/
 │   ├── JiraCelonis/               # Raw Jira screenshots (case study input)
 │   └── PII_keywords.txt           # PII keyword list for rule-based classifier
-├── privacydatagenerator/          # Synthetic dataset generator
-├── evaluation/                    # Full evaluation data
-│   ├── Quantitative Evaluation/   # Quantitative benchmark (130+ screenshots)
+├── evaluation/                    # Evaluation data
+│   ├── Quantitative Evaluation/   # Quantitative benchmark
 │   │   ├── dataset/               # Screenshots + bounding box annotations
 │   │   ├── RuleBasedClassification/
 │   │   ├── GeneralPromptClassification/
@@ -136,15 +133,29 @@ screenguard/
 │   │   ├── EvaluationGeneralPrompt/
 │   │   └── EvaluationSpecificPrompt/
 │   └── Jira/                      # Jira case study (unredacted + redacted)
+├── input/                         # Place input screenshots here
+├── output/                        # Redaction results (generated at runtime)
 ├── best_accuracy.pth              # Fine-tuned EasyOCR model weights
 ├── best_accuracy.yaml             # Fine-tuned EasyOCR model config
 ├── best_accuracy.py               # Model definition
-├── requirements.txt
-└── 8367_Support.pdf               # Supplementary material (ECAI 2025)
+└── requirements.txt
 ```
 
 ---
 
-## Dataset Generation
+## Citation
 
-The `privacydatagenerator/` folder contains the code and templates used to generate the synthetic screenshot dataset. It renders HTML templates with procedurally generated PII (names, IBANs, email addresses, etc.
+If you use ScreenGuard in your research, please cite:
+
+```bibtex
+@inproceedings{beyel2025screenguard,
+  title  = {Redacting Sensitive Information in Screenshots},
+  author = {Beyel, Harry H. and van der Aalst, Wil M. P.},
+}
+```
+
+---
+
+## License
+
+To be added.
