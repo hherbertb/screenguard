@@ -1,0 +1,130 @@
+{
+    "texts": [
+        {
+            "id": 10,
+            "x1": 844,
+            "y1": 369,
+            "x2": 1078,
+            "y2": 401,
+            "text": "ACCOUNT LOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"ACCOUNT LOGIN\" itself is just a general term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 11,
+            "x1": 843,
+            "y1": 490,
+            "x2": 894,
+            "y2": 512,
+            "text": "Orbo",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Orbo\" could be a name or an organization. Without further context, it's hard to determine if it is private information, therefore it is classified as not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 12,
+            "x1": 841,
+            "y1": 597,
+            "x2": 935,
+            "y2": 626,
+            "text": "Htnlssqg",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Htnlssqg\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 13,
+            "x1": 930,
+            "y1": 709,
+            "x2": 990,
+            "y2": 730,
+            "text": "LOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" is a number that could be a part of a date, coordinate, or numerical measurement. In the given context of the surrounding words \"17.04.2025\", it is likely a numerical measurement. It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 547,
+            "y1": 1048,
+            "x2": 668,
+            "y2": 1074,
+            "text": "Ji 6 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Ji 6 4\" is a short sequence of characters with a digit. It could be a short ID, but without surrounding words that give context, it is unlikley to be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a german word and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 62,
+            "y1": 1053,
+            "x2": 75,
+            "y2": 1065,
+            "text": "0",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" itself is a number and not private information. The surrounding word \"Suchen\" does not indicate that it is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" is a date. The surrounding numbers \"76.36\" do not imply that the date is related to personal information. The classification is therefore False.",
+            "substitution": "NONE"
+        }
+    ]
+}

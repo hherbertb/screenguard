@@ -1,0 +1,316 @@
+{
+    "texts": [
+        {
+            "id": 13,
+            "x1": 902,
+            "y1": 201,
+            "x2": 1018,
+            "y2": 260,
+            "text": "Login",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Login\" itself is just a noun and is not private information. There are no surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 769,
+            "y1": 302,
+            "x2": 847,
+            "y2": 322,
+            "text": "Usorname",
+            "context": [
+                "missionoflove"
+            ],
+            "classification": false,
+            "reason": "The term \"Usorname\" itself is just a noun and is not private information. The surrounding word \"missionoflove\" is not enough information to classify \"Usorname\" as private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 806,
+            "y1": 340,
+            "x2": 922,
+            "y2": 362,
+            "text": "missionoflove",
+            "context": [
+                "Usorname",
+                "Passwvord"
+            ],
+            "classification": true,
+            "reason": "The term \"missionoflove\" could be a username. The surrounding words \"Usorname\" and \"Passwvord\" strengthen this classification.",
+            "substitution": "username"
+        },
+        {
+            "id": 16,
+            "x1": 768,
+            "y1": 407,
+            "x2": 842,
+            "y2": 425,
+            "text": "Passwvord",
+            "context": [
+                "missionoflove"
+            ],
+            "classification": false,
+            "reason": "The term \"Passwvord\" is likely a misspelling of \"Password\". While a specific password is private information, the term password itself is just a noun and can therefore never be private. The given surrounding word \"missionoflove\" does not change this assessment.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 1028,
+            "y1": 496,
+            "x2": 1078,
+            "y2": 517,
+            "text": "Forgote",
+            "context": [
+                "password?"
+            ],
+            "classification": false,
+            "reason": "The term \"Forgote\" seems to be a misspelling of \"Forgot\". It is not private information. The surrounding word \"password?\" does not change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 1076,
+            "y1": 497,
+            "x2": 1159,
+            "y2": 515,
+            "text": "password?",
+            "context": [
+                "Forgote"
+            ],
+            "classification": false,
+            "reason": "While a specific password is private information, the term password itself is just a noun and can therefore never be private. The surrounding word \"Forgote\" does not change this assessment.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 19,
+            "x1": 932,
+            "y1": 563,
+            "x2": 986,
+            "y2": 583,
+            "text": "LOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is just a noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 20,
+            "x1": 899,
+            "y1": 653,
+            "x2": 922,
+            "y2": 670,
+            "text": "Or",
+            "context": [
+                "Sign Up =",
+                "f"
+            ],
+            "classification": false,
+            "reason": "The term \"Or\" itself is a conjunction and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 21,
+            "x1": 921,
+            "y1": 653,
+            "x2": 978,
+            "y2": 676,
+            "text": "Sign Up =",
+            "context": [
+                "Or",
+                "Using",
+                "f"
+            ],
+            "classification": false,
+            "reason": "The term \"Sign Up =\" itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 22,
+            "x1": 976,
+            "y1": 651,
+            "x2": 1018,
+            "y2": 677,
+            "text": "Using",
+            "context": [
+                "Sign Up ="
+            ],
+            "classification": false,
+            "reason": "The term \"Using\" is a common verb and does not represent any private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 23,
+            "x1": 893,
+            "y1": 711,
+            "x2": 907,
+            "y2": 733,
+            "text": "f",
+            "context": [
+                "Sign Up =",
+                "Or"
+            ],
+            "classification": false,
+            "reason": "The term \"f\" by itself does not represent private information. The surrounding words do not add information that would suggest that this is a private term.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 24,
+            "x1": 902,
+            "y1": 911,
+            "x2": 921,
+            "y2": 925,
+            "text": "Or",
+            "context": [
+                "Sign Up",
+                "SIoN",
+                "UP"
+            ],
+            "classification": false,
+            "reason": "The term \"Or\" is a common conjunction and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 25,
+            "x1": 921,
+            "y1": 910,
+            "x2": 978,
+            "y2": 931,
+            "text": "Sign Up",
+            "context": [
+                "Or",
+                "Using",
+                "SIoN",
+                "UP"
+            ],
+            "classification": false,
+            "reason": "The term \"Sign Up\" itself is a generic term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 26,
+            "x1": 975,
+            "y1": 910,
+            "x2": 1018,
+            "y2": 931,
+            "text": "Using",
+            "context": [
+                "Sign Up",
+                "UP",
+                "SIoN"
+            ],
+            "classification": false,
+            "reason": "The term \"Using\" itself is a generic term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 27,
+            "x1": 931,
+            "y1": 947,
+            "x2": 968,
+            "y2": 967,
+            "text": "SIoN",
+            "context": [
+                "UP",
+                "Sign Up",
+                "Using",
+                "Or"
+            ],
+            "classification": false,
+            "reason": "The term \"SIoN\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 28,
+            "x1": 965,
+            "y1": 947,
+            "x2": 988,
+            "y2": 964,
+            "text": "UP",
+            "context": [
+                "SIoN",
+                "Using",
+                "Sign Up",
+                "Or"
+            ],
+            "classification": false,
+            "reason": "The term \"UP\" itself consists of two capital letters and is an abbreviation for the term \"Sign Up\". Therefore, it is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 29,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" alone is a number and there are no surrounding words that indicate it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 30,
+            "x1": 547,
+            "y1": 1048,
+            "x2": 668,
+            "y2": 1074,
+            "text": "Ji 6 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Ji 6 4\" itself does not indicate any private information and also there are no surrounding words that suggest it could be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 31,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" translates to \"Search\" in English and is a common verb or noun. It does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 62,
+            "y1": 1053,
+            "x2": 75,
+            "y2": 1065,
+            "text": "0",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" is a number, which by itself is not private information. The surrounding word \"Suchen\" does not imply that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" seems to be a date. Because it is in the future, it is not related to personal information and therefore not private.",
+            "substitution": "NONE"
+        }
+    ]
+}

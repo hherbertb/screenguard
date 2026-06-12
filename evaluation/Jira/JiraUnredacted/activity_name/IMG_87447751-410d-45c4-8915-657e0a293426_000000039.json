@@ -1,0 +1,585 @@
+{
+    "img_resize_shape": [
+        1040,
+        1920,
+        3
+    ],
+    "activity_names": [
+        {
+            "bbox": {
+                "x1": 530,
+                "y1": 137,
+                "x2": 1310,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " Q Search",
+                "Surrounding Text": "Q Search + Create Projects / Bug Tracking System / Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "Search for files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1780,
+                "y1": 145,
+                "x2": 1794,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Notification",
+                "Surrounding Text": " Upgrade"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the status of an email from the recipient's computer",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1815,
+                "y1": 145,
+                "x2": 1831,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Info",
+                "Surrounding Text": " Upgrade"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the timer on/off",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1851,
+                "y1": 145,
+                "x2": 1867,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Settings",
+                "Surrounding Text": "LD"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 56,
+                "y1": 234,
+                "x2": 80,
+                "y2": 247
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Project settings  Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 84,
+                "y1": 234,
+                "x2": 137,
+                "y2": 247
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Project settings  Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 141,
+                "y1": 234,
+                "x2": 186,
+                "y2": 247
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Chat",
+                "Surrounding Text": " Project settings  Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 27,
+                "y1": 237,
+                "x2": 47,
+                "y2": 257
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Share",
+                "Surrounding Text": " Project settings  Details"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle task completion status",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 55,
+                "y1": 253,
+                "x2": 102,
+                "y2": 262
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Download",
+                "Surrounding Text": " Project settings  Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 105,
+                "y1": 253,
+                "x2": 142,
+                "y2": 265
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Project settings  Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 19,
+                "y1": 289,
+                "x2": 234,
+                "y2": 353
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "  Details",
+                "Surrounding Text": " Details Access\n> Notifications  Automation\n> Issue types\n Features\n> Board"
+            },
+            "is_vism": false,
+            "activity_name": "View all notifications",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1015,
+                "y1": 289,
+                "x2": 1143,
+                "y2": 417
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Profile",
+                "Surrounding Text": "Change icon"
+            },
+            "is_vism": false,
+            "activity_name": "Change the icon to 'Fast'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 903,
+                "y1": 547,
+                "x2": 1255,
+                "y2": 587
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " Bug Tracking System",
+                "Surrounding Text": "Required fields are marked with an asterisk * Name* Bug Tracking System Project key  *"
+            },
+            "is_vism": false,
+            "activity_name": "Add a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 903,
+                "y1": 635,
+                "x2": 1255,
+                "y2": 675
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " BTS",
+                "Surrounding Text": "Project key  * BTS Category\nChoose a category"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the task completion status to 'No'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 903,
+                "y1": 717,
+                "x2": 1255,
+                "y2": 757
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": "Category\nChoose a category Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project",
+                "Surrounding Text": "Category\nChoose a category Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project"
+            },
+            "is_vism": false,
+            "activity_name": "Select a project lead",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 903,
+                "y1": 799,
+                "x2": 1255,
+                "y2": 843
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": "Category\nChoose a category Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project Default assignee\n Unassigned",
+                "Surrounding Text": "Category\nChoose a category Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project Default assignee\n Unassigned"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task in Jira",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 903,
+                "y1": 905,
+                "x2": 1255,
+                "y2": 945
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": "Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project Default assignee\n Unassigned  Save",
+                "Surrounding Text": "Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project Default assignee\n Unassigned  Save"
+            },
+            "is_vism": false,
+            "activity_name": "Save the task 'Project lead Luca Dewert'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 22,
+                "y1": 142,
+                "x2": 88,
+                "y2": 165
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " :",
+                "Surrounding Text": " : i Jira  Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 96,
+                "y1": 142,
+                "x2": 160,
+                "y2": 165
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "i Jira",
+                "Surrounding Text": " : i Jira  Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1322,
+                "y1": 138,
+                "x2": 1400,
+                "y2": 167
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "+ Create",
+                "Surrounding Text": "+ Create"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1662,
+                "y1": 140,
+                "x2": 1776,
+                "y2": 167
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Upgrade",
+                "Surrounding Text": " Upgrade"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the task completion status to 'Upgrade'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1886,
+                "y1": 142,
+                "x2": 1908,
+                "y2": 162
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "LD",
+                "Surrounding Text": "LD"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 22,
+                "y1": 189,
+                "x2": 174,
+                "y2": 216
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Project settings",
+                "Surrounding Text": " : i Jira  Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the task completion status",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 604,
+                "y1": 236,
+                "x2": 688,
+                "y2": 264
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Details",
+                "Surrounding Text": "Projects / Bug Tracking System / Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1528,
+                "y1": 242,
+                "x2": 1546,
+                "y2": 258
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "...",
+                "Surrounding Text": "..."
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the status of the task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 26,
+                "y1": 327,
+                "x2": 136,
+                "y2": 380
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Access\n> Notifications",
+                "Surrounding Text": " Details Access\n> Notifications  Automation\n> Issue types\n Features\n> Board"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the notification type on/off",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1028,
+                "y1": 437,
+                "x2": 1128,
+                "y2": 461
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Change icon",
+                "Surrounding Text": "Change icon Required fields are marked with an asterisk *"
+            },
+            "is_vism": false,
+            "activity_name": "Change the icon to 'Ask for help'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 23,
+                "y1": 518,
+                "x2": 116,
+                "y2": 575
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Toolchain\n> Apps",
+                "Surrounding Text": " Automation\n> Issue types\n Features\n> Board  Toolchain\n> Apps"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 904,
+                "y1": 528,
+                "x2": 946,
+                "y2": 544
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Name*",
+                "Surrounding Text": "Required fields are marked with an asterisk * Name* Bug Tracking System"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the status of a task on/off",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 902,
+                "y1": 607,
+                "x2": 996,
+                "y2": 630
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Project key  *",
+                "Surrounding Text": "Bug Tracking System Project key  * BTS"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 900,
+                "y1": 879,
+                "x2": 998,
+                "y2": 936
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Default assignee\n Unassigned",
+                "Surrounding Text": "Project lead\n Luca Dewert\nMake sure your project lead has access to issues in the project Default assignee\n Unassigned  Save"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 908,
+                "y1": 967,
+                "x2": 948,
+                "y2": 989
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Save",
+                "Surrounding Text": "Default assignee\n Unassigned  Save"
+            },
+            "is_vism": false,
+            "activity_name": "Save changes to task",
+            "existing": "true"
+        }
+    ]
+}

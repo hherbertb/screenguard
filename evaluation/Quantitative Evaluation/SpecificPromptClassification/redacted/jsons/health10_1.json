@@ -1,0 +1,780 @@
+{
+    "texts": [
+        {
+            "id": 31,
+            "x1": 296,
+            "y1": 145,
+            "x2": 345,
+            "y2": 167,
+            "text": "User",
+            "context": [
+                "Profile"
+            ],
+            "classification": false,
+            "reason": "The term \"User\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 344,
+            "y1": 142,
+            "x2": 416,
+            "y2": 168,
+            "text": "Profile",
+            "context": [
+                "User"
+            ],
+            "classification": false,
+            "reason": "The term \"Profile\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 66,
+            "y1": 145,
+            "x2": 165,
+            "y2": 171,
+            "text": "CREATIVE",
+            "context": [
+                "TIM"
+            ],
+            "classification": false,
+            "reason": "The term \"CREATIVE\" itself does not seem to be private. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 34,
+            "x1": 167,
+            "y1": 148,
+            "x2": 202,
+            "y2": 170,
+            "text": "TIM",
+            "context": [
+                "CREATIVE"
+            ],
+            "classification": true,
+            "reason": "The term \"TIM\" is a name and is therefore private information. It is capitalized which further suggests that it is a name.",
+            "substitution": "name"
+        },
+        {
+            "id": 35,
+            "x1": 1556,
+            "y1": 148,
+            "x2": 1601,
+            "y2": 167,
+            "text": "Stats",
+            "context": [
+                "D",
+                "0",
+                "5"
+            ],
+            "classification": false,
+            "reason": "The term \"Stats\" itself is a noun and is not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 36,
+            "x1": 1659,
+            "y1": 148,
+            "x2": 1753,
+            "y2": 169,
+            "text": "Notifications",
+            "context": [
+                "5",
+                "0",
+                "P"
+            ],
+            "classification": false,
+            "reason": "The term \"Notifications\" itself is a noun and is not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 37,
+            "x1": 1812,
+            "y1": 145,
+            "x2": 1876,
+            "y2": 171,
+            "text": "Settings",
+            "context": [
+                "P"
+            ],
+            "classification": false,
+            "reason": "The term \"Settings\" itself is just a noun and is not private information. The surrounding word \"P\" does not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 38,
+            "x1": 1644,
+            "y1": 149,
+            "x2": 1656,
+            "y2": 165,
+            "text": "5",
+            "context": [
+                "Notifications",
+                "0",
+                "Stats"
+            ],
+            "classification": false,
+            "reason": "The term \"5\" itself is just a number and is not private information. The surrounding words \"Notifications\", \"0\", \"Stats\" do not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 39,
+            "x1": 1544,
+            "y1": 153,
+            "x2": 1554,
+            "y2": 165,
+            "text": "D",
+            "context": [
+                "Stats"
+            ],
+            "classification": false,
+            "reason": "The term \"D\" itself is just a character and is not private information. The surrounding word \"Stats\" does not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 40,
+            "x1": 1631,
+            "y1": 153,
+            "x2": 1639,
+            "y2": 165,
+            "text": "0",
+            "context": [
+                "5",
+                "Notifications",
+                "Stats"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" itself is a digit and is not private information. The surrounding words \"5\", \"Notifications\", and \"Stats\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 41,
+            "x1": 1797,
+            "y1": 155,
+            "x2": 1807,
+            "y2": 165,
+            "text": "P",
+            "context": [
+                "Settings",
+                "Notifications"
+            ],
+            "classification": false,
+            "reason": "The term \"P\" itself is a letter and is not private information. The surrounding words \"Settings\" and \"Notifications\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 42,
+            "x1": 69,
+            "y1": 246,
+            "x2": 156,
+            "y2": 264,
+            "text": "DASHBOARD",
+            "context": [
+                "PROFILE",
+                "USER"
+            ],
+            "classification": false,
+            "reason": "The term \"DASHBOARD\" itself is a common term and is not private information. The surrounding words \"PROFILE\" and \"USER\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 43,
+            "x1": 853,
+            "y1": 249,
+            "x2": 899,
+            "y2": 275,
+            "text": "Edit",
+            "context": [
+                "Profile",
+                "Name",
+                "First"
+            ],
+            "classification": false,
+            "reason": "The term \"Edit\" is just a verb and not private information. The surrounding words \"Profile\", \"Name\", and \"First\" don't suggest that the term \"Edit\" is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 44,
+            "x1": 896,
+            "y1": 249,
+            "x2": 965,
+            "y2": 276,
+            "text": "Profile",
+            "context": [
+                "Edit",
+                "Name",
+                "First"
+            ],
+            "classification": false,
+            "reason": "The term \"Profile\" is just a noun and not private information. The surrounding words \"Edit\", \"Name\", and \"First\" don't suggest that the term \"Profile\" is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 45,
+            "x1": 848,
+            "y1": 299,
+            "x2": 886,
+            "y2": 319,
+            "text": "First",
+            "context": [
+                "Name",
+                "Austin",
+                "Edit",
+                "Profile"
+            ],
+            "classification": false,
+            "reason": "The term \"First\" is an adjective and not private information. The surrounding words \"Name\", \"Austin\", \"Edit\", and \"Profile\" don't suggest that the term \"First\" is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 46,
+            "x1": 884,
+            "y1": 299,
+            "x2": 931,
+            "y2": 319,
+            "text": "Name",
+            "context": [
+                "First",
+                "Austin",
+                "Profile",
+                "Edit"
+            ],
+            "classification": false,
+            "reason": "The term \"Name\" itself is just a noun and is not private information. The surrounding words \"First\", \"Austin\", \"Profile\", and \"Edit\" do not indicate that this specific term \"Name\" is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 47,
+            "x1": 1358,
+            "y1": 299,
+            "x2": 1394,
+            "y2": 319,
+            "text": "Last",
+            "context": [
+                "Name",
+                "Smith"
+            ],
+            "classification": false,
+            "reason": "The term \"Last\" itself is just an adjective and is not private information. The surrounding words \"Name\" and \"Smith\" do not indicate that this specific term \"Last\" is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 48,
+            "x1": 1393,
+            "y1": 299,
+            "x2": 1441,
+            "y2": 319,
+            "text": "Name",
+            "context": [
+                "Last",
+                "Smith"
+            ],
+            "classification": false,
+            "reason": "The term \"Name\" itself is just a noun and is not private information. The surrounding words \"Last\" and \"Smith\" do not indicate that this specific term \"Name\" is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 49,
+            "x1": 70,
+            "y1": 308,
+            "x2": 110,
+            "y2": 326,
+            "text": "USER",
+            "context": [
+                "PROFILE",
+                "TABLE LiST",
+                "DASHBOARD"
+            ],
+            "classification": false,
+            "reason": "The term \"USER\" itself is a noun and is not private information. While it appears in the context of \"PROFILE\", \"TABLE LiST\", and \"DASHBOARD\", the term \"USER\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 50,
+            "x1": 107,
+            "y1": 308,
+            "x2": 169,
+            "y2": 326,
+            "text": "PROFILE",
+            "context": [
+                "USER",
+                "DASHBOARD",
+                "TABLE LiST"
+            ],
+            "classification": false,
+            "reason": "The term \"PROFILE\" itself is a noun and is not private information. While it appears in the context of \"USER\", \"DASHBOARD\", and \"TABLE LiST\", the term \"PROFILE\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 51,
+            "x1": 868,
+            "y1": 337,
+            "x2": 916,
+            "y2": 356,
+            "text": "Austin",
+            "context": [
+                "First",
+                "Name",
+                "CA"
+            ],
+            "classification": true,
+            "reason": "\"Austin\" is a specific first name. The surrounding words \"First\", \"Name\", and \"CA\" support this classification.",
+            "substitution": "first name"
+        },
+        {
+            "id": 52,
+            "x1": 1378,
+            "y1": 337,
+            "x2": 1423,
+            "y2": 356,
+            "text": "Smith",
+            "context": [
+                "Last",
+                "Name"
+            ],
+            "classification": true,
+            "reason": "\"Smith\" is a specific surname and is therefore private information.",
+            "substitution": "last name"
+        },
+        {
+            "id": 53,
+            "x1": 68,
+            "y1": 370,
+            "x2": 146,
+            "y2": 388,
+            "text": "TABLE LiST",
+            "context": [
+                "USER",
+                "PROFILE",
+                "TYPOGRAPHY"
+            ],
+            "classification": false,
+            "reason": "\"TABLE LiST\" is a description of a listing and is therefore not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 54,
+            "x1": 851,
+            "y1": 395,
+            "x2": 876,
+            "y2": 416,
+            "text": "CA",
+            "context": [
+                "9.0",
+                "mg/dl",
+                "Austin"
+            ],
+            "classification": true,
+            "reason": "\"CA\" can be the abbreviation for calcium but also for the state California. In combination with \"Austin\" and \"mg/dl\", this refers most likely to the calcium level in the blood and is therefore private information.",
+            "substitution": "medical value"
+        },
+        {
+            "id": 55,
+            "x1": 1185,
+            "y1": 395,
+            "x2": 1234,
+            "y2": 416,
+            "text": "PHOS",
+            "context": [
+                "3.8",
+                "mgldl"
+            ],
+            "classification": false,
+            "reason": "The term \"PHOS\" seems to be an abbreviation for something, potentially related to medical values, given the surrounding units \"mg/dl\". However, without further context, it's difficult to determine if it's private information. It's possible that this is an abbreviation for Phosphorus, a common blood test. Therefore it's not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 56,
+            "x1": 1532,
+            "y1": 395,
+            "x2": 1579,
+            "y2": 416,
+            "text": "GLUC",
+            "context": [
+                "76.3",
+                "mgldl"
+            ],
+            "classification": false,
+            "reason": "The term \"GLUC\" is an abbreviation for glucose, and the surrounding words, specifically the unit \"mg/dl\", confirms that this likely refers to a blood sugar level. While the level itself would be private information, the abbreviation \"GLUC\" is not. Therefore it's not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 57,
+            "x1": 70,
+            "y1": 433,
+            "x2": 163,
+            "y2": 451,
+            "text": "TYPOGRAPHY",
+            "context": [
+                "TABLE LiST",
+                "icoNS"
+            ],
+            "classification": false,
+            "reason": "The term \"TYPOGRAPHY\" is a general term related to design and fonts. It does not contain any private information, nor do the surrounding words suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 58,
+            "x1": 868,
+            "y1": 434,
+            "x2": 895,
+            "y2": 452,
+            "text": "9.0",
+            "context": [
+                "mg/dl",
+                "CA",
+                "CREA"
+            ],
+            "classification": true,
+            "reason": "The term \"9.0\" is a numerical value that represents the concentration of a substance, specifically calcium (CA), measured in mg/dl. It represents a medical value and therefore is private.",
+            "substitution": "medical value"
+        },
+        {
+            "id": 59,
+            "x1": 894,
+            "y1": 434,
+            "x2": 934,
+            "y2": 455,
+            "text": "mg/dl",
+            "context": [
+                "9.0",
+                "CA",
+                "CREA"
+            ],
+            "classification": false,
+            "reason": "The term \"mg/dl\" is a unit of measurement for concentration. It is not private itself.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 60,
+            "x1": 1205,
+            "y1": 434,
+            "x2": 1232,
+            "y2": 454,
+            "text": "3.8",
+            "context": [
+                "mgldl",
+                "PHOS"
+            ],
+            "classification": true,
+            "reason": "The term \"3.8\" is a numerical value that represents the concentration of a substance, specifically phosphate (PHOS), measured in mgldl. It represents a medical value and therefore is private.",
+            "substitution": "medical value"
+        },
+        {
+            "id": 61,
+            "x1": 1230,
+            "y1": 434,
+            "x2": 1270,
+            "y2": 455,
+            "text": "mgldl",
+            "context": [
+                "3.8",
+                "PHOS"
+            ],
+            "classification": false,
+            "reason": "The term \"mgldl\" alone does not represent private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 62,
+            "x1": 1551,
+            "y1": 433,
+            "x2": 1584,
+            "y2": 454,
+            "text": "76.3",
+            "context": [
+                "mgldl",
+                "GLUC"
+            ],
+            "classification": false,
+            "reason": "The term \"76.3\" alone does not represent private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 63,
+            "x1": 1584,
+            "y1": 434,
+            "x2": 1624,
+            "y2": 455,
+            "text": "mgldl",
+            "context": [
+                "76.3",
+                "GLUC"
+            ],
+            "classification": false,
+            "reason": "The term \"mgldl\" alone does not represent private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 64,
+            "x1": 491,
+            "y1": 451,
+            "x2": 548,
+            "y2": 477,
+            "text": "David",
+            "context": [
+                "wilson",
+                "#36187"
+            ],
+            "classification": true,
+            "reason": "The term \"David\" is a specific first name and therefore private information. The surrounding words \"wilson\" and \"#36187\" do not contradict this, but rather confirm that the term is part of personal data.",
+            "substitution": "first name"
+        },
+        {
+            "id": 65,
+            "x1": 547,
+            "y1": 451,
+            "x2": 614,
+            "y2": 477,
+            "text": "wilson",
+            "context": [
+                "David",
+                "#36187"
+            ],
+            "classification": true,
+            "reason": "The term \"wilson\" is a specific last name and therefore private information. The surrounding words \"David\" and \"#36187\" do not contradict this, but rather confirm that the term is part of personal data.",
+            "substitution": "last name"
+        },
+        {
+            "id": 66,
+            "x1": 526,
+            "y1": 482,
+            "x2": 580,
+            "y2": 502,
+            "text": "#36187",
+            "context": [
+                "David",
+                "wilson"
+            ],
+            "classification": true,
+            "reason": "The term \"#36187\" is an ID number and therefore private information. The surrounding words \"David\" and \"wilson\" suggest that this term is part of personal data.",
+            "substitution": "ID"
+        },
+        {
+            "id": 67,
+            "x1": 848,
+            "y1": 493,
+            "x2": 898,
+            "y2": 512,
+            "text": "CREA",
+            "context": [
+                "0.8",
+                "mg/dl",
+                "mg/dl",
+                "9.0"
+            ],
+            "classification": false,
+            "reason": "The term \"CREA\" alone is not private information. The surrounding values are medical values related to creatinine (CREA) measurements. While creatinine itself may be considered sensitive medical data, the abbreviation alone isn't private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 68,
+            "x1": 68,
+            "y1": 496,
+            "x2": 116,
+            "y2": 514,
+            "text": "icoNS",
+            "context": [
+                "MAPS",
+                "TYPOGRAPHY"
+            ],
+            "classification": false,
+            "reason": "The term \"icoNS\" alone is not private information. The surrounding terms \"MAPS\" and \"TYPOGRAPHY\" suggest that this might be a category.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 69,
+            "x1": 868,
+            "y1": 530,
+            "x2": 893,
+            "y2": 548,
+            "text": "0.8",
+            "context": [
+                "mg/dl",
+                "CREA"
+            ],
+            "classification": false,
+            "reason": "The term \"0.8\" itself is a float number and is not private information. The surrounding words \"mg/dl\", and \"CREA\" suggest that this is a creatinine measurement, which by itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 70,
+            "x1": 894,
+            "y1": 532,
+            "x2": 934,
+            "y2": 553,
+            "text": "mg/dl",
+            "context": [
+                "0.8",
+                "CREA"
+            ],
+            "classification": true,
+            "reason": "The term \"mg/dl\" is a unit of measurement for medical values (milligrams per deciliter), commonly used to measure the concentration of a substance in the blood. In this case it is used to measure CREA. Medical values are considered private information.",
+            "substitution": "medical value"
+        },
+        {
+            "id": 71,
+            "x1": 70,
+            "y1": 557,
+            "x2": 112,
+            "y2": 575,
+            "text": "MAPS",
+            "context": [
+                "icoNS",
+                "NOTIFICATIONS"
+            ],
+            "classification": false,
+            "reason": "The term \"MAPS\" by itself is not private information. The surrounding words \"icoNS\" and \"NOTIFICATIONS\" do not indicate that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 72,
+            "x1": 1311,
+            "y1": 604,
+            "x2": 1363,
+            "y2": 625,
+            "text": "Update",
+            "context": [
+                "Data"
+            ],
+            "classification": false,
+            "reason": "The term \"Update\" itself is not private information. The surrounding word \"Data\" is also not private information and does not change the classification of the term \"Update\".",
+            "substitution": "NONE"
+        },
+        {
+            "id": 73,
+            "x1": 1361,
+            "y1": 604,
+            "x2": 1399,
+            "y2": 623,
+            "text": "Data",
+            "context": [
+                "Update"
+            ],
+            "classification": false,
+            "reason": "The term \"Data\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 70,
+            "y1": 620,
+            "x2": 172,
+            "y2": 638,
+            "text": "NOTIFICATIONS",
+            "context": [
+                "MAPS"
+            ],
+            "classification": false,
+            "reason": "The term \"NOTIFICATIONS\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 75,
+            "x1": 70,
+            "y1": 1019,
+            "x2": 139,
+            "y2": 1037,
+            "text": "UPGRADE",
+            "context": [
+                "To",
+                "Suchen",
+                "PRO"
+            ],
+            "classification": false,
+            "reason": "The term \"UPGRADE\" itself is just a verb and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 76,
+            "x1": 134,
+            "y1": 1019,
+            "x2": 157,
+            "y2": 1036,
+            "text": "To",
+            "context": [
+                "UPGRADE",
+                "PRO",
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"To\" by itself is not private information. It is a common English word and has no inherent connection to personal data.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 77,
+            "x1": 155,
+            "y1": 1019,
+            "x2": 188,
+            "y2": 1036,
+            "text": "PRO",
+            "context": [
+                "To",
+                "UPGRADE",
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"PRO\" by itself is not private information. It is a common abbreviation for \"Professional\" and has no inherent connection to personal data.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 78,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.38",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.38\" by itself might represent a price, a measurement, or some other non-private value. Since the provided surrounding words do not indicate a monetary value, this term is classified as non-private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 545,
+            "y1": 1047,
+            "x2": 670,
+            "y2": 1074,
+            "text": "J 6 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J 6 4\" appears to be a nonsensical character sequence and does not resemble any known private information patterns. There are no surrounding words to suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 80,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "UPGRADE",
+                "To",
+                "PRO"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" (German for search) is a common verb and inherently not private information. The surrounding words \"UPGRADE\", \"To\", \"PRO\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 81,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.38"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" appears to be a date. Without surrounding words that indicate a context to a private person, the date itself is not private information. The surrounding word \"76.38\" does not help.",
+            "substitution": "NONE"
+        }
+    ]
+}

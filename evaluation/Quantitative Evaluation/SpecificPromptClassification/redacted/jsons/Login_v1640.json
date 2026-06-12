@@ -1,0 +1,130 @@
+{
+    "texts": [
+        {
+            "id": 10,
+            "x1": 848,
+            "y1": 358,
+            "x2": 1073,
+            "y2": 387,
+            "text": "ACCOVNILOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"ACCOVNILOGIN\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 11,
+            "x1": 844,
+            "y1": 474,
+            "x2": 970,
+            "y2": 501,
+            "text": "Johnnyboi2052",
+            "context": [
+                "NONE"
+            ],
+            "classification": true,
+            "reason": "The term \"Johnnyboi2052\" appears to be a username.",
+            "substitution": "username"
+        },
+        {
+            "id": 12,
+            "x1": 844,
+            "y1": 577,
+            "x2": 955,
+            "y2": 606,
+            "text": "d-nHpQaEjf}",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"d-nHpQaEjf}\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 13,
+            "x1": 929,
+            "y1": 685,
+            "x2": 989,
+            "y2": 704,
+            "text": "LOCIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LOCIN\" does not seem to be private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" does not seem to be private information. It could be interpreted as amount of money. However, the surrounding word \"17.04.2025_\" is a date. Therefore, it is more likely that \"76.36\" specifies a weight or a height.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 547,
+            "y1": 1047,
+            "x2": 670,
+            "y2": 1074,
+            "text": "J 7 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J 7 4\" does not seem to be private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a german word and translates to \"Search\" which is a general term and not considered private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 60,
+            "y1": 1052,
+            "x2": 76,
+            "y2": 1066,
+            "text": "0",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" is a number and in this context not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" represents a date. Without knowing the context and relating it to a person, it cannot be considered private information.",
+            "substitution": "NONE"
+        }
+    ]
+}

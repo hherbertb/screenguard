@@ -1,0 +1,327 @@
+{
+    "texts": [
+        {
+            "id": 13,
+            "x1": 841,
+            "y1": 293,
+            "x2": 928,
+            "y2": 350,
+            "text": "Sign",
+            "context": [
+                "In"
+            ],
+            "classification": false,
+            "reason": "The term \"Sign\" itself is just a verb and is not private information. The surrounding word \"In\" does not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 989,
+            "y1": 296,
+            "x2": 1078,
+            "y2": 340,
+            "text": "With",
+            "context": [
+                "In"
+            ],
+            "classification": false,
+            "reason": "The term \"With\" itself is just a preposition and is not private information. The surrounding word \"In\" does not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 937,
+            "y1": 299,
+            "x2": 980,
+            "y2": 339,
+            "text": "In",
+            "context": [
+                "Sign",
+                "With"
+            ],
+            "classification": false,
+            "reason": "The term \"In\" itself is just a preposition and is not private information. The surrounding words \"Sign\" and \"With\" do not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 827,
+            "y1": 412,
+            "x2": 910,
+            "y2": 433,
+            "text": "Facebook",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Facebook\" is a general term referring to a social media platform and is not considered private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 1063,
+            "y1": 411,
+            "x2": 1129,
+            "y2": 437,
+            "text": "Google",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Google\" is a general term referring to a search engine and associated services and is not considered private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 740,
+            "y1": 505,
+            "x2": 820,
+            "y2": 530,
+            "text": "Username",
+            "context": [
+                "jSqaur3"
+            ],
+            "classification": false,
+            "reason": "The term \"Username\" itself is just a noun and is not private information. Even though the surrounding word \"jSqaur3\" refers to a specific username, the term \"Username\" itself is not the username.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 19,
+            "x1": 757,
+            "y1": 555,
+            "x2": 832,
+            "y2": 581,
+            "text": "jSqaur3",
+            "context": [
+                "Username",
+                "Password",
+                "Forgot?"
+            ],
+            "classification": true,
+            "reason": "The term \"jSqaur3\" seems to be a username. The surrounding word \"Username\" confirms this assumption, which means that this is private information.",
+            "substitution": "username"
+        },
+        {
+            "id": 20,
+            "x1": 739,
+            "y1": 610,
+            "x2": 815,
+            "y2": 629,
+            "text": "Password",
+            "context": [
+                "Forgot?",
+                "jSqaur3"
+            ],
+            "classification": false,
+            "reason": "The term \"Password\" itself is just a noun and is not private information. While there is a username \"jSqaur3\" in the surrounding words, the term \"Password\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 21,
+            "x1": 820,
+            "y1": 611,
+            "x2": 875,
+            "y2": 631,
+            "text": "Forgot?",
+            "context": [
+                "Password",
+                "jSqaur3"
+            ],
+            "classification": false,
+            "reason": "The term \"Forgot?\" itself is just a question and not private information. While there is a username \"jSqaur3\" in the surrounding words, the term \"Forgot?\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 22,
+            "x1": 930,
+            "y1": 734,
+            "x2": 967,
+            "y2": 755,
+            "text": "Sign",
+            "context": [
+                "In"
+            ],
+            "classification": false,
+            "reason": "The term \"Sign\" itself is just a verb and is not private information. The surrounding word \"In\" does not suggest that the term should be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 23,
+            "x1": 968,
+            "y1": 734,
+            "x2": 989,
+            "y2": 751,
+            "text": "In",
+            "context": [
+                "Sign"
+            ],
+            "classification": false,
+            "reason": "The term \"In\" itself is just a preposition and is not private information. The surrounding word \"Sign\" does not suggest that the term should be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 24,
+            "x1": 862,
+            "y1": 827,
+            "x2": 890,
+            "y2": 844,
+            "text": "Not",
+            "context": [
+                "a",
+                "member?"
+            ],
+            "classification": false,
+            "reason": "The term \"Not\" itself is just an adverb and is not private information. The surrounding words \"a\" and \"member?\" do not suggest that the term should be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 25,
+            "x1": 902,
+            "y1": 827,
+            "x2": 971,
+            "y2": 845,
+            "text": "member?",
+            "context": [
+                "Sign",
+                "a",
+                "Not",
+                "up"
+            ],
+            "classification": false,
+            "reason": "The term \"member?\" itself is just a noun and is not private information. The surrounding words \"Sign\", \"a\", \"Not\", and \"up\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 26,
+            "x1": 970,
+            "y1": 827,
+            "x2": 1006,
+            "y2": 847,
+            "text": "Sign",
+            "context": [
+                "member?",
+                "up",
+                "now"
+            ],
+            "classification": false,
+            "reason": "The term \"Sign\" itself is just a verb and is not private information. The surrounding words \"member?\", \"up\", and \"now\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 27,
+            "x1": 1004,
+            "y1": 830,
+            "x2": 1024,
+            "y2": 844,
+            "text": "up",
+            "context": [
+                "Sign",
+                "now",
+                "member?"
+            ],
+            "classification": false,
+            "reason": "The term \"up\" itself is just a preposition and is not private information. The surrounding words \"Sign\", \"now\", and \"member?\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 28,
+            "x1": 1026,
+            "y1": 830,
+            "x2": 1056,
+            "y2": 843,
+            "text": "now",
+            "context": [
+                "up",
+                "Sign"
+            ],
+            "classification": false,
+            "reason": "The term \"now\" is a common adverb and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 29,
+            "x1": 891,
+            "y1": 831,
+            "x2": 900,
+            "y2": 843,
+            "text": "a",
+            "context": [
+                "Not",
+                "member?"
+            ],
+            "classification": false,
+            "reason": "The term \"a\" is an indefinite article and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 30,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" could be a number representing potentially private data; however, without context, it is impossible to determine if it is private. The date nearby does not give enough reason to assume it is a private amount of money or blood pressure etc.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 31,
+            "x1": 545,
+            "y1": 1047,
+            "x2": 671,
+            "y2": 1075,
+            "text": "J = 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J = 4\" is a simple equation and does not represent any private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 59,
+            "y1": 1049,
+            "x2": 77,
+            "y2": 1067,
+            "text": "p",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"p\" is a single letter and does not represent any private information. The surrounding word \"Suchen\" (search) does not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "p"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" (search) is a German verb and does not represent any private information. The surrounding word \"p\" does not change this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 34,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" seems to be a date. However, there are no surrounding words suggesting a private context.",
+            "substitution": "NONE"
+        }
+    ]
+}

@@ -1,0 +1,693 @@
+{
+    "img_resize_shape": [
+        1040,
+        1920,
+        3
+    ],
+    "activity_names": [
+        {
+            "bbox": {
+                "x1": 530,
+                "y1": 137,
+                "x2": 1310,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "EditText",
+                "Inner Text": " Q Search",
+                "Surrounding Text": "Q Search + Create  Projects / Bug Tracking System / Project settings\nAccess"
+            },
+            "is_vism": false,
+            "activity_name": "Search for files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1815,
+                "y1": 145,
+                "x2": 1831,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Info",
+                "Surrounding Text": " UpgradeQ"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1851,
+                "y1": 145,
+                "x2": 1867,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Settings",
+                "Surrounding Text": " UpgradeQ LD"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the 'Show all' option",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 56,
+                "y1": 234,
+                "x2": 80,
+                "y2": 247
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project settings",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 84,
+                "y1": 234,
+                "x2": 137,
+                "y2": 247
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project settings",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 141,
+                "y1": 234,
+                "x2": 186,
+                "y2": 247
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Chat",
+                "Surrounding Text": " Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project settings",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 27,
+                "y1": 237,
+                "x2": 47,
+                "y2": 257
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Share",
+                "Surrounding Text": " Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project settings",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 55,
+                "y1": 253,
+                "x2": 102,
+                "y2": 262
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Download",
+                "Surrounding Text": " Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "Download the project",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 105,
+                "y1": 253,
+                "x2": 142,
+                "y2": 265
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Project settings Details"
+            },
+            "is_vism": false,
+            "activity_name": "View project settings",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 615,
+                "y1": 289,
+                "x2": 1559,
+                "y2": 389
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Button",
+                "Inner Text": " To customize user access, such as roles and permissions, upgrade your plan to Standard.\n Upgrade\nLearn more about managing access",
+                "Surrounding Text": " Projects / Bug Tracking System / Project settings\nAccess Add people To customize user access, such as roles and permissions, upgrade your plan to Standard.\n Upgrade\nLearn more about managing access Q Search roles  Roles "
+            },
+            "is_vism": false,
+            "activity_name": "Add new users to Jira",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 15,
+                "y1": 317,
+                "x2": 238,
+                "y2": 357
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "EditText",
+                "Inner Text": " Access",
+                "Surrounding Text": "Details Access > Notifications  Automation\n> Issue types\n Features\n> Board"
+            },
+            "is_vism": false,
+            "activity_name": "Edit the access to the board",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 615,
+                "y1": 413,
+                "x2": 951,
+                "y2": 445
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "EditText",
+                "Inner Text": "To customize user access, such as roles and permissions, upgrade your plan to Standard.\n Upgrade\nLearn more about managing access Q Search roles  Roles  Name  Email",
+                "Surrounding Text": "To customize user access, such as roles and permissions, upgrade your plan to Standard.\n Upgrade\nLearn more about managing access Q Search roles  Roles  Name  Email"
+            },
+            "is_vism": false,
+            "activity_name": "Upgrade to Standard",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 623,
+                "y1": 515,
+                "x2": 655,
+                "y2": 547
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Download",
+                "Surrounding Text": "Name  Daniel Cegielski Luca Dewert"
+            },
+            "is_vism": false,
+            "activity_name": "Luca Dewert",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 623,
+                "y1": 571,
+                "x2": 655,
+                "y2": 603
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Icon",
+                "Inner Text": "Louder",
+                "Surrounding Text": "Daniel Cegielski Luca Dewert Lukas Bucker"
+            },
+            "is_vism": false,
+            "activity_name": "Luca Dewert",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 623,
+                "y1": 627,
+                "x2": 655,
+                "y2": 659
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "RadioButton",
+                "Inner Text": "",
+                "Surrounding Text": "Luca Dewert Lukas Bucker"
+            },
+            "is_vism": false,
+            "activity_name": "Luca Dewert",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 22,
+                "y1": 142,
+                "x2": 88,
+                "y2": 165
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " :",
+                "Surrounding Text": " : i Jira  Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 96,
+                "y1": 142,
+                "x2": 160,
+                "y2": 165
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "i Jira",
+                "Surrounding Text": " : i Jira  Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1322,
+                "y1": 138,
+                "x2": 1402,
+                "y2": 167
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "+ Create",
+                "Surrounding Text": "+ Create"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1660,
+                "y1": 136,
+                "x2": 1804,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " UpgradeQ",
+                "Surrounding Text": " UpgradeQ"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1886,
+                "y1": 142,
+                "x2": 1908,
+                "y2": 162
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "LD",
+                "Surrounding Text": "LD"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 22,
+                "y1": 189,
+                "x2": 174,
+                "y2": 216
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " Project settings",
+                "Surrounding Text": " : i Jira  Project settings"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1466,
+                "y1": 234,
+                "x2": 1556,
+                "y2": 264
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Add people",
+                "Surrounding Text": "Add people"
+            },
+            "is_vism": false,
+            "activity_name": "Add a new person",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 295,
+                "x2": 100,
+                "y2": 317
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Details",
+                "Surrounding Text": "Details Access > Notifications"
+            },
+            "is_vism": false,
+            "activity_name": "Access the details page",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 28,
+                "y1": 360,
+                "x2": 136,
+                "y2": 380
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "> Notifications",
+                "Surrounding Text": "Details Access > Notifications  Automation\n> Issue types\n Features\n> Board"
+            },
+            "is_vism": false,
+            "activity_name": "Access the Notifications Automation page",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 613,
+                "y1": 412,
+                "x2": 729,
+                "y2": 447
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Q Search roles",
+                "Surrounding Text": "Q Search roles Name "
+            },
+            "is_vism": false,
+            "activity_name": "Search for jobs",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 963,
+                "y1": 414,
+                "x2": 1033,
+                "y2": 443
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " Roles ",
+                "Surrounding Text": "To customize user access, such as roles and permissions, upgrade your plan to Standard.\n Upgrade\nLearn more about managing access  Roles  Email"
+            },
+            "is_vism": false,
+            "activity_name": "Add a new role to the system",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 616,
+                "y1": 477,
+                "x2": 670,
+                "y2": 492
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Name ",
+                "Surrounding Text": "Q Search roles Name  Daniel Cegielski"
+            },
+            "is_vism": false,
+            "activity_name": "Search for jobs in the city",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 952,
+                "y1": 473,
+                "x2": 988,
+                "y2": 496
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Email",
+                "Surrounding Text": " Roles  Email"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1284,
+                "y1": 475,
+                "x2": 1310,
+                "y2": 494
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Role",
+                "Surrounding Text": "Role  Administrator"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1474,
+                "y1": 477,
+                "x2": 1510,
+                "y2": 494
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Action",
+                "Surrounding Text": "Action"
+            },
+            "is_vism": false,
+            "activity_name": "a) 'Action'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 23,
+                "y1": 518,
+                "x2": 116,
+                "y2": 575
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " Toolchain\n> Apps",
+                "Surrounding Text": " Automation\n> Issue types\n Features\n> Board  Toolchain\n> Apps"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new activity in the Board Toolchain > Apps",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 666,
+                "y1": 522,
+                "x2": 766,
+                "y2": 542
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Daniel Cegielski",
+                "Surrounding Text": "Name  Daniel Cegielski Luca Dewert"
+            },
+            "is_vism": false,
+            "activity_name": "Luca Dewert",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1292,
+                "y1": 518,
+                "x2": 1388,
+                "y2": 545
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " Administrator",
+                "Surrounding Text": "Role  Administrator  Administrator"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 666,
+                "y1": 577,
+                "x2": 744,
+                "y2": 597
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Luca Dewert",
+                "Surrounding Text": "Daniel Cegielski Luca Dewert Lukas Bucker"
+            },
+            "is_vism": false,
+            "activity_name": "Mark the item as 'Lukas Bucker'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 956,
+                "y1": 581,
+                "x2": 1134,
+                "y2": 595
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "luca.dewert@rwth-aachen.de",
+                "Surrounding Text": "luca.dewert@rwth-aachen.de"
+            },
+            "is_vism": false,
+            "activity_name": "Luca.dewert@rwth-aachen.dot",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1292,
+                "y1": 572,
+                "x2": 1388,
+                "y2": 600
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " Administrator",
+                "Surrounding Text": " Administrator  Administrator  Administrator"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 664,
+                "y1": 629,
+                "x2": 746,
+                "y2": 657
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": "Lukas Bucker",
+                "Surrounding Text": "Luca Dewert Lukas Bucker"
+            },
+            "is_vism": false,
+            "activity_name": "Luca Dewert",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1292,
+                "y1": 629,
+                "x2": 1386,
+                "y2": 656
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Productivity",
+                "Component Class": "Text",
+                "Inner Text": " Administrator",
+                "Surrounding Text": " Administrator  Administrator"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        }
+    ]
+}

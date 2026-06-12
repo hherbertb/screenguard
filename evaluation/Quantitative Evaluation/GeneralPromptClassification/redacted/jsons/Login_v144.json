@@ -1,0 +1,221 @@
+{
+    "texts": [
+        {
+            "id": 19,
+            "x1": 1171,
+            "y1": 412,
+            "x2": 1235,
+            "y2": 443,
+            "text": "Login",
+            "context": [
+                "Member"
+            ],
+            "classification": false,
+            "reason": "The term \"Login\" itself is just a noun and is not private information. The given surrounding word \"Member\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 20,
+            "x1": 1085,
+            "y1": 411,
+            "x2": 1174,
+            "y2": 438,
+            "text": "Member",
+            "context": [
+                "Login"
+            ],
+            "classification": false,
+            "reason": "The term \"Member\" itself is just a noun and is not private information. The given surrounding word \"Login\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 21,
+            "x1": 1082,
+            "y1": 505,
+            "x2": 1261,
+            "y2": 529,
+            "text": "jamesdavidson@example.net",
+            "context": [
+                "NONE"
+            ],
+            "classification": true,
+            "reason": "This is a specific mail address and therefore private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "email address"
+        },
+        {
+            "id": 22,
+            "x1": 1133,
+            "y1": 646,
+            "x2": 1187,
+            "y2": 664,
+            "text": "LOGIN",
+            "context": [
+                "Usemame",
+                "Forgot",
+                "Pasword?"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is just a noun and is not private information. The surrounding words \"Usemame\", \"Forgot\", and \"Pasword?\" suggest that the user should input login information, however the term itself is not the login information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 23,
+            "x1": 1179,
+            "y1": 696,
+            "x2": 1239,
+            "y2": 709,
+            "text": "Pasword?",
+            "context": [
+                "Usemame",
+                "LOGIN"
+            ],
+            "classification": false,
+            "reason": "While the term \"Pasword?\" itself seems to be a slightly malformed noun, it is very likely just a noun and not private information. The surrounding words \"Usemame\", and \"LOGIN\" suggest that the user should input a password, however the term itself is not the password.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 24,
+            "x1": 1080,
+            "y1": 693,
+            "x2": 1120,
+            "y2": 714,
+            "text": "Forgot",
+            "context": [
+                "Usemame",
+                "LOGIN"
+            ],
+            "classification": false,
+            "reason": "The term \"Forgot\" is not private information. It is a common word.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 25,
+            "x1": 1119,
+            "y1": 695,
+            "x2": 1174,
+            "y2": 709,
+            "text": "Usemame",
+            "context": [
+                "Forgot",
+                "Pasword?",
+                "LOGIN"
+            ],
+            "classification": false,
+            "reason": "The term \"Usemame\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 26,
+            "x1": 1215,
+            "y1": 856,
+            "x2": 1221,
+            "y2": 865,
+            "text": "1",
+            "context": [
+                "yourAccouat"
+            ],
+            "classification": false,
+            "reason": "The term \"1\" itself is just a digit and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 27,
+            "x1": 1096,
+            "y1": 851,
+            "x2": 1135,
+            "y2": 868,
+            "text": "Create",
+            "context": [
+                "yourAccouat"
+            ],
+            "classification": false,
+            "reason": "The term \"Create\" itself is just a verb and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 28,
+            "x1": 1131,
+            "y1": 854,
+            "x2": 1207,
+            "y2": 866,
+            "text": "yourAccouat",
+            "context": [
+                "Create",
+                "1"
+            ],
+            "classification": false,
+            "reason": "The term \"yourAccouat\" is not private information. It likely contains a typo and should say your account.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 29,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" itself does not represent private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 30,
+            "x1": 547,
+            "y1": 1047,
+            "x2": 670,
+            "y2": 1074,
+            "text": "J 7 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J 7 4\" itself does not represent private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 31,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" itself is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 60,
+            "y1": 1052,
+            "x2": 75,
+            "y2": 1066,
+            "text": "0",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" itself is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": true,
+            "reason": "The term \"17.04.2025_\" represents a specific date and may be considered private in certain contexts. Dates can often be associated with specific events, locations or other private data.",
+            "substitution": "date"
+        }
+    ]
+}

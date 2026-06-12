@@ -1,0 +1,568 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Icon-Lock",
+            "height": 20,
+            "width": 16,
+            "position": {
+                "x1": 780,
+                "y1": 437,
+                "x2": 796,
+                "y2": 457
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 1,
+            "class": "Button",
+            "height": 49,
+            "width": 382,
+            "position": {
+                "x1": 768,
+                "y1": 539,
+                "x2": 1150,
+                "y2": 588
+            },
+            "children": [
+                19
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 2,
+            "class": "Icon-Minus",
+            "height": 49,
+            "width": 49,
+            "position": {
+                "x1": 876,
+                "y1": 686,
+                "x2": 925,
+                "y2": 735
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 3,
+            "class": "Icon-Minus",
+            "height": 49,
+            "width": 49,
+            "position": {
+                "x1": 935,
+                "y1": 686,
+                "x2": 984,
+                "y2": 735
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 4,
+            "class": "Button",
+            "height": 49,
+            "width": 49,
+            "position": {
+                "x1": 993,
+                "y1": 686,
+                "x2": 1042,
+                "y2": 735
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 5,
+            "class": "Button",
+            "height": 38,
+            "width": 290,
+            "position": {
+                "x1": 46,
+                "y1": 1041,
+                "x2": 336,
+                "y2": 1079
+            },
+            "children": [
+                32,
+                33
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 6,
+            "class": "Icon-Profile",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 350,
+                "y1": 1048,
+                "x2": 374,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 7,
+            "class": "Icon-Play",
+            "height": 26,
+            "width": 25,
+            "position": {
+                "x1": 398,
+                "y1": 1046,
+                "x2": 423,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 8,
+            "class": "Icon-File",
+            "height": 19,
+            "width": 22,
+            "position": {
+                "x1": 449,
+                "y1": 1050,
+                "x2": 471,
+                "y2": 1069
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 9,
+            "class": "Icon-Wrench",
+            "height": 22,
+            "width": 24,
+            "position": {
+                "x1": 496,
+                "y1": 1050,
+                "x2": 520,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 10,
+            "class": "RadioButton",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 693,
+                "y1": 1048,
+                "x2": 717,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 11,
+            "class": "Icon-Download",
+            "height": 20,
+            "width": 17,
+            "position": {
+                "x1": 14,
+                "y1": 1051,
+                "x2": 31,
+                "y2": 1071
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 53,
+            "width": 99,
+            "position": {
+                "x1": 910,
+                "y1": 202,
+                "x2": 1009,
+                "y2": 255
+            },
+            "text_content": "Login",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 19,
+            "width": 67,
+            "position": {
+                "x1": 773,
+                "y1": 299,
+                "x2": 840,
+                "y2": 318
+            },
+            "text_content": "Username",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 16,
+            "width": 13,
+            "position": {
+                "x1": 783,
+                "y1": 338,
+                "x2": 796,
+                "y2": 354
+            },
+            "text_content": "0",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 22,
+            "width": 157,
+            "position": {
+                "x1": 809,
+                "y1": 337,
+                "x2": 966,
+                "y2": 359
+            },
+            "text_content": "unhappythrowaway22",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 20,
+            "width": 68,
+            "position": {
+                "x1": 771,
+                "y1": 399,
+                "x2": 839,
+                "y2": 419
+            },
+            "text_content": "Password",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 18,
+            "width": 74,
+            "position": {
+                "x1": 1080,
+                "y1": 488,
+                "x2": 1154,
+                "y2": 506
+            },
+            "text_content": "password?",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 21,
+            "width": 46,
+            "position": {
+                "x1": 1038,
+                "y1": 488,
+                "x2": 1084,
+                "y2": 509
+            },
+            "text_content": "Forgot E",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 21,
+            "width": 54,
+            "position": {
+                "x1": 933,
+                "y1": 551,
+                "x2": 987,
+                "y2": 572
+            },
+            "text_content": "LOGIN",
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 21,
+            "width": 32,
+            "position": {
+                "x1": 923,
+                "y1": 640,
+                "x2": 955,
+                "y2": 661
+            },
+            "text_content": "Sign",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 18,
+            "width": 22,
+            "position": {
+                "x1": 904,
+                "y1": 641,
+                "x2": 926,
+                "y2": 659
+            },
+            "text_content": "Or .",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 20,
+            "width": 26,
+            "position": {
+                "x1": 953,
+                "y1": 641,
+                "x2": 979,
+                "y2": 661
+            },
+            "text_content": "Up B",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 21,
+            "width": 40,
+            "position": {
+                "x1": 977,
+                "y1": 641,
+                "x2": 1017,
+                "y2": 662
+            },
+            "text_content": "Using",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 18,
+            "width": 22,
+            "position": {
+                "x1": 904,
+                "y1": 892,
+                "x2": 926,
+                "y2": 910
+            },
+            "text_content": "Or .",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 19,
+            "width": 34,
+            "position": {
+                "x1": 922,
+                "y1": 892,
+                "x2": 956,
+                "y2": 911
+            },
+            "text_content": "Sign",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 19,
+            "width": 26,
+            "position": {
+                "x1": 953,
+                "y1": 892,
+                "x2": 979,
+                "y2": 911
+            },
+            "text_content": "Up B",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 25,
+            "width": 40,
+            "position": {
+                "x1": 976,
+                "y1": 889,
+                "x2": 1016,
+                "y2": 914
+            },
+            "text_content": "Using",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 19,
+            "width": 40,
+            "position": {
+                "x1": 928,
+                "y1": 928,
+                "x2": 968,
+                "y2": 947
+            },
+            "text_content": "SIGN",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 19,
+            "width": 24,
+            "position": {
+                "x1": 967,
+                "y1": 928,
+                "x2": 991,
+                "y2": 947
+            },
+            "text_content": "UP",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 30,
+            "class": "Text",
+            "height": 14,
+            "width": 31,
+            "position": {
+                "x1": 1871,
+                "y1": 1043,
+                "x2": 1902,
+                "y2": 1057
+            },
+            "text_content": "16.36",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 31,
+            "class": "Text",
+            "height": 27,
+            "width": 123,
+            "position": {
+                "x1": 547,
+                "y1": 1047,
+                "x2": 670,
+                "y2": 1074
+            },
+            "text_content": "J 7 A",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 32,
+            "class": "Text",
+            "height": 19,
+            "width": 56,
+            "position": {
+                "x1": 83,
+                "y1": 1051,
+                "x2": 139,
+                "y2": 1070
+            },
+            "text_content": "Suchen",
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 33,
+            "class": "Text",
+            "height": 14,
+            "width": 15,
+            "position": {
+                "x1": 60,
+                "y1": 1052,
+                "x2": 75,
+                "y2": 1066
+            },
+            "text_content": "0",
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 34,
+            "class": "Text",
+            "height": 18,
+            "width": 62,
+            "position": {
+                "x1": 1856,
+                "y1": 1060,
+                "x2": 1918,
+                "y2": 1078
+            },
+            "text_content": "17.04.2025",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        }
+    ],
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "raw_texts": "Login; Username; 0; unhappythrowaway22; Password; password?; Forgot E; LOGIN; Sign; Or .; Up B; Using; Or .; Sign; Up B; Using; SIGN; UP; 16.36; J 7 A; Suchen; 0; 17.04.2025"
+}

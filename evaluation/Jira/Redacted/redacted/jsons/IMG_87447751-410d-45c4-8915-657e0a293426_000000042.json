@@ -1,0 +1,1875 @@
+{
+    "texts": [
+        {
+            "id": 37,
+            "x1": 119,
+            "y1": 138,
+            "x2": 161,
+            "y2": 165,
+            "text": "Jira",
+            "context": [
+                "settings",
+                "Project=",
+                "88"
+            ],
+            "classification": false,
+            "reason": "The term \"Jira\" itself is a software name and not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 38,
+            "x1": 62,
+            "y1": 142,
+            "x2": 82,
+            "y2": 164,
+            "text": "88",
+            "context": [
+                "Project=",
+                "Jira",
+                "settings"
+            ],
+            "classification": false,
+            "reason": "The term \"88\" alone does not constitute private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 39,
+            "x1": 557,
+            "y1": 143,
+            "x2": 604,
+            "y2": 161,
+            "text": "Search",
+            "context": [
+                "Projects"
+            ],
+            "classification": false,
+            "reason": "The term \"Search\" itself is a noun and not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 40,
+            "x1": 1331,
+            "y1": 144,
+            "x2": 1345,
+            "y2": 160,
+            "text": "+",
+            "context": [
+                "Create"
+            ],
+            "classification": false,
+            "reason": "The term \"+\" itself is a symbol and not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 41,
+            "x1": 1349,
+            "y1": 143,
+            "x2": 1395,
+            "y2": 163,
+            "text": "Create",
+            "context": [
+                "+"
+            ],
+            "classification": false,
+            "reason": "The term \"Create\" itself is a verb and not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 42,
+            "x1": 1698,
+            "y1": 143,
+            "x2": 1758,
+            "y2": 164,
+            "text": "Upgrade",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Upgrade\" itself is just a noun and not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 43,
+            "x1": 1890,
+            "y1": 147,
+            "x2": 1903,
+            "y2": 156,
+            "text": "LD",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LD\" is an abbreviation and there are no surrounding words that suggest otherwise. It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 44,
+            "x1": 54,
+            "y1": 191,
+            "x2": 112,
+            "y2": 214,
+            "text": "Project=",
+            "context": [
+                "settings",
+                "Bug\"",
+                "Tracking:",
+                "Jira",
+                "88",
+                "System",
+                "Software",
+                "project"
+            ],
+            "classification": false,
+            "reason": "The term \"Project=\" itself is just a noun and not private information. While the surrounding words contain the word \"Jira\", a specific Jira project is required to make a final classification.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 45,
+            "x1": 111,
+            "y1": 189,
+            "x2": 175,
+            "y2": 215,
+            "text": "settings",
+            "context": [
+                "Project=",
+                "System",
+                "Tracking:",
+                "Jira",
+                "Bug\"",
+                "Software",
+                "project",
+                "88"
+            ],
+            "classification": false,
+            "reason": "The term \"settings\" itself is just a noun and not private information. The surrounding words do not contain any private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 46,
+            "x1": 608,
+            "y1": 203,
+            "x2": 665,
+            "y2": 223,
+            "text": "Projects",
+            "context": [
+                "Access",
+                "Bug",
+                "Search",
+                "Tracking,"
+            ],
+            "classification": false,
+            "reason": "The term \"Projects\" itself is just a noun and not private information. The surrounding words do not contain any private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 47,
+            "x1": 683,
+            "y1": 202,
+            "x2": 709,
+            "y2": 223,
+            "text": "Bug",
+            "context": [
+                "Tracking,",
+                "Access",
+                "Projects"
+            ],
+            "classification": false,
+            "reason": "The term \"Bug\" itself is a noun and is not private information. The surrounding words do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 48,
+            "x1": 710,
+            "y1": 202,
+            "x2": 766,
+            "y2": 225,
+            "text": "Tracking,",
+            "context": [
+                "Bug",
+                "Access",
+                "Add",
+                "System",
+                "Projects"
+            ],
+            "classification": false,
+            "reason": "The term \"Tracking,\" itself is a noun and is not private information. The surrounding words do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 49,
+            "x1": 789,
+            "y1": 214,
+            "x2": 832,
+            "y2": 236,
+            "text": "Add",
+            "context": [
+                "people",
+                "System",
+                "Tracking,",
+                "Names",
+                "email\"",
+                "Or"
+            ],
+            "classification": false,
+            "reason": "The term \"Add\" itself is a verb and is not private information. The surrounding words do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 50,
+            "x1": 832,
+            "y1": 213,
+            "x2": 904,
+            "y2": 242,
+            "text": "people",
+            "context": [
+                "Add",
+                "to",
+                "System",
+                "Bug",
+                "Names",
+                "email\"",
+                "Or"
+            ],
+            "classification": false,
+            "reason": "The term \"people\" itself is a noun and is not private information. The surrounding words do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 51,
+            "x1": 971,
+            "y1": 207,
+            "x2": 1055,
+            "y2": 243,
+            "text": "Tracking",
+            "context": [
+                "Bug",
+                "to"
+            ],
+            "classification": false,
+            "reason": "The term \"Tracking\" itself is a noun and is not private information. The surrounding words do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 52,
+            "x1": 903,
+            "y1": 215,
+            "x2": 927,
+            "y2": 236,
+            "text": "to",
+            "context": [
+                "people",
+                "Bug",
+                "System",
+                "Tracking",
+                "email\""
+            ],
+            "classification": false,
+            "reason": "The term \"to\" is a preposition and not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 53,
+            "x1": 928,
+            "y1": 212,
+            "x2": 969,
+            "y2": 243,
+            "text": "Bug",
+            "context": [
+                "to",
+                "Tracking",
+                "people"
+            ],
+            "classification": false,
+            "reason": "The term \"Bug\" is a noun and not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 54,
+            "x1": 54,
+            "y1": 229,
+            "x2": 82,
+            "y2": 250,
+            "text": "Bug\"",
+            "context": [
+                "Software",
+                "Tracking:",
+                "Project=",
+                "project",
+                "settings",
+                "Details"
+            ],
+            "classification": false,
+            "reason": "The term \"Bug\" is a noun and not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 55,
+            "x1": 83,
+            "y1": 230,
+            "x2": 141,
+            "y2": 251,
+            "text": "Tracking:",
+            "context": [
+                "project",
+                "Software",
+                "System",
+                "Bug\"",
+                "settings",
+                "Project=",
+                "Details"
+            ],
+            "classification": false,
+            "reason": "The term \"Tracking:\" is a noun and not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 56,
+            "x1": 139,
+            "y1": 230,
+            "x2": 191,
+            "y2": 250,
+            "text": "System",
+            "context": [
+                "Tracking:",
+                "project",
+                "settings",
+                "Project=",
+                "Software"
+            ],
+            "classification": false,
+            "reason": "The term \"System\" is a noun and not private information. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 57,
+            "x1": 616,
+            "y1": 235,
+            "x2": 694,
+            "y2": 261,
+            "text": "Access",
+            "context": [
+                "Projects",
+                "Bug",
+                "Tracking,"
+            ],
+            "classification": false,
+            "reason": "The term \"Access\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 58,
+            "x1": 787,
+            "y1": 237,
+            "x2": 860,
+            "y2": 266,
+            "text": "System",
+            "context": [
+                "people",
+                "Add",
+                "Names",
+                "email\"",
+                "Or",
+                "Tracking,",
+                "to",
+                "Maria,",
+                "maria@company.com",
+                "8.9\""
+            ],
+            "classification": false,
+            "reason": "The term \"System\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 59,
+            "x1": 1471,
+            "y1": 239,
+            "x2": 1504,
+            "y2": 257,
+            "text": "Addt",
+            "context": [
+                "people."
+            ],
+            "classification": false,
+            "reason": "The term \"Addt\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 60,
+            "x1": 1501,
+            "y1": 241,
+            "x2": 1552,
+            "y2": 260,
+            "text": "people.",
+            "context": [
+                "Addt"
+            ],
+            "classification": false,
+            "reason": "The term \"people.\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 61,
+            "x1": 52,
+            "y1": 248,
+            "x2": 104,
+            "y2": 265,
+            "text": "Software",
+            "context": [
+                "Tracking:",
+                "Bug\"",
+                "project",
+                "Details",
+                "settings",
+                "Project=",
+                "System"
+            ],
+            "classification": false,
+            "reason": "The term \"Software\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 62,
+            "x1": 103,
+            "y1": 250,
+            "x2": 148,
+            "y2": 268,
+            "text": "project",
+            "context": [
+                "Tracking:",
+                "Software",
+                "System",
+                "Bug\"",
+                "Details",
+                "settings",
+                "Project="
+            ],
+            "classification": false,
+            "reason": "The term \"project\" itself is just a noun and is not private information. The surrounding words \"Tracking:\", \"Software\", \"System\", \"Bug\", \"Details\", \"settings\", \"Project=\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 63,
+            "x1": 789,
+            "y1": 277,
+            "x2": 829,
+            "y2": 293,
+            "text": "Names",
+            "context": [
+                "Or",
+                "System",
+                "email\"",
+                "Maria,",
+                "8.9\"",
+                "people",
+                "maria@company.com",
+                "Add"
+            ],
+            "classification": false,
+            "reason": "The term \"Names\" itself is just a noun and is not private information. The surrounding words \"Or\", \"System\", \"email\", \"Maria,\", \"8.9\", \"people\", \"maria@company.com\", \"Add\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 64,
+            "x1": 845,
+            "y1": 278,
+            "x2": 889,
+            "y2": 292,
+            "text": "email\"",
+            "context": [
+                "Or",
+                "System",
+                "Names",
+                "Maria,",
+                "maria@company.com",
+                "8.9\"",
+                "people",
+                "Add",
+                "to"
+            ],
+            "classification": false,
+            "reason": "The term \"email\" itself is just a noun and is not private information. While there is a specific email address \"maria@company.com\" in the surrounding words, the term \"email\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 65,
+            "x1": 831,
+            "y1": 282,
+            "x2": 844,
+            "y2": 292,
+            "text": "Or",
+            "context": [
+                "email\"",
+                "Names",
+                "System",
+                "Maria,",
+                "8.9\"",
+                "maria@company.com",
+                "people",
+                "Add"
+            ],
+            "classification": false,
+            "reason": "The term \"Or\" itself is just a coordinating conjunction and is not private information. The surrounding words \"email\", \"Names\", \"System\", \"Maria,\", \"8.9\", \"maria@company.com\", \"people\", \"Add\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 66,
+            "x1": 49,
+            "y1": 295,
+            "x2": 100,
+            "y2": 314,
+            "text": "Details",
+            "context": [
+                "Access",
+                "project",
+                "Software",
+                "Tracking:",
+                "Bug\"",
+                "Notifications"
+            ],
+            "classification": false,
+            "reason": "The term \"Details\" itself is just a noun and is not private information. The surrounding words \"Access\", \"project\", \"Software\", \"Tracking:\", \"Bug\", \"Notifications\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 67,
+            "x1": 824,
+            "y1": 310,
+            "x2": 868,
+            "y2": 328,
+            "text": "Maria,",
+            "context": [
+                "maria@company.com",
+                "8.9\"",
+                "Names",
+                "email\"",
+                "Or",
+                "or.add",
+                "from",
+                "System"
+            ],
+            "classification": true,
+            "reason": "This is a specific first name and therefore private information. The surrounding words \"maria@company.com\" and \"Names\" support this classification.",
+            "substitution": "first name"
+        },
+        {
+            "id": 68,
+            "x1": 1231,
+            "y1": 310,
+            "x2": 1264,
+            "y2": 329,
+            "text": "plan \"",
+            "context": [
+                "to",
+                "your",
+                "Standard.",
+                "arade"
+            ],
+            "classification": false,
+            "reason": "The term \"plan\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 69,
+            "x1": 1277,
+            "y1": 310,
+            "x2": 1343,
+            "y2": 328,
+            "text": "Standard.",
+            "context": [
+                "to",
+                "plan \"",
+                "your"
+            ],
+            "classification": false,
+            "reason": "The term \"Standard.\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 70,
+            "x1": 865,
+            "y1": 311,
+            "x2": 1004,
+            "y2": 328,
+            "text": "maria@company.com",
+            "context": [
+                "Maria,",
+                "email\"",
+                "Or",
+                "from",
+                "Names",
+                "8.9\"",
+                "System",
+                "or.add"
+            ],
+            "classification": true,
+            "reason": "This is a specific mail address and therefore private information. The surrounding words \"Maria\" and \"email\" support this classification.",
+            "substitution": "email address"
+        },
+        {
+            "id": 71,
+            "x1": 1166,
+            "y1": 311,
+            "x2": 1200,
+            "y2": 325,
+            "text": "arade",
+            "context": [
+                "your",
+                "plan \""
+            ],
+            "classification": false,
+            "reason": "The term \"arade\" itself is just a sequence of letters and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 72,
+            "x1": 1262,
+            "y1": 311,
+            "x2": 1278,
+            "y2": 325,
+            "text": "to",
+            "context": [
+                "plan \"",
+                "Standard.",
+                "your"
+            ],
+            "classification": false,
+            "reason": "The term \"to\" itself is just a preposition and is not private information. The given surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 73,
+            "x1": 795,
+            "y1": 314,
+            "x2": 823,
+            "y2": 328,
+            "text": "8.9\"",
+            "context": [
+                "Maria,",
+                "Names",
+                "Or",
+                "or.add",
+                "from",
+                "email\"",
+                "maria@company.com",
+                "System"
+            ],
+            "classification": false,
+            "reason": "The term \"8.9\" is just a number. The surrounding words do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 1199,
+            "y1": 311,
+            "x2": 1232,
+            "y2": 329,
+            "text": "your",
+            "context": [
+                "plan \"",
+                "arade",
+                "to",
+                "Standard."
+            ],
+            "classification": false,
+            "reason": "The term \"your\" itself is just a pronoun and is not private information. The given surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 75,
+            "x1": 50,
+            "y1": 329,
+            "x2": 96,
+            "y2": 343,
+            "text": "Access",
+            "context": [
+                "Details",
+                "Notifications",
+                "D",
+                "Automation"
+            ],
+            "classification": false,
+            "reason": "The term \"Access\" itself is just a noun and is not private information. The given surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 76,
+            "x1": 787,
+            "y1": 356,
+            "x2": 829,
+            "y2": 373,
+            "text": "or.add",
+            "context": [
+                "from",
+                "Google",
+                "Maria,",
+                "8.9\"",
+                "maria@company.com"
+            ],
+            "classification": false,
+            "reason": "The term \"or.add\" itself is just an identifier and is not private information. The given surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 77,
+            "x1": 826,
+            "y1": 356,
+            "x2": 859,
+            "y2": 373,
+            "text": "from",
+            "context": [
+                "or.add",
+                "Google",
+                "Maria,",
+                "8.9\"",
+                "maria@company.com"
+            ],
+            "classification": false,
+            "reason": "The term \"from\" is a preposition and not private information. The email address \"maria@company.com\" in the surrounding words refers to a specific email address, but the term itself is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 78,
+            "x1": 49,
+            "y1": 359,
+            "x2": 137,
+            "y2": 379,
+            "text": "Notifications",
+            "context": [
+                "D",
+                "Automation",
+                "Access",
+                "Details",
+                "Issue",
+                "types"
+            ],
+            "classification": false,
+            "reason": "The term \"Notifications\" itself is just a noun and is not private information, despite the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 34,
+            "y1": 364,
+            "x2": 40,
+            "y2": 372,
+            "text": "D",
+            "context": [
+                "Notifications",
+                "Automation",
+                "Access"
+            ],
+            "classification": false,
+            "reason": "The term \"D\" itself is just a letter and is not private information, despite the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 80,
+            "x1": 1065,
+            "y1": 390,
+            "x2": 1134,
+            "y2": 410,
+            "text": "Microsoft",
+            "context": [
+                "faster",
+                "people -"
+            ],
+            "classification": false,
+            "reason": "The term \"Microsoft\" itself is a company name and is not private information, despite the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 81,
+            "x1": 48,
+            "y1": 392,
+            "x2": 131,
+            "y2": 410,
+            "text": "Automation",
+            "context": [
+                "Notifications",
+                "types",
+                "Issue",
+                "D",
+                "Features",
+                "Access"
+            ],
+            "classification": false,
+            "reason": "The term \"Automation\" itself is just a noun and is not private information, despite the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 82,
+            "x1": 836,
+            "y1": 390,
+            "x2": 886,
+            "y2": 414,
+            "text": "Google",
+            "context": [
+                "from",
+                "or.add",
+                "Connect",
+                "and"
+            ],
+            "classification": false,
+            "reason": "The term \"Google\" is the name of a company and not private information. The surrounding words \"from\", \"or.add\", \"Connect\", and \"and\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 83,
+            "x1": 959,
+            "y1": 391,
+            "x2": 1000,
+            "y2": 410,
+            "text": "Slack",
+            "context": [
+                "find",
+                "people -",
+                "and"
+            ],
+            "classification": false,
+            "reason": "The term \"Slack\" is the name of a company and not private information. The surrounding words \"find\", \"people -\", and \"and\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 84,
+            "x1": 643,
+            "y1": 419,
+            "x2": 691,
+            "y2": 436,
+            "text": "Search",
+            "context": [
+                "roles",
+                "Name",
+                "T"
+            ],
+            "classification": false,
+            "reason": "The term \"Search\" itself is just a noun and is not private information. The surrounding words \"roles\", \"Name\", and \"T\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 85,
+            "x1": 687,
+            "y1": 420,
+            "x2": 724,
+            "y2": 435,
+            "text": "roles",
+            "context": [
+                "Search",
+                "T"
+            ],
+            "classification": false,
+            "reason": "The term \"roles\" itself is just a noun and is not private information. The surrounding words \"Search\" and \"T\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 86,
+            "x1": 48,
+            "y1": 425,
+            "x2": 85,
+            "y2": 439,
+            "text": "Issue",
+            "context": [
+                "types",
+                "Automation",
+                "Features",
+                "Notifications",
+                "Board"
+            ],
+            "classification": false,
+            "reason": "The term \"Issue\" itself is just a noun and is not private information. The surrounding words \"types\", \"Automation\", \"Features\", \"Notifications\", and \"Board\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 87,
+            "x1": 85,
+            "y1": 425,
+            "x2": 125,
+            "y2": 445,
+            "text": "types",
+            "context": [
+                "Issue",
+                "Features",
+                "Automation",
+                "Board",
+                "Notifications"
+            ],
+            "classification": false,
+            "reason": "The term \"types\" itself is just a noun and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 88,
+            "x1": 929,
+            "y1": 448,
+            "x2": 976,
+            "y2": 474,
+            "text": "find",
+            "context": [
+                "people -",
+                "and",
+                "Google. E",
+                "Microsoft.",
+                "quickly.",
+                "find =",
+                "and",
+                "add",
+                "your",
+                "and",
+                "Slack",
+                "Connect",
+                "your"
+            ],
+            "classification": false,
+            "reason": "The term \"find\" itself is a verb and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 89,
+            "x1": 972,
+            "y1": 450,
+            "x2": 1047,
+            "y2": 476,
+            "text": "people -",
+            "context": [
+                "find",
+                "faster",
+                "Slack",
+                "and",
+                "Microsoft.",
+                "Google. E",
+                "and",
+                "your",
+                "add",
+                "tteammates",
+                "find =",
+                "Slack",
+                "and",
+                "Microsoft",
+                "quickly."
+            ],
+            "classification": false,
+            "reason": "The term \"people -\" itself could refer to people. However, the term does not represent a specific person and is therefore not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 90,
+            "x1": 891,
+            "y1": 451,
+            "x2": 931,
+            "y2": 473,
+            "text": "and",
+            "context": [
+                "find",
+                "Connect",
+                "Google. E",
+                "your",
+                "Microsoft.",
+                "Connect",
+                "quickly.",
+                "find =",
+                "to",
+                "Google",
+                "accounts",
+                "people -",
+                "and",
+                "Slack"
+            ],
+            "classification": false,
+            "reason": "The term \"and\" itself is a conjunction and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 91,
+            "x1": 1044,
+            "y1": 451,
+            "x2": 1104,
+            "y2": 473,
+            "text": "faster",
+            "context": [
+                "people -",
+                "Slack",
+                "and",
+                "your",
+                "tteammates",
+                "Microsoft.",
+                "Microsoft",
+                "add"
+            ],
+            "classification": false,
+            "reason": "The term \"faster\" is an adjective and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 92,
+            "x1": 810,
+            "y1": 451,
+            "x2": 891,
+            "y2": 473,
+            "text": "Connect",
+            "context": [
+                "and",
+                "Connect",
+                "Google. E",
+                "your",
+                "quickly.",
+                "accounts",
+                "to",
+                "Google",
+                "find",
+                "find =",
+                "this"
+            ],
+            "classification": false,
+            "reason": "The term \"Connect\" itself is a general verb and not private information. The surrounding words suggest that the user is being asked to connect to a service, however the term itself is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 93,
+            "x1": 49,
+            "y1": 455,
+            "x2": 107,
+            "y2": 472,
+            "text": "Features",
+            "context": [
+                "types",
+                "Issue",
+                "Board",
+                "Automation",
+                "Toolchain"
+            ],
+            "classification": false,
+            "reason": "The term \"Features\" itself is a general noun and not private information. The surrounding words \"types\", \"Issue\", \"Board\", \"Automation\", \"Toolchain\" suggest that the user is looking at the features of an issue board, however the term itself is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 94,
+            "x1": 1469,
+            "y1": 476,
+            "x2": 1513,
+            "y2": 493,
+            "text": "Action",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Action\" itself is a general noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 95,
+            "x1": 613,
+            "y1": 476,
+            "x2": 652,
+            "y2": 493,
+            "text": "Name",
+            "context": [
+                "T",
+                "DC=",
+                "Daniel =",
+                "Search"
+            ],
+            "classification": false,
+            "reason": "The term \"Name\" itself is a general noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 96,
+            "x1": 660,
+            "y1": 479,
+            "x2": 669,
+            "y2": 492,
+            "text": "T",
+            "context": [
+                "Name",
+                "Daniel =",
+                "DC=",
+                "Search",
+                "roles",
+                "Cegielski"
+            ],
+            "classification": true,
+            "reason": "The term \"T\" is an abbreviation and part of a name. Given the surrounding words \"Name\", \"Daniel\", \"Cegielski\", it seems \"T\" is the first letter of a name. Therefore, the term is private information.",
+            "substitution": "initial"
+        },
+        {
+            "id": 97,
+            "x1": 1282,
+            "y1": 476,
+            "x2": 1312,
+            "y2": 493,
+            "text": "Role",
+            "context": [
+                "Administrator"
+            ],
+            "classification": false,
+            "reason": "The term Role itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 98,
+            "x1": 808,
+            "y1": 481,
+            "x2": 866,
+            "y2": 500,
+            "text": "Connect",
+            "context": [
+                "your",
+                "accounts",
+                "to",
+                "Connect",
+                "quickly.",
+                "this",
+                "to",
+                "site.",
+                "and",
+                "Google. E",
+                "Cegielski"
+            ],
+            "classification": false,
+            "reason": "The term Connect itself is a verb and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 99,
+            "x1": 896,
+            "y1": 482,
+            "x2": 948,
+            "y2": 503,
+            "text": "Google. E",
+            "context": [
+                "Microsoft.",
+                "your",
+                "quickly.",
+                "find =",
+                "find",
+                "and",
+                "Connect",
+                "and",
+                "to",
+                "people -",
+                "site.",
+                "accounts",
+                "Connect",
+                "add",
+                "this"
+            ],
+            "classification": false,
+            "reason": "The term Google. E itself is a company name with a possible typing error E and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 100,
+            "x1": 947,
+            "y1": 482,
+            "x2": 1013,
+            "y2": 500,
+            "text": "Microsoft.",
+            "context": [
+                "and",
+                "Google. E",
+                "find =",
+                "and",
+                "your",
+                "add",
+                "people -",
+                "find",
+                "quickly.",
+                "and",
+                "Slack",
+                "tteammates",
+                "faster",
+                "your"
+            ],
+            "classification": false,
+            "reason": "The term Microsoft. itself is a company name and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 101,
+            "x1": 1012,
+            "y1": 482,
+            "x2": 1040,
+            "y2": 499,
+            "text": "and",
+            "context": [
+                "Microsoft.",
+                "Slack",
+                "add",
+                "your",
+                "people -",
+                "tteammates",
+                "faster",
+                "and",
+                "find"
+            ],
+            "classification": false,
+            "reason": "The term and itself is a conjunction and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 102,
+            "x1": 1039,
+            "y1": 481,
+            "x2": 1078,
+            "y2": 500,
+            "text": "Slack",
+            "context": [
+                "and",
+                "your",
+                "tteammates",
+                "people -",
+                "faster",
+                "Microsoft.",
+                "add"
+            ],
+            "classification": false,
+            "reason": "The term \"Slack\" is a proper noun referring to a communication platform and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 103,
+            "x1": 862,
+            "y1": 484,
+            "x2": 898,
+            "y2": 502,
+            "text": "your",
+            "context": [
+                "Connect",
+                "quickly.",
+                "Google. E",
+                "accounts",
+                "to",
+                "and",
+                "Connect",
+                "this",
+                "site.",
+                "find =",
+                "find",
+                "to",
+                "Microsoft."
+            ],
+            "classification": false,
+            "reason": "The term \"your\" is a possessive pronoun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 104,
+            "x1": 49,
+            "y1": 488,
+            "x2": 91,
+            "y2": 505,
+            "text": "Board",
+            "context": [
+                "Toolchain",
+                "Features",
+                "types",
+                "Apps",
+                "Issue"
+            ],
+            "classification": false,
+            "reason": "The term \"Board\" is a common noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 105,
+            "x1": 884,
+            "y1": 502,
+            "x2": 933,
+            "y2": 523,
+            "text": "quickly.",
+            "context": [
+                "your",
+                "Google. E",
+                "find =",
+                "to",
+                "site.",
+                "Microsoft.",
+                "accounts",
+                "Connect",
+                "and",
+                "find",
+                "and",
+                "Connect",
+                "this",
+                "people -"
+            ],
+            "classification": false,
+            "reason": "The term \"quickly.\" is an adverb and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 106,
+            "x1": 929,
+            "y1": 502,
+            "x2": 961,
+            "y2": 520,
+            "text": "find =",
+            "context": [
+                "quickly.",
+                "Google. E",
+                "and",
+                "Microsoft.",
+                "add",
+                "find",
+                "people -",
+                "and",
+                "your",
+                "to",
+                "Connect"
+            ],
+            "classification": false,
+            "reason": "The term \"find =\" is a verb and an operator, and neither is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 107,
+            "x1": 986,
+            "y1": 503,
+            "x2": 1012,
+            "y2": 517,
+            "text": "add",
+            "context": [
+                "your",
+                "and",
+                "Microsoft.",
+                "and",
+                "find =",
+                "people -",
+                "Slack",
+                "find",
+                "tteammates",
+                "Google. E",
+                "faster"
+            ],
+            "classification": false,
+            "reason": "The term \"add\" is a verb and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 108,
+            "x1": 809,
+            "y1": 503,
+            "x2": 867,
+            "y2": 517,
+            "text": "accounts",
+            "context": [
+                "to",
+                "your",
+                "Connect",
+                "this",
+                "to",
+                "site.",
+                "quickly.",
+                "Google. E",
+                "Connect",
+                "and",
+                "Cegielski"
+            ],
+            "classification": false,
+            "reason": "The term \"accounts\" is a noun and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 109,
+            "x1": 867,
+            "y1": 504,
+            "x2": 883,
+            "y2": 517,
+            "text": "to",
+            "context": [
+                "accounts",
+                "quickly.",
+                "your",
+                "Connect",
+                "site.",
+                "Google. E",
+                "this",
+                "Connect",
+                "and",
+                "to",
+                "find ="
+            ],
+            "classification": false,
+            "reason": "The term \"to\" is a preposition and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 110,
+            "x1": 959,
+            "y1": 503,
+            "x2": 985,
+            "y2": 517,
+            "text": "and",
+            "context": [
+                "find =",
+                "add",
+                "Microsoft.",
+                "Google. E",
+                "quickly.",
+                "people -",
+                "your",
+                "and",
+                "find",
+                "and"
+            ],
+            "classification": false,
+            "reason": "The term \"and\" is a conjunction and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 111,
+            "x1": 1044,
+            "y1": 504,
+            "x2": 1117,
+            "y2": 517,
+            "text": "tteammates",
+            "context": [
+                "your",
+                "Slack",
+                "and",
+                "people -",
+                "faster",
+                "Microsoft.",
+                "add",
+                "Ok"
+            ],
+            "classification": false,
+            "reason": "The term \"tteammates\" is a misspelling of the word \"teammates\" and does not represent private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 112,
+            "x1": 1012,
+            "y1": 503,
+            "x2": 1046,
+            "y2": 521,
+            "text": "your",
+            "context": [
+                "add",
+                "tteammates",
+                "Microsoft.",
+                "Slack",
+                "and",
+                "people -",
+                "and",
+                "faster",
+                "find"
+            ],
+            "classification": false,
+            "reason": "The term \"your\" is a pronoun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 113,
+            "x1": 49,
+            "y1": 520,
+            "x2": 116,
+            "y2": 538,
+            "text": "Toolchain",
+            "context": [
+                "Apps",
+                "Board",
+                "Features"
+            ],
+            "classification": false,
+            "reason": "The term \"Toolchain\" itself is a noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 114,
+            "x1": 628,
+            "y1": 521,
+            "x2": 653,
+            "y2": 539,
+            "text": "DC=",
+            "context": [
+                "Daniel =",
+                "Name",
+                "T",
+                "LD=",
+                "Luca"
+            ],
+            "classification": false,
+            "reason": "The term \"DC=\" itself is not private information, as it is not a name, password, email, or URL.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 115,
+            "x1": 662,
+            "y1": 521,
+            "x2": 709,
+            "y2": 539,
+            "text": "Daniel =",
+            "context": [
+                "Cegielski",
+                "DC=",
+                "T",
+                "Name",
+                "Luca",
+                "Dewert",
+                "LD="
+            ],
+            "classification": true,
+            "reason": "The term \"Daniel =\" is part of a specific name and therefore private information.",
+            "substitution": "name"
+        },
+        {
+            "id": 116,
+            "x1": 707,
+            "y1": 521,
+            "x2": 766,
+            "y2": 542,
+            "text": "Cegielski",
+            "context": [
+                "Daniel =",
+                "Dewert",
+                "Luca",
+                "to",
+                "accounts",
+                "Connect",
+                "T"
+            ],
+            "classification": true,
+            "reason": "The term \"Cegielski\" is a specific surname and therefore private information.",
+            "substitution": "surname"
+        },
+        {
+            "id": 117,
+            "x1": 824,
+            "y1": 521,
+            "x2": 851,
+            "y2": 538,
+            "text": "this",
+            "context": [
+                "to",
+                "site.",
+                "accounts",
+                "to",
+                "Connect",
+                "your",
+                "quickly.",
+                "Connect",
+                "Google. E"
+            ],
+            "classification": false,
+            "reason": "The term \"this\" is a demonstrative pronoun and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 118,
+            "x1": 1295,
+            "y1": 520,
+            "x2": 1387,
+            "y2": 541,
+            "text": "Administrator",
+            "context": [
+                "Role",
+                "Administrator"
+            ],
+            "classification": false,
+            "reason": "The term \"Administrator\" is a job title and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 119,
+            "x1": 807,
+            "y1": 524,
+            "x2": 825,
+            "y2": 537,
+            "text": "to",
+            "context": [
+                "this",
+                "accounts",
+                "Connect",
+                "site.",
+                "Cegielski",
+                "to",
+                "your"
+            ],
+            "classification": false,
+            "reason": "The term \"to\" is a preposition and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 120,
+            "x1": 851,
+            "y1": 524,
+            "x2": 879,
+            "y2": 537,
+            "text": "site.",
+            "context": [
+                "this",
+                "quickly.",
+                "accounts",
+                "to",
+                "your",
+                "Connect",
+                "to",
+                "Google. E"
+            ],
+            "classification": false,
+            "reason": "The term \"site.\" is a noun and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 121,
+            "x1": 50,
+            "y1": 551,
+            "x2": 87,
+            "y2": 572,
+            "text": "Apps",
+            "context": [
+                "Toolchain",
+                "Board"
+            ],
+            "classification": false,
+            "reason": "The term \"Apps\" is a noun and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 122,
+            "x1": 1091,
+            "y1": 557,
+            "x2": 1114,
+            "y2": 571,
+            "text": "Ok",
+            "context": [
+                "Tnlr",
+                "tteammates"
+            ],
+            "classification": false,
+            "reason": "The term \"Ok\" itself is just a short word and not private information. The surrounding words \"Tnlr\", \"tteammates\" do not suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 123,
+            "x1": 628,
+            "y1": 577,
+            "x2": 652,
+            "y2": 595,
+            "text": "LD=",
+            "context": [
+                "Luca",
+                "DC=",
+                "Daniel =",
+                "LB",
+                "Lukas [",
+                "Dewert"
+            ],
+            "classification": false,
+            "reason": "The term \"LD=\" itself seems to be a short character sequence without sense and is not private information. The surrounding words \"Luca\", \"DC=\", \"Daniel =\", \"LB\", \"Lukas [\", \"Dewert\" do not suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 124,
+            "x1": 662,
+            "y1": 577,
+            "x2": 695,
+            "y2": 595,
+            "text": "Luca",
+            "context": [
+                "Dewert",
+                "LD=",
+                "Cegielski",
+                "Daniel =",
+                "Lukas [",
+                "DC=",
+                "Bucker",
+                "LB"
+            ],
+            "classification": true,
+            "reason": "This is a specific first name and therefore private information. The surrounding words \"Dewert\", \"LD=\", \"Cegielski\", \"Daniel =\", \"Lukas [\", \"DC=\", \"Bucker\", \"LB\" do not indicate otherwise.",
+            "substitution": "first name"
+        },
+        {
+            "id": 125,
+            "x1": 695,
+            "y1": 578,
+            "x2": 746,
+            "y2": 596,
+            "text": "Dewert",
+            "context": [
+                "Luca",
+                "Cegielski",
+                "Lukas [",
+                "Bucker",
+                "Daniel =",
+                "LD="
+            ],
+            "classification": true,
+            "reason": "This is a specific last name and therefore private information. The surrounding words \"Luca\", \"Cegielski\", \"Lukas [\", \"Bucker\", \"Daniel =\", \"LD=\" do not indicate otherwise.",
+            "substitution": "last name"
+        },
+        {
+            "id": 126,
+            "x1": 1294,
+            "y1": 577,
+            "x2": 1388,
+            "y2": 596,
+            "text": "Administrator",
+            "context": [
+                "Administrator",
+                "Administrator"
+            ],
+            "classification": false,
+            "reason": "The term \"Administrator\" itself is just a job title and is not private information. The surrounding words \"Administrator\", \"Administrator\" do not indicate otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 127,
+            "x1": 1107,
+            "y1": 597,
+            "x2": 1134,
+            "y2": 603,
+            "text": "Tnlr",
+            "context": [
+                "Ok"
+            ],
+            "classification": false,
+            "reason": "The term \"Tnlr\" itself does not seem to be private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 128,
+            "x1": 629,
+            "y1": 635,
+            "x2": 649,
+            "y2": 649,
+            "text": "LB",
+            "context": [
+                "Lukas [",
+                "LD=",
+                "Luca"
+            ],
+            "classification": false,
+            "reason": "The term \"LB\" itself does not seem to be private information. There are surrounding words that resemble a name, however the term itself is just two capital letters.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 129,
+            "x1": 662,
+            "y1": 634,
+            "x2": 704,
+            "y2": 652,
+            "text": "Lukas [",
+            "context": [
+                "Bucker",
+                "LB",
+                "Dewert",
+                "Luca",
+                "LD="
+            ],
+            "classification": true,
+            "reason": "The term \"Lukas [\" resembles a name, which is private information. The surrounding words \"Bucker\", \"LB\", \"Dewert\", and \"Luca\" further confirm this.",
+            "substitution": "name"
+        },
+        {
+            "id": 130,
+            "x1": 701,
+            "y1": 634,
+            "x2": 749,
+            "y2": 652,
+            "text": "Bucker",
+            "context": [
+                "Lukas [",
+                "Dewert",
+                "Luca"
+            ],
+            "classification": true,
+            "reason": "The term \"Bucker\" is a surname, which is private information. The surrounding words \"Lukas [\", \"Dewert\", and \"Luca\" further confirm this.",
+            "substitution": "surname"
+        },
+        {
+            "id": 131,
+            "x1": 1294,
+            "y1": 634,
+            "x2": 1388,
+            "y2": 652,
+            "text": "Administrator",
+            "context": [
+                "Administrator"
+            ],
+            "classification": false,
+            "reason": "The term \"Administrator\" itself is a noun and not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 132,
+            "x1": 50,
+            "y1": 1010,
+            "x2": 83,
+            "y2": 1027,
+            "text": "Give",
+            "context": [
+                "feedback ="
+            ],
+            "classification": false,
+            "reason": "The term \"Give\" is a common verb and doesn't contain any personal or sensitive information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 133,
+            "x1": 82,
+            "y1": 1010,
+            "x2": 148,
+            "y2": 1030,
+            "text": "feedback =",
+            "context": [
+                "Give",
+                "on",
+                "the",
+                "ne..."
+            ],
+            "classification": false,
+            "reason": "The term \"feedback =\" is related to a general action and not to any personal or sensitive information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 134,
+            "x1": 165,
+            "y1": 1013,
+            "x2": 189,
+            "y2": 1026,
+            "text": "the",
+            "context": [
+                "on",
+                "ne...",
+                "feedback ="
+            ],
+            "classification": false,
+            "reason": "The word \"the\" is an article and therefore never private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 135,
+            "x1": 146,
+            "y1": 1014,
+            "x2": 165,
+            "y2": 1026,
+            "text": "on",
+            "context": [
+                "feedback =",
+                "the",
+                "ne..."
+            ],
+            "classification": false,
+            "reason": "The word \"on\" is a preposition and therefore never private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 136,
+            "x1": 189,
+            "y1": 1014,
+            "x2": 220,
+            "y2": 1027,
+            "text": "ne...",
+            "context": [
+                "the",
+                "on",
+                "feedback ="
+            ],
+            "classification": false,
+            "reason": "The term \"ne...\" is likely a fragment of a word and does not represent private information based on the context.",
+            "substitution": "NONE"
+        }
+    ]
+}

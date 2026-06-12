@@ -1,0 +1,272 @@
+{
+    "texts": [
+        {
+            "id": 71,
+            "x1": 896,
+            "y1": 237,
+            "x2": 970,
+            "y2": 276,
+            "text": "Login",
+            "context": [
+                "#10"
+            ],
+            "classification": false,
+            "reason": "The term \"Login\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 72,
+            "x1": 967,
+            "y1": 238,
+            "x2": 1025,
+            "y2": 270,
+            "text": "#10",
+            "context": [
+                "Login"
+            ],
+            "classification": false,
+            "reason": "The term \"#10\" itself is a sequence of characters and numbers and does not seem to be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 73,
+            "x1": 854,
+            "y1": 337,
+            "x2": 922,
+            "y2": 368,
+            "text": "Have",
+            "context": [
+                "an",
+                "account?",
+                "UziFoo"
+            ],
+            "classification": false,
+            "reason": "The term \"Have\" itself is just a verb and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 955,
+            "y1": 337,
+            "x2": 1067,
+            "y2": 368,
+            "text": "account?",
+            "context": [
+                "an",
+                "Have"
+            ],
+            "classification": false,
+            "reason": "The term \"account?\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 75,
+            "x1": 920,
+            "y1": 342,
+            "x2": 955,
+            "y2": 368,
+            "text": "an",
+            "context": [
+                "Have",
+                "account?"
+            ],
+            "classification": false,
+            "reason": "The term \"an\" itself is just an article and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 76,
+            "x1": 803,
+            "y1": 413,
+            "x2": 859,
+            "y2": 433,
+            "text": "UziFoo",
+            "context": [
+                "Have"
+            ],
+            "classification": false,
+            "reason": "The term \"UziFoo\" could be a user name or a made-up name. Without further context, it is unclear if this is a real name or private information, so it will be treated as not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 77,
+            "x1": 929,
+            "y1": 545,
+            "x2": 989,
+            "y2": 565,
+            "text": "SIGNIN",
+            "context": [
+                "Me",
+                "Forgot E",
+                "Remember ="
+            ],
+            "classification": false,
+            "reason": "The term \"SIGNIN\" is a generic term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 78,
+            "x1": 812,
+            "y1": 599,
+            "x2": 896,
+            "y2": 619,
+            "text": "Remember =",
+            "context": [
+                "Me",
+                "Or Sign.In With",
+                "SIGNIN"
+            ],
+            "classification": false,
+            "reason": "The term \"Remember =\" is a generic term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 894,
+            "y1": 602,
+            "x2": 919,
+            "y2": 616,
+            "text": "Me",
+            "context": [
+                "Remember =",
+                "SIGNIN",
+                "Or Sign.In With"
+            ],
+            "classification": false,
+            "reason": "The term \"Me\" is a generic term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 80,
+            "x1": 1014,
+            "y1": 601,
+            "x2": 1066,
+            "y2": 622,
+            "text": "Forgot E",
+            "context": [
+                "Password",
+                "Or Sign.In With",
+                "SIGNIN"
+            ],
+            "classification": false,
+            "reason": "The term \"Forgot E\" is a generic term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 81,
+            "x1": 1064,
+            "y1": 599,
+            "x2": 1138,
+            "y2": 619,
+            "text": "Password",
+            "context": [
+                "Forgot E"
+            ],
+            "classification": false,
+            "reason": "The term \"Password\" itself is just a noun and is not private information. The given surrounding words \"Forgot E\" suggest that the user forgot the password, however the term itself is not the password.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 82,
+            "x1": 905,
+            "y1": 656,
+            "x2": 1017,
+            "y2": 679,
+            "text": "Or Sign.In With",
+            "context": [
+                "Facebook",
+                "Twitter",
+                "Forgot E",
+                "Remember =",
+                "Me"
+            ],
+            "classification": false,
+            "reason": "The term \"Or Sign.In With\" is a phrase that is used in login processes and is not private information. The surrounding words \"Facebook\", \"Twitter\", \"Forgot E\", \"Remember =\", and \"Me\" are all related to the login process, however the term itself is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 83,
+            "x1": 1024,
+            "y1": 710,
+            "x2": 1082,
+            "y2": 730,
+            "text": "Twitter",
+            "context": [
+                "Or Sign.In With"
+            ],
+            "classification": false,
+            "reason": "The term \"Twitter\" is a noun and the name of a company and service. The surrounding words \"Or Sign.In With\" suggest that Twitter can be used for authentication, however, the term itself is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 84,
+            "x1": 837,
+            "y1": 710,
+            "x2": 912,
+            "y2": 730,
+            "text": "Facebook",
+            "context": [
+                "Or Sign.In With"
+            ],
+            "classification": false,
+            "reason": "The term \"Facebook\" is a noun and the name of a company and service. The surrounding words \"Or Sign.In With\" suggest that Facebook can be used for authentication, however, the term itself is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 85,
+            "x1": 545,
+            "y1": 1045,
+            "x2": 669,
+            "y2": 1078,
+            "text": "J 6 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J 6 4\" itself seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 86,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" appears to be a number. There are no surrounding words that suggest this term is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 87,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a German verb meaning \"search\". It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 88,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" appears to be a date. There are no surrounding words that suggest this term is private.",
+            "substitution": "NONE"
+        }
+    ]
+}

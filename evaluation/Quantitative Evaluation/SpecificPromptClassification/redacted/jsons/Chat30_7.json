@@ -1,0 +1,2501 @@
+{
+    "texts": [
+        {
+            "id": 31,
+            "x1": 375,
+            "y1": 141,
+            "x2": 490,
+            "y2": 177,
+            "text": "Messages",
+            "context": [
+                "Search_.."
+            ],
+            "classification": false,
+            "reason": "The term \"Messages\" itself is just a noun and is not private information. The surrounding word \"Search_..\" does not give any indication that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 794,
+            "y1": 209,
+            "x2": 861,
+            "y2": 230,
+            "text": "Stephens",
+            "context": [
+                "Typing_.",
+                "Anne"
+            ],
+            "classification": true,
+            "reason": "\"Stephens\" is a common surname and therefore private information. The surrounding words \"Typing_. Anne\" suggest a conversation with someone named Anne Stephens.",
+            "substitution": "surname"
+        },
+        {
+            "id": 33,
+            "x1": 755,
+            "y1": 208,
+            "x2": 793,
+            "y2": 229,
+            "text": "Anne",
+            "context": [
+                "Stephens",
+                "Typing_."
+            ],
+            "classification": true,
+            "reason": "\"Anne\" is a common given name and therefore private information. The surrounding words \"Stephens Typing_.\" suggest a conversation with someone named Anne Stephens.",
+            "substitution": "given name"
+        },
+        {
+            "id": 34,
+            "x1": 412,
+            "y1": 218,
+            "x2": 475,
+            "y2": 238,
+            "text": "Search_..",
+            "context": [
+                "Suzannel",
+                "Messages"
+            ],
+            "classification": false,
+            "reason": "The term \"Search_..\" itself does not appear to be private information. Even though the surrounding word \"Suzannel\" appears to be a name, the term \"Search_..\" itself is not a name or any other form of private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 35,
+            "x1": 1393,
+            "y1": 221,
+            "x2": 1423,
+            "y2": 241,
+            "text": "@",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"@\" itself is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 36,
+            "x1": 754,
+            "y1": 231,
+            "x2": 803,
+            "y2": 250,
+            "text": "Typing_.",
+            "context": [
+                "Stephens",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"Typing_..\" itself does not appear to be private information. Even though the surrounding words \"Stephens\" and \"Anne\" appear to be names, the term \"Typing_..\" itself is not a name or any other form of private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 37,
+            "x1": 515,
+            "y1": 277,
+            "x2": 581,
+            "y2": 296,
+            "text": "Mathews",
+            "context": [
+                "Suzannel",
+                "Smith",
+                "Rachel"
+            ],
+            "classification": true,
+            "reason": "The term \"Mathews\" seems to be a surname. The surrounding words \"Suzannel\", \"Smith\", and \"Rachel\" seem to be first names and a surname. This suggests that the term \"Mathews\" is a private surname.",
+            "substitution": "surname"
+        },
+        {
+            "id": 38,
+            "x1": 454,
+            "y1": 278,
+            "x2": 517,
+            "y2": 296,
+            "text": "Suzannel",
+            "context": [
+                "Mathews",
+                "Search_..",
+                "Rachel",
+                "Smith"
+            ],
+            "classification": true,
+            "reason": "The term \"Suzannel\" seems to be a first name. The surrounding words \"Mathews\", \"Rachel\", and \"Smith\" seem to be surnames and a first name. This suggests that the term \"Suzannel\" is a private first name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 39,
+            "x1": 939,
+            "y1": 302,
+            "x2": 967,
+            "y2": 316,
+            "text": "You",
+            "context": [
+                "Lorem",
+                "ipsum"
+            ],
+            "classification": false,
+            "reason": "The term \"You\" is a pronoun and therefore inherently not private information. The surrounding words \"Lorem\" and \"ipsum\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 40,
+            "x1": 1028,
+            "y1": 329,
+            "x2": 1069,
+            "y2": 349,
+            "text": "dolor",
+            "context": [
+                "sitamet,",
+                "ipsum",
+                "Lorem"
+            ],
+            "classification": false,
+            "reason": "The term \"dolor\" is a Latin word meaning \"pain\" or \"sorrow.\" It is frequently used as placeholder text in the typesetting industry. The surrounding words \"sitamet,\", \"ipsum\", \"Lorem\" confirm that this is a placeholder text and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 41,
+            "x1": 1067,
+            "y1": 332,
+            "x2": 1128,
+            "y2": 346,
+            "text": "sitamet,",
+            "context": [
+                "dolor",
+                "vis",
+                "erat",
+                "ipsum"
+            ],
+            "classification": false,
+            "reason": "The term \"sitamet,\" is a variation of \"sit amet\" which is part of the Latin placeholder text \"lorem ipsum dolor sit amet\". Therefore, it is not private information, despite the typo. The surrounding words confirm this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 42,
+            "x1": 1179,
+            "y1": 329,
+            "x2": 1237,
+            "y2": 350,
+            "text": "denique",
+            "context": [
+                "in,",
+                "erat",
+                "dicunt",
+                "vis"
+            ],
+            "classification": false,
+            "reason": "The term \"denique\" is a Latin word meaning \"finally\" or \"in short.\" It is unlikely to be private information based on the term itself. The surrounding words \"in,\", \"erat\", \"dicunt\", \"vis\" do not suggest any private information either.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 43,
+            "x1": 1235,
+            "y1": 331,
+            "x2": 1258,
+            "y2": 350,
+            "text": "in,",
+            "context": [
+                "denique",
+                "dicunt",
+                "prodesset"
+            ],
+            "classification": false,
+            "reason": "The term \"in,,\" appears to be just a fragment of a word and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 44,
+            "x1": 1255,
+            "y1": 329,
+            "x2": 1303,
+            "y2": 349,
+            "text": "dicunt",
+            "context": [
+                "in,",
+                "prodesset",
+                "denique"
+            ],
+            "classification": false,
+            "reason": "The term \"dicunt\" is a Latin word and not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 45,
+            "x1": 1299,
+            "y1": 330,
+            "x2": 1372,
+            "y2": 348,
+            "text": "prodesset",
+            "context": [
+                "dicunt",
+                "te",
+                "vix.",
+                "in,"
+            ],
+            "classification": false,
+            "reason": "The term \"prodesset\" is a Latin word and not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 46,
+            "x1": 938,
+            "y1": 328,
+            "x2": 984,
+            "y2": 348,
+            "text": "Lorem",
+            "context": [
+                "ipsum",
+                "You",
+                "dolor"
+            ],
+            "classification": false,
+            "reason": "The term \"Lorem\" itself is a placeholder text and is not private information. The surrounding words \"ipsum\", \"You\", and \"dolor\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 47,
+            "x1": 983,
+            "y1": 331,
+            "x2": 1028,
+            "y2": 349,
+            "text": "ipsum",
+            "context": [
+                "dolor",
+                "Lorem",
+                "You",
+                "sitamet,"
+            ],
+            "classification": false,
+            "reason": "The term \"ipsum\" itself is a placeholder text and is not private information. The surrounding words \"dolor\", \"Lorem\", \"You\", and \"sitamet,\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 48,
+            "x1": 1127,
+            "y1": 332,
+            "x2": 1149,
+            "y2": 345,
+            "text": "vis",
+            "context": [
+                "sitamet,",
+                "erat",
+                "denique"
+            ],
+            "classification": false,
+            "reason": "The term \"vis\" itself is a placeholder text and is not private information. The surrounding words \"sitamet,\", \"erat\", and \"denique\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 49,
+            "x1": 1149,
+            "y1": 332,
+            "x2": 1179,
+            "y2": 346,
+            "text": "erat",
+            "context": [
+                "denique",
+                "vis",
+                "sitamet,"
+            ],
+            "classification": false,
+            "reason": "The term \"erat\" appears to be a fragment of a word, it does not represent private information on its own. The surrounding words \"denique\", \"vis\", and \"sitamet\" do not suggest private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 50,
+            "x1": 1370,
+            "y1": 332,
+            "x2": 1386,
+            "y2": 346,
+            "text": "te",
+            "context": [
+                "prodesset",
+                "vix."
+            ],
+            "classification": false,
+            "reason": "The term \"te\" appears to be a fragment of a word, it does not represent private information on its own. The surrounding words \"prodesset\" and \"vix\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 51,
+            "x1": 1385,
+            "y1": 331,
+            "x2": 1414,
+            "y2": 349,
+            "text": "vix.",
+            "context": [
+                "te",
+                "prodesset",
+                "233am"
+            ],
+            "classification": false,
+            "reason": "The term \"vix.\" appears to be a fragment of a word, it does not represent private information on its own. The surrounding words \"te\", \"prodesset\", and \"233am\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 52,
+            "x1": 1440,
+            "y1": 341,
+            "x2": 1488,
+            "y2": 355,
+            "text": "233am",
+            "context": [
+                "vix."
+            ],
+            "classification": false,
+            "reason": "The term \"233am\" itself does not appear to be private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 53,
+            "x1": 455,
+            "y1": 341,
+            "x2": 506,
+            "y2": 361,
+            "text": "Rachel",
+            "context": [
+                "Smith",
+                "Suzannel",
+                "Cruz",
+                "Mathews",
+                "Maria"
+            ],
+            "classification": true,
+            "reason": "\"Rachel\" is a specific first name and therefore private information. The surrounding surnames further suggest that this is a private person's name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 54,
+            "x1": 502,
+            "y1": 341,
+            "x2": 547,
+            "y2": 361,
+            "text": "Smith",
+            "context": [
+                "Rachel",
+                "Suzannel",
+                "Mathews",
+                "Cruz",
+                "Maria"
+            ],
+            "classification": true,
+            "reason": "\"Smith\" is a specific surname and therefore private information. The surrounding first names further suggest that this is a private person's name.",
+            "substitution": "last name"
+        },
+        {
+            "id": 55,
+            "x1": 772,
+            "y1": 393,
+            "x2": 810,
+            "y2": 412,
+            "text": "Anne",
+            "context": [
+                "Stephens",
+                "Sit",
+                "meis.",
+                "deleniti",
+                "2.34am"
+            ],
+            "classification": true,
+            "reason": "The term \"Anne\" is a specific first name and therefore private information. The surrounding word \"Stephens\" is a last name, which further suggests that \"Anne\" is a first name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 56,
+            "x1": 810,
+            "y1": 392,
+            "x2": 877,
+            "y2": 413,
+            "text": "Stephens",
+            "context": [
+                "Anne",
+                "deleniti",
+                "meis.",
+                "eu,",
+                "Sit",
+                "pri",
+                "vidit"
+            ],
+            "classification": true,
+            "reason": "The term \"Stephens\" is a specific surname and therefore private information. The surrounding word \"Anne\" is a first name, which further suggests that \"Stephens\" is a last name.",
+            "substitution": "last name"
+        },
+        {
+            "id": 57,
+            "x1": 457,
+            "y1": 407,
+            "x2": 500,
+            "y2": 425,
+            "text": "Maria",
+            "context": [
+                "Cruz",
+                "Sarah",
+                "Rachel",
+                "Smith",
+                "Williams"
+            ],
+            "classification": true,
+            "reason": "The term \"Maria\" is a specific first name and therefore private information. The surrounding words \"Cruz\", \"Sarah\", \"Rachel\", \"Smith\", \"Williams\" are other names, which further suggests that \"Maria\" is a first name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 58,
+            "x1": 497,
+            "y1": 406,
+            "x2": 533,
+            "y2": 425,
+            "text": "Cruz",
+            "context": [
+                "Maria",
+                "Smith",
+                "Rachel",
+                "Sarah",
+                "Williams"
+            ],
+            "classification": true,
+            "reason": "The term \"Cruz\" is a common surname and therefore private information. The surrounding names suggest that \"Cruz\" may be a name or surname.",
+            "substitution": "surname"
+        },
+        {
+            "id": 59,
+            "x1": 826,
+            "y1": 421,
+            "x2": 881,
+            "y2": 440,
+            "text": "deleniti",
+            "context": [
+                "eu,",
+                "meis.",
+                "Stephens",
+                "Anne",
+                "pri",
+                "Sit",
+                "vidit"
+            ],
+            "classification": false,
+            "reason": "The term \"deleniti\" appears to be part of a sentence. Since it is part of a normal sentence, there is no reason to assume that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 60,
+            "x1": 902,
+            "y1": 422,
+            "x2": 928,
+            "y2": 442,
+            "text": "pri",
+            "context": [
+                "vidit",
+                "eu,",
+                "deleniti",
+                "Stephens",
+                "meliore"
+            ],
+            "classification": false,
+            "reason": "The term \"pri\" appears to be part of a sentence. Since it is part of a normal sentence, there is no reason to assume that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 61,
+            "x1": 923,
+            "y1": 421,
+            "x2": 959,
+            "y2": 440,
+            "text": "vidit",
+            "context": [
+                "pri",
+                "meliore",
+                "eu,",
+                "deleniti",
+                "Stephens"
+            ],
+            "classification": true,
+            "reason": "The term \"vidit\" appears to be a name, given the capitalized first letter and the presence of another name \"Stephens\" in the surrounding words. This suggests it is likely a private name.",
+            "substitution": "name"
+        },
+        {
+            "id": 62,
+            "x1": 1010,
+            "y1": 421,
+            "x2": 1069,
+            "y2": 440,
+            "text": "docendi",
+            "context": [
+                "meliore",
+                "ut,",
+                "an",
+                "eum"
+            ],
+            "classification": false,
+            "reason": "The term \"docendi\" is a Latin word meaning \"teaching\" or \"instructing.\" It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 63,
+            "x1": 1171,
+            "y1": 422,
+            "x2": 1222,
+            "y2": 440,
+            "text": "animal",
+            "context": [
+                "commodo.",
+                "erat",
+                "eum"
+            ],
+            "classification": false,
+            "reason": "The term \"animal\" is a common noun and does not constitute private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 64,
+            "x1": 770,
+            "y1": 422,
+            "x2": 793,
+            "y2": 439,
+            "text": "Sit",
+            "context": [
+                "meis.",
+                "Anne",
+                "Stephens",
+                "2.34am",
+                "deleniti"
+            ],
+            "classification": false,
+            "reason": "The term \"Sit\" itself is a verb and is not private information. The surrounding words do not suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 65,
+            "x1": 791,
+            "y1": 422,
+            "x2": 829,
+            "y2": 440,
+            "text": "meis.",
+            "context": [
+                "Sit",
+                "deleniti",
+                "Stephens",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The surrounding words \"Anne Stephens\" are private information, but the term itself, \"meis.\", does not appear to be private information. It could potentially be an abbreviation, but without further context, it's unlikely to be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 66,
+            "x1": 956,
+            "y1": 421,
+            "x2": 1013,
+            "y2": 440,
+            "text": "meliore",
+            "context": [
+                "vidit",
+                "docendi",
+                "pri"
+            ],
+            "classification": false,
+            "reason": "The term \"meliore\" itself does not appear to be private information. The surrounding words do not suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 67,
+            "x1": 1066,
+            "y1": 424,
+            "x2": 1091,
+            "y2": 442,
+            "text": "ut,",
+            "context": [
+                "docendi",
+                "an",
+                "eum"
+            ],
+            "classification": false,
+            "reason": "The term \"ut,,\" appears to be a fragment of a word or a random character sequence and the surrounding words do not give any hints that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 68,
+            "x1": 1219,
+            "y1": 422,
+            "x2": 1297,
+            "y2": 440,
+            "text": "commodo.",
+            "context": [
+                "animal",
+                "erat",
+                "You"
+            ],
+            "classification": false,
+            "reason": "The term \"commodo.\" appears to be a fragment of a word and the surrounding words do not give any hints that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 69,
+            "x1": 879,
+            "y1": 425,
+            "x2": 903,
+            "y2": 439,
+            "text": "eu,",
+            "context": [
+                "deleniti",
+                "pri",
+                "Stephens",
+                "vidit"
+            ],
+            "classification": false,
+            "reason": "The term \"eu,,\" appears to be a fragment of a word or a random character sequence. The surrounding word \"Stephens\" is a specific surname, but the term itself does not seem to be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 70,
+            "x1": 1089,
+            "y1": 425,
+            "x2": 1108,
+            "y2": 438,
+            "text": "an",
+            "context": [
+                "ut,",
+                "eum",
+                "docendi",
+                "erat"
+            ],
+            "classification": false,
+            "reason": "The term \"an\" alone does not represent private information. It is a common word and does not reveal any personal details.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 71,
+            "x1": 1109,
+            "y1": 425,
+            "x2": 1141,
+            "y2": 438,
+            "text": "eum",
+            "context": [
+                "erat",
+                "an",
+                "ut,",
+                "animal",
+                "docendi"
+            ],
+            "classification": false,
+            "reason": "The term \"eum\" alone does not represent private information. It is a common word and does not reveal any personal details.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 72,
+            "x1": 1141,
+            "y1": 422,
+            "x2": 1174,
+            "y2": 439,
+            "text": "erat",
+            "context": [
+                "animal",
+                "eum",
+                "an",
+                "commodo."
+            ],
+            "classification": false,
+            "reason": "The term \"erat\" alone does not represent private information. It is a common word and does not reveal any personal details.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 73,
+            "x1": 693,
+            "y1": 434,
+            "x2": 741,
+            "y2": 448,
+            "text": "2.34am",
+            "context": [
+                "Sit",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"2.34am\" is a timestamp and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 454,
+            "y1": 470,
+            "x2": 499,
+            "y2": 490,
+            "text": "Sarah",
+            "context": [
+                "Williams",
+                "Cruz",
+                "Maria",
+                "Juan Jensen"
+            ],
+            "classification": true,
+            "reason": "The term \"Sarah\" is a common first name. The surrounding names suggest that this is indeed the name of a person and therefore private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 75,
+            "x1": 496,
+            "y1": 472,
+            "x2": 559,
+            "y2": 490,
+            "text": "Williams",
+            "context": [
+                "Sarah",
+                "Cruz",
+                "Maria",
+                "Juan Jensen"
+            ],
+            "classification": true,
+            "reason": "The term \"Williams\" is a common surname. The surrounding names suggest that this is indeed the surname of a person and therefore private information.",
+            "substitution": "last name"
+        },
+        {
+            "id": 76,
+            "x1": 1250,
+            "y1": 488,
+            "x2": 1278,
+            "y2": 502,
+            "text": "You",
+            "context": [
+                "Cum",
+                "ea",
+                "graeci",
+                "commodo."
+            ],
+            "classification": false,
+            "reason": "The term \"You\" is a pronoun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 77,
+            "x1": 1249,
+            "y1": 515,
+            "x2": 1285,
+            "y2": 532,
+            "text": "Cum",
+            "context": [
+                "ea",
+                "You",
+                "graeci"
+            ],
+            "classification": false,
+            "reason": "The term \"Cum\" appears to be a Latin word and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 78,
+            "x1": 1301,
+            "y1": 518,
+            "x2": 1349,
+            "y2": 531,
+            "text": "graeci",
+            "context": [
+                "tractatos.",
+                "ea",
+                "Cum",
+                "You"
+            ],
+            "classification": false,
+            "reason": "The term \"graeci\" appears to be a Latin word and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 1345,
+            "y1": 515,
+            "x2": 1414,
+            "y2": 533,
+            "text": "tractatos.",
+            "context": [
+                "graeci",
+                "2.35",
+                "ea"
+            ],
+            "classification": false,
+            "reason": "The term \"tractatos.\" appears to be a fragment of a word or OCR error, and there is no indication that it is private information based on the term itself or surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 80,
+            "x1": 1284,
+            "y1": 518,
+            "x2": 1303,
+            "y2": 531,
+            "text": "ea",
+            "context": [
+                "Cum",
+                "graeci",
+                "You",
+                "tractatos."
+            ],
+            "classification": false,
+            "reason": "The term \"ea\" itself is a pronoun and is not private information. The surrounding words do not provide additional context to suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 81,
+            "x1": 1439,
+            "y1": 524,
+            "x2": 1468,
+            "y2": 541,
+            "text": "2.35",
+            "context": [
+                "am",
+                "tractatos."
+            ],
+            "classification": false,
+            "reason": "The term \"2.35\" itself is a numerical value, and the surrounding words do not provide additional context to suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 82,
+            "x1": 1467,
+            "y1": 528,
+            "x2": 1486,
+            "y2": 540,
+            "text": "am",
+            "context": [
+                "2.35"
+            ],
+            "classification": false,
+            "reason": "The term \"am\" appears to be a time specification as suggested by the surrounding number 2.35. This alone is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 83,
+            "x1": 455,
+            "y1": 539,
+            "x2": 537,
+            "y2": 553,
+            "text": "Juan Jensen",
+            "context": [
+                "Mcdaniel",
+                "James",
+                "Sarah",
+                "Williams"
+            ],
+            "classification": true,
+            "reason": "The term \"Juan Jensen\" is a specific name, which is private information. The surrounding names further suggest that this term is also a name.",
+            "substitution": "person name"
+        },
+        {
+            "id": 84,
+            "x1": 770,
+            "y1": 579,
+            "x2": 810,
+            "y2": 598,
+            "text": "Anne",
+            "context": [
+                "Stephens",
+                "Sedr",
+                "pulvinar,",
+                "velit.",
+                "Proin",
+                ".36am",
+                "ultricies"
+            ],
+            "classification": true,
+            "reason": "The term \"Anne\" is a specific name, which is private information. The surrounding names further suggest that this term is also a name.",
+            "substitution": "person name"
+        },
+        {
+            "id": 85,
+            "x1": 810,
+            "y1": 578,
+            "x2": 877,
+            "y2": 599,
+            "text": "Stephens",
+            "context": [
+                "Anne",
+                "pulvinar,",
+                "Sedr",
+                "massa",
+                "vitae",
+                "velit.",
+                "ultricies",
+                "Proin",
+                "placerat"
+            ],
+            "classification": true,
+            "reason": "The term \"Stephens\" is a surname and therefore private information. The surrounding words suggest this is indeed a surname.",
+            "substitution": "surname"
+        },
+        {
+            "id": 86,
+            "x1": 500,
+            "y1": 601,
+            "x2": 566,
+            "y2": 619,
+            "text": "Mcdaniel",
+            "context": [
+                "James",
+                "Hunt",
+                "Juan Jensen",
+                "James"
+            ],
+            "classification": true,
+            "reason": "The term \"Mcdaniel\" is a surname and therefore private information. The surrounding words suggest this is indeed a surname.",
+            "substitution": "surname"
+        },
+        {
+            "id": 87,
+            "x1": 454,
+            "y1": 601,
+            "x2": 502,
+            "y2": 619,
+            "text": "James",
+            "context": [
+                "Mcdaniel",
+                "Hunt",
+                "Juan Jensen",
+                "James"
+            ],
+            "classification": true,
+            "reason": "The term \"James\" is a firstname and therefore private information. The surrounding words suggest this is indeed a firstname.",
+            "substitution": "firstname"
+        },
+        {
+            "id": 88,
+            "x1": 799,
+            "y1": 608,
+            "x2": 860,
+            "y2": 628,
+            "text": "pulvinar,",
+            "context": [
+                "Sedr",
+                "massa",
+                "velit.",
+                "ultricies",
+                "Proin",
+                "Stephens",
+                "Anne",
+                "placerat",
+                "vitae"
+            ],
+            "classification": false,
+            "reason": "The term \"pulvinar\" itself does not appear to be private information. The surrounding words do not suggest that the term represents private data. The surrounding words \"Stephens\" and \"Anne\" are names, however, the term \"pulvinar\" itself is not a name, and is therefore not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 89,
+            "x1": 1003,
+            "y1": 608,
+            "x2": 1064,
+            "y2": 628,
+            "text": "pulvinar,",
+            "context": [
+                "interdum",
+                "risus",
+                "Morbi",
+                "imperdiet.",
+                "varius.",
+                "lectus[",
+                "placerat"
+            ],
+            "classification": false,
+            "reason": "The term \"pulvinar\" itself does not appear to be private information. The surrounding words do not suggest that the term represents private data.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 90,
+            "x1": 1286,
+            "y1": 607,
+            "x2": 1360,
+            "y2": 626,
+            "text": "commodo/",
+            "context": [
+                "lectus",
+                "vitae",
+                "tempus.",
+                "magna,",
+                "mauris",
+                "venenatis"
+            ],
+            "classification": false,
+            "reason": "The term \"commodo\" itself does not appear to be private information. The surrounding words do not suggest that the term represents private data.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 91,
+            "x1": 1355,
+            "y1": 607,
+            "x2": 1402,
+            "y2": 626,
+            "text": "lectus",
+            "context": [
+                "commodo/",
+                "mauris",
+                "et"
+            ],
+            "classification": false,
+            "reason": "The term \"lectus\" appears to be a Latin word meaning \"bed\" or \"couch\". It is not a private term as it does not represent any specific personal information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 92,
+            "x1": 770,
+            "y1": 607,
+            "x2": 802,
+            "y2": 626,
+            "text": "Sedr",
+            "context": [
+                "pulvinar,",
+                "velit.",
+                "Proin",
+                "Anne",
+                "Stephens",
+                ".36am",
+                "ultricies"
+            ],
+            "classification": false,
+            "reason": "\"Sedr\" is likely a typo, or a made-up term. The surrounding words \"Anne Stephens\" suggests a name; however, the term itself is not a common name, nor is it connected to any specific personal information. Since the term itself doesn't look like a name or any other private data type, it is classified as not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 93,
+            "x1": 902,
+            "y1": 608,
+            "x2": 940,
+            "y2": 625,
+            "text": "vitae",
+            "context": [
+                "interdum",
+                "massa",
+                "placerat",
+                "ultricies",
+                "imperdiet.",
+                "Stephens",
+                "pulvinar,"
+            ],
+            "classification": false,
+            "reason": "The term \"vitae\" is a Latin word meaning \"life\". It is not a private term as it does not represent any specific personal information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 94,
+            "x1": 937,
+            "y1": 607,
+            "x2": 1004,
+            "y2": 626,
+            "text": "interdum",
+            "context": [
+                "pulvinar,",
+                "vitae",
+                "placerat",
+                "imperdiet.",
+                "Morbi",
+                "massa",
+                "ultricies"
+            ],
+            "classification": false,
+            "reason": "The term \"interdum\" appears to be a latin word and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 95,
+            "x1": 1061,
+            "y1": 608,
+            "x2": 1097,
+            "y2": 625,
+            "text": "risus",
+            "context": [
+                "pulvinar,",
+                "lectus[",
+                "Morbi",
+                "varius.",
+                "quam",
+                "imperdiet.",
+                "porttitor"
+            ],
+            "classification": false,
+            "reason": "The term \"risus\" appears to be a latin word and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 96,
+            "x1": 1096,
+            "y1": 608,
+            "x2": 1142,
+            "y2": 626,
+            "text": "lectus[",
+            "context": [
+                "risus",
+                "porttitor",
+                "varius.",
+                "quam",
+                "ac",
+                "Morbi",
+                "pulvinar,",
+                "venenatis"
+            ],
+            "classification": false,
+            "reason": "The term \"lectus[\" appears to be a latin word and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 97,
+            "x1": 1138,
+            "y1": 609,
+            "x2": 1201,
+            "y2": 626,
+            "text": "porttitor",
+            "context": [
+                "lectus[",
+                "magna,",
+                "venenatis",
+                "ac",
+                "quam",
+                "varius.",
+                "tempus.",
+                "risus",
+                "vitae"
+            ],
+            "classification": false,
+            "reason": "The term \"porttitor\" itself does not represent private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 98,
+            "x1": 1250,
+            "y1": 608,
+            "x2": 1288,
+            "y2": 625,
+            "text": "vitae",
+            "context": [
+                "commodo/",
+                "magna,",
+                "tempus.",
+                "venenatis",
+                "porttitor"
+            ],
+            "classification": false,
+            "reason": "The term \"vitae\" itself does not represent private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 99,
+            "x1": 1399,
+            "y1": 608,
+            "x2": 1451,
+            "y2": 626,
+            "text": "mauris",
+            "context": [
+                "lectus",
+                "et",
+                "commodo/"
+            ],
+            "classification": false,
+            "reason": "The term \"mauris\" itself does not represent private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 100,
+            "x1": 1447,
+            "y1": 608,
+            "x2": 1466,
+            "y2": 625,
+            "text": "et",
+            "context": [
+                "mauris",
+                "lectus"
+            ],
+            "classification": false,
+            "reason": "The term \"et\" itself is just a conjunction and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 101,
+            "x1": 860,
+            "y1": 611,
+            "x2": 903,
+            "y2": 624,
+            "text": "massa",
+            "context": [
+                "pulvinar,",
+                "vitae",
+                "placerat",
+                "ultricies",
+                "Stephens",
+                "Proin",
+                "interdum"
+            ],
+            "classification": false,
+            "reason": "The term \"massa\" itself is just a noun and is not private information. While the name \"Stephens\" is in the surrounding words, the term \"massa\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 102,
+            "x1": 1199,
+            "y1": 610,
+            "x2": 1252,
+            "y2": 628,
+            "text": "magna,",
+            "context": [
+                "porttitor",
+                "vitae",
+                "venenatis",
+                "tempus.",
+                "ac",
+                "commodo/",
+                "quam"
+            ],
+            "classification": false,
+            "reason": "The term \"magna,\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 103,
+            "x1": 693,
+            "y1": 620,
+            "x2": 741,
+            "y2": 633,
+            "text": ".36am",
+            "context": [
+                "velit.",
+                "Sedr",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \".36am\" itself appears to be a time notation. It does not seem to be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 104,
+            "x1": 769,
+            "y1": 631,
+            "x2": 809,
+            "y2": 650,
+            "text": "velit.",
+            "context": [
+                "Proin",
+                "pulvinar,",
+                "Sedr",
+                ".36am",
+                "Stephens",
+                "Anne",
+                "ultricies",
+                "Stephens",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"velit.\" itself is a Latin word and is not private information. While there are names in the surrounding words, the term itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 105,
+            "x1": 844,
+            "y1": 632,
+            "x2": 902,
+            "y2": 650,
+            "text": "ultricies",
+            "context": [
+                "Proin",
+                "placerat",
+                "pulvinar,",
+                "vitae",
+                "massa",
+                "Stephens",
+                "velit.",
+                "interdum",
+                "Sedr",
+                "Stephens",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"ultricies\" itself is a Latin word and is not private information. While there are names in the surrounding words, the term itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 106,
+            "x1": 956,
+            "y1": 632,
+            "x2": 1031,
+            "y2": 650,
+            "text": "imperdiet.",
+            "context": [
+                "Morbi",
+                "placerat",
+                "pulvinar,",
+                "interdum",
+                "vitae",
+                "risus",
+                "varius."
+            ],
+            "classification": false,
+            "reason": "The term \"imperdiet.\" appears to be part of a Latin phrase. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 107,
+            "x1": 1030,
+            "y1": 631,
+            "x2": 1075,
+            "y2": 650,
+            "text": "Morbi",
+            "context": [
+                "varius.",
+                "imperdiet.",
+                "pulvinar,",
+                "risus",
+                "lectus[",
+                "interdum",
+                "quam"
+            ],
+            "classification": false,
+            "reason": "The term \"Morbi\" appears to be part of a Latin phrase. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 108,
+            "x1": 806,
+            "y1": 632,
+            "x2": 847,
+            "y2": 650,
+            "text": "Proin",
+            "context": [
+                "ultricies",
+                "velit.",
+                "pulvinar,",
+                "Sedr",
+                "massa",
+                "Stephens",
+                "Anne",
+                "Stephens",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"Proin\" appears to be part of a Latin phrase. The surrounding words do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 109,
+            "x1": 900,
+            "y1": 631,
+            "x2": 958,
+            "y2": 652,
+            "text": "placerat",
+            "context": [
+                "ultricies",
+                "imperdiet.",
+                "interdum",
+                "vitae",
+                "massa",
+                "Stephens",
+                "pulvinar,",
+                "pulvinar,",
+                "Stephens"
+            ],
+            "classification": false,
+            "reason": "The term \"placerat\" appears to be a Latin word often used in legal or formal contexts, not typically associated with personal information. The surrounding words do not indicate that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 110,
+            "x1": 1072,
+            "y1": 632,
+            "x2": 1118,
+            "y2": 650,
+            "text": "varius.",
+            "context": [
+                "quam",
+                "Morbi",
+                "lectus[",
+                "risus",
+                "pulvinar,",
+                "porttitor",
+                "ac",
+                "imperdiet."
+            ],
+            "classification": false,
+            "reason": "The term \"varius.\" appears to be a Latin word often used in legal or formal contexts, not typically associated with personal information. The surrounding words do not indicate that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 111,
+            "x1": 1174,
+            "y1": 632,
+            "x2": 1244,
+            "y2": 650,
+            "text": "venenatis",
+            "context": [
+                "tempus.",
+                "ac",
+                "magna,",
+                "porttitor",
+                "vitae",
+                "quam",
+                "lectus[",
+                "commodo/"
+            ],
+            "classification": false,
+            "reason": "The term \"venenatis\" appears to be a Latin word often used in legal or formal contexts, not typically associated with personal information. The surrounding words do not indicate that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 112,
+            "x1": 1241,
+            "y1": 632,
+            "x2": 1300,
+            "y2": 653,
+            "text": "tempus.",
+            "context": [
+                "venenatis",
+                "magna,",
+                "commodo/",
+                "vitae",
+                "porttitor"
+            ],
+            "classification": false,
+            "reason": "The term \"tempus.\" seems to be a latin word and is used in this context. It does not seem to be private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 113,
+            "x1": 1116,
+            "y1": 635,
+            "x2": 1156,
+            "y2": 649,
+            "text": "quam",
+            "context": [
+                "varius.",
+                "ac",
+                "lectus[",
+                "porttitor",
+                "venenatis",
+                "risus",
+                "Morbi",
+                "magna,"
+            ],
+            "classification": false,
+            "reason": "The term \"quam\" seems to be a latin word and is used in this context. It does not seem to be private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 114,
+            "x1": 1157,
+            "y1": 635,
+            "x2": 1174,
+            "y2": 648,
+            "text": "ac",
+            "context": [
+                "venenatis",
+                "quam",
+                "porttitor",
+                "lectus[",
+                "magna,",
+                "varius."
+            ],
+            "classification": false,
+            "reason": "The term \"ac\" seems to be a latin word and is used in this context. It does not seem to be private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 115,
+            "x1": 500,
+            "y1": 664,
+            "x2": 538,
+            "y2": 685,
+            "text": "Hunt",
+            "context": [
+                "James",
+                "Emma",
+                "James",
+                "Mcdaniel",
+                "Knight"
+            ],
+            "classification": true,
+            "reason": "The term \"Hunt\" itself is a surname. The surrounding first name \"James\" indicates that this is the private surname of a person.",
+            "substitution": "surname"
+        },
+        {
+            "id": 116,
+            "x1": 455,
+            "y1": 668,
+            "x2": 499,
+            "y2": 682,
+            "text": "James",
+            "context": [
+                "Hunt",
+                "Emma",
+                "Knight",
+                "James",
+                "Mcdaniel"
+            ],
+            "classification": true,
+            "reason": "The term \"James\" is a first name and therefore private information. The surrounding surname \"Hunt\" indicates that this is indeed the private first name of a person.",
+            "substitution": "first name"
+        },
+        {
+            "id": 117,
+            "x1": 810,
+            "y1": 695,
+            "x2": 877,
+            "y2": 716,
+            "text": "Stephens",
+            "context": [
+                "Anne",
+                "pulvinar,",
+                "sapien",
+                "Cras",
+                "id",
+                "Proin",
+                "ultricies",
+                "velit.",
+                "vehicula.",
+                "placerat"
+            ],
+            "classification": true,
+            "reason": "The term \"Stephens\" itself is a surname. There are no surrounding words that indicate that this surname is public.",
+            "substitution": "surname"
+        },
+        {
+            "id": 118,
+            "x1": 772,
+            "y1": 696,
+            "x2": 810,
+            "y2": 715,
+            "text": "Anne",
+            "context": [
+                "Stephens",
+                "Cras",
+                "pulvinar,",
+                "am",
+                "Proin",
+                "velit."
+            ],
+            "classification": true,
+            "reason": "The term \"Anne\" is a specific first name, which is considered private information, especially given the surrounding surname \"Stephens\".",
+            "substitution": "first name"
+        },
+        {
+            "id": 119,
+            "x1": 802,
+            "y1": 725,
+            "x2": 865,
+            "y2": 745,
+            "text": "pulvinar,",
+            "context": [
+                "Cras",
+                "sapien",
+                "Stephens",
+                "Anne",
+                "id"
+            ],
+            "classification": false,
+            "reason": "The term \"pulvinar,, pulvinar,,\" is a description of some object and is not private information. It contains OCR errors but these do not make it private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 120,
+            "x1": 923,
+            "y1": 724,
+            "x2": 985,
+            "y2": 743,
+            "text": "vehicula.",
+            "context": [
+                "aliquet,.",
+                "id",
+                "sapien",
+                "Stephens",
+                "You"
+            ],
+            "classification": false,
+            "reason": "The term \"vehicula.\" is a description of some object and is not private information. It contains OCR errors but these do not make it private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 121,
+            "x1": 983,
+            "y1": 724,
+            "x2": 1038,
+            "y2": 745,
+            "text": "aliquet,.",
+            "context": [
+                "vehicula.",
+                "diam",
+                "velit",
+                "You"
+            ],
+            "classification": false,
+            "reason": "The term \"aliquet,.\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 122,
+            "x1": 1036,
+            "y1": 725,
+            "x2": 1073,
+            "y2": 743,
+            "text": "diam",
+            "context": [
+                "aliquet,.",
+                "velit",
+                "elementum ="
+            ],
+            "classification": false,
+            "reason": "The term \"diam\" seems to be a word without any private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 123,
+            "x1": 1072,
+            "y1": 725,
+            "x2": 1108,
+            "y2": 743,
+            "text": "velit",
+            "context": [
+                "diam",
+                "elementum =",
+                "aliquet,."
+            ],
+            "classification": false,
+            "reason": "The term \"velit\" seems to be a word without any private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 124,
+            "x1": 770,
+            "y1": 725,
+            "x2": 805,
+            "y2": 743,
+            "text": "Cras",
+            "context": [
+                "pulvinar,",
+                "Anne",
+                "Stephens",
+                "am"
+            ],
+            "classification": false,
+            "reason": "The term \"Cras\" is not private information, because it is not a specific name, address, email or any other private information. The surrounding names Anne Stephens do not make the term private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 125,
+            "x1": 862,
+            "y1": 725,
+            "x2": 911,
+            "y2": 745,
+            "text": "sapien",
+            "context": [
+                "pulvinar,",
+                "id",
+                "Stephens",
+                "vehicula."
+            ],
+            "classification": false,
+            "reason": "The term \"sapien\" is not private information, because it is not a specific name, address, email or any other private information. The surrounding name Anne Stephens does not make the term private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 126,
+            "x1": 907,
+            "y1": 724,
+            "x2": 925,
+            "y2": 742,
+            "text": "id",
+            "context": [
+                "sapien",
+                "vehicula.",
+                "Stephens",
+                "pulvinar,"
+            ],
+            "classification": false,
+            "reason": "The term \"id\" is not private information, because it is a noun. Even though ID numbers are private information, this is just the noun ID.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 127,
+            "x1": 1103,
+            "y1": 724,
+            "x2": 1186,
+            "y2": 743,
+            "text": "elementum =",
+            "context": [
+                "velit",
+                "orci.",
+                "diam"
+            ],
+            "classification": false,
+            "reason": "The term \"elementum =\" itself seems to be a technical term or code snippet without sense. There are no surrounding words that suggest it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 128,
+            "x1": 1183,
+            "y1": 725,
+            "x2": 1219,
+            "y2": 743,
+            "text": "orci.",
+            "context": [
+                "elementum ="
+            ],
+            "classification": false,
+            "reason": "The term \"orci.\" itself seems to be a technical term or code snippet without sense. There are no surrounding words that suggest it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 129,
+            "x1": 501,
+            "y1": 730,
+            "x2": 549,
+            "y2": 751,
+            "text": "Knight",
+            "context": [
+                "Emma",
+                "Hunt",
+                "James"
+            ],
+            "classification": true,
+            "reason": "The term \"Knight\" is a common surname. Given the surrounding names \"Emma\", \"Hunt\", and \"James\", it seems like the last name of a person is mentioned here, so it is private information.",
+            "substitution": "last name"
+        },
+        {
+            "id": 130,
+            "x1": 455,
+            "y1": 729,
+            "x2": 503,
+            "y2": 749,
+            "text": "Emma",
+            "context": [
+                "Knight",
+                "Hunt",
+                "James"
+            ],
+            "classification": true,
+            "reason": "The term \"Emma\" is a specific first name of a person and is therefore private information. The surrounding words such as \"Knight\", \"Hunt\", and \"James\" also consist of surnames and first names, which further suggest that the term is private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 131,
+            "x1": 693,
+            "y1": 737,
+            "x2": 720,
+            "y2": 750,
+            "text": "2.37",
+            "context": [
+                "am"
+            ],
+            "classification": false,
+            "reason": "The term \"2.37\" is a number and does not contain any information that suggests privacy. The surrounding words \"am\" don't suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 132,
+            "x1": 720,
+            "y1": 738,
+            "x2": 741,
+            "y2": 750,
+            "text": "am",
+            "context": [
+                "2.37",
+                "Cras",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"am\" does not contain any information that suggests privacy. The surrounding words \"2.37\", \"Cras\", and \"Anne\" do not change this classification.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 133,
+            "x1": 939,
+            "y1": 791,
+            "x2": 967,
+            "y2": 805,
+            "text": "You",
+            "context": [
+                "Lorem",
+                "ipsum",
+                "vehicula.",
+                "aliquet,."
+            ],
+            "classification": false,
+            "reason": "The term \"You\" is a pronoun and not private information. The surrounding words \"Lorem\", \"ipsum\", \"vehicula.\", and \"aliquet,.\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 134,
+            "x1": 1028,
+            "y1": 817,
+            "x2": 1069,
+            "y2": 836,
+            "text": "dolor",
+            "context": [
+                "ipsum",
+                "sit",
+                "amet,",
+                "Lorem"
+            ],
+            "classification": false,
+            "reason": "The term \"dolor\" is a Latin word for pain or sorrow and not private information. The surrounding words \"ipsum\", \"sit\", \"amet,\", and \"Lorem\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 135,
+            "x1": 1179,
+            "y1": 817,
+            "x2": 1237,
+            "y2": 838,
+            "text": "denique",
+            "context": [
+                "erat",
+                "in,",
+                "dicuntt",
+                "vis"
+            ],
+            "classification": false,
+            "reason": "The term \"denique\" is a Latin word for finally or lastly and not private information. The surrounding words \"erat\", \"in,\", \"dicuntt\", and \"vis\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 136,
+            "x1": 938,
+            "y1": 818,
+            "x2": 986,
+            "y2": 836,
+            "text": "Lorem",
+            "context": [
+                "ipsum",
+                "You",
+                "dolor"
+            ],
+            "classification": false,
+            "reason": "The term \"Lorem\" itself is a common placeholder text and is not private information, even with surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 137,
+            "x1": 983,
+            "y1": 818,
+            "x2": 1030,
+            "y2": 838,
+            "text": "ipsum",
+            "context": [
+                "dolor",
+                "Lorem",
+                "You",
+                "sit"
+            ],
+            "classification": false,
+            "reason": "The term \"ipsum\" itself is a common placeholder text and is not private information, even with surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 138,
+            "x1": 1066,
+            "y1": 818,
+            "x2": 1090,
+            "y2": 836,
+            "text": "sit",
+            "context": [
+                "dolor",
+                "amet,",
+                "ipsum",
+                "vis"
+            ],
+            "classification": false,
+            "reason": "The term \"sit\" itself is a common placeholder text and is not private information, even with surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 139,
+            "x1": 1126,
+            "y1": 818,
+            "x2": 1150,
+            "y2": 835,
+            "text": "vis",
+            "context": [
+                "erat",
+                "amet,",
+                "denique",
+                "sit"
+            ],
+            "classification": false,
+            "reason": "The term \"vis\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 140,
+            "x1": 1148,
+            "y1": 818,
+            "x2": 1180,
+            "y2": 835,
+            "text": "erat",
+            "context": [
+                "denique",
+                "vis",
+                "amet,"
+            ],
+            "classification": false,
+            "reason": "The term \"erat\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 141,
+            "x1": 1235,
+            "y1": 818,
+            "x2": 1258,
+            "y2": 838,
+            "text": "in,",
+            "context": [
+                "denique",
+                "dicuntt",
+                "prodesset"
+            ],
+            "classification": false,
+            "reason": "The term \"in,,\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 142,
+            "x1": 1255,
+            "y1": 818,
+            "x2": 1303,
+            "y2": 836,
+            "text": "dicuntt",
+            "context": [
+                "in,",
+                "prodesset",
+                "denique"
+            ],
+            "classification": false,
+            "reason": "The term \"dicuntt\" seems to be a random character sequence and is not private information. There are also no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 143,
+            "x1": 1299,
+            "y1": 817,
+            "x2": 1372,
+            "y2": 836,
+            "text": "prodesset",
+            "context": [
+                "dicuntt",
+                "te",
+                "vix.",
+                "in,"
+            ],
+            "classification": false,
+            "reason": "The term \"prodesset\" seems to be a random character sequence and is not private information. There are also no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 144,
+            "x1": 1385,
+            "y1": 818,
+            "x2": 1414,
+            "y2": 836,
+            "text": "vix.",
+            "context": [
+                "te",
+                "prodesset",
+                "238am"
+            ],
+            "classification": false,
+            "reason": "The term \"vix.\" seems to be a random character sequence and is not private information. There are also no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 145,
+            "x1": 1085,
+            "y1": 818,
+            "x2": 1129,
+            "y2": 836,
+            "text": "amet,",
+            "context": [
+                "sit",
+                "vis",
+                "dolor",
+                "erat"
+            ],
+            "classification": false,
+            "reason": "The term \"amet,, \" itself is a word sequence without a clear meaning. The surrounding words \"sit\", \"vis\", \"dolor\", and \"erat\" do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 146,
+            "x1": 1367,
+            "y1": 818,
+            "x2": 1387,
+            "y2": 835,
+            "text": "te",
+            "context": [
+                "prodesset",
+                "vix."
+            ],
+            "classification": false,
+            "reason": "The term \"te\" itself is a word sequence without a clear meaning. The surrounding words \"prodesset\" and \"vix.\" do not suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 147,
+            "x1": 1440,
+            "y1": 830,
+            "x2": 1488,
+            "y2": 843,
+            "text": "238am",
+            "context": [
+                "vix."
+            ],
+            "classification": false,
+            "reason": "The term \"238am\" is a combination of digits and characters. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 148,
+            "x1": 810,
+            "y1": 883,
+            "x2": 877,
+            "y2": 904,
+            "text": "Stephens",
+            "context": [
+                "Anne",
+                "deleniti",
+                "meis",
+                "eu,",
+                "Sit",
+                "pri",
+                "vidit"
+            ],
+            "classification": true,
+            "reason": "The term \"Stephens\" is a surname and therefore private information. The surrounding word \"Anne\" suggests that this is the surname of a person.",
+            "substitution": "last name"
+        },
+        {
+            "id": 149,
+            "x1": 772,
+            "y1": 882,
+            "x2": 810,
+            "y2": 901,
+            "text": "Anne",
+            "context": [
+                "Stephens",
+                "Sit",
+                "meis",
+                "deleniti",
+                "2.39am"
+            ],
+            "classification": true,
+            "reason": "The term \"Anne\" is a first name and therefore private information. The surrounding word \"Stephens\" suggests that this is the first name of a person.",
+            "substitution": "first name"
+        },
+        {
+            "id": 150,
+            "x1": 826,
+            "y1": 910,
+            "x2": 881,
+            "y2": 929,
+            "text": "deleniti",
+            "context": [
+                "eu,",
+                "meis",
+                "Stephens",
+                "Anne",
+                "pri",
+                "Sit",
+                "vidit"
+            ],
+            "classification": false,
+            "reason": "The term \"deleniti\" does not seem to be private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 151,
+            "x1": 902,
+            "y1": 911,
+            "x2": 928,
+            "y2": 931,
+            "text": "pri",
+            "context": [
+                "vidit",
+                "eu,",
+                "deleniti",
+                "Stephens",
+                "meliore"
+            ],
+            "classification": false,
+            "reason": "The term \"pri\" itself seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 152,
+            "x1": 923,
+            "y1": 910,
+            "x2": 959,
+            "y2": 929,
+            "text": "vidit",
+            "context": [
+                "pri",
+                "meliore",
+                "eu,",
+                "deleniti",
+                "Stephens"
+            ],
+            "classification": false,
+            "reason": "The term \"vidit\" itself seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 153,
+            "x1": 956,
+            "y1": 910,
+            "x2": 1013,
+            "y2": 929,
+            "text": "meliore",
+            "context": [
+                "vidit",
+                "docendi",
+                "pri"
+            ],
+            "classification": false,
+            "reason": "The term \"meliore\" itself seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 154,
+            "x1": 1010,
+            "y1": 910,
+            "x2": 1069,
+            "y2": 929,
+            "text": "docendi",
+            "context": [
+                "meliore",
+                "ut,",
+                "an",
+                "eum"
+            ],
+            "classification": false,
+            "reason": "The term \"docendi\" appears to be a latin word and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 155,
+            "x1": 1171,
+            "y1": 911,
+            "x2": 1222,
+            "y2": 929,
+            "text": "animal",
+            "context": [
+                "commodo.",
+                "erat",
+                "eum"
+            ],
+            "classification": false,
+            "reason": "The term \"animal\" is a common noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 156,
+            "x1": 1219,
+            "y1": 911,
+            "x2": 1297,
+            "y2": 929,
+            "text": "commodo.",
+            "context": [
+                "animal",
+                "erat",
+                "You"
+            ],
+            "classification": false,
+            "reason": "The term \"commodo.\" is a latin word and not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 157,
+            "x1": 770,
+            "y1": 911,
+            "x2": 794,
+            "y2": 929,
+            "text": "Sit",
+            "context": [
+                "meis",
+                "Anne",
+                "Stephens",
+                "2.39am",
+                "deleniti"
+            ],
+            "classification": false,
+            "reason": "The term \"Sit\" itself is a verb and is not private information. The surrounding words \"Anne\", \"Stephens\" suggest that the name of a person is mentioned, however, the term itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 158,
+            "x1": 791,
+            "y1": 911,
+            "x2": 827,
+            "y2": 928,
+            "text": "meis",
+            "context": [
+                "Sit",
+                "deleniti",
+                "Stephens",
+                "Anne"
+            ],
+            "classification": true,
+            "reason": "The term \"meis\" could be part of a name or an email address. The surrounding names \"Anne\" and \"Stephens\" suggest this. It could therefore be private information.",
+            "substitution": "name"
+        },
+        {
+            "id": 159,
+            "x1": 1067,
+            "y1": 914,
+            "x2": 1089,
+            "y2": 928,
+            "text": "ut,",
+            "context": [
+                "docendi",
+                "an",
+                "eum"
+            ],
+            "classification": false,
+            "reason": "The term \"ut\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 160,
+            "x1": 879,
+            "y1": 914,
+            "x2": 903,
+            "y2": 928,
+            "text": "eu,",
+            "context": [
+                "deleniti",
+                "pri",
+                "Stephens",
+                "vidit"
+            ],
+            "classification": false,
+            "reason": "The term \"eu,,\" seems to be a sequence of characters without any obvious meaning. The surrounding words \"deleniti\", \"pri\", \"Stephens\", and \"vidit\" do not suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 161,
+            "x1": 1089,
+            "y1": 914,
+            "x2": 1108,
+            "y2": 927,
+            "text": "an",
+            "context": [
+                "ut,",
+                "eum",
+                "docendi",
+                "erat"
+            ],
+            "classification": false,
+            "reason": "The term \"an\" itself is a preposition and not private information. The surrounding words \"ut,\", \"eum\", \"docendi\", and \"erat\" do not suggest that it's private information either.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 162,
+            "x1": 1109,
+            "y1": 914,
+            "x2": 1141,
+            "y2": 927,
+            "text": "eum",
+            "context": [
+                "erat",
+                "an",
+                "ut,",
+                "animal",
+                "docendi"
+            ],
+            "classification": false,
+            "reason": "The term \"eum\" itself is a pronoun and is not private information. The surrounding words \"erat\", \"an\", \"ut,\", \"animal\", and \"docendi\" do not suggest that the term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 163,
+            "x1": 1141,
+            "y1": 911,
+            "x2": 1174,
+            "y2": 928,
+            "text": "erat",
+            "context": [
+                "animal",
+                "eum",
+                "an",
+                "commodo."
+            ],
+            "classification": false,
+            "reason": "The term \"erat\" appears to be a Latin word or a fragment of a word. The surrounding words do not suggest any private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 164,
+            "x1": 693,
+            "y1": 923,
+            "x2": 741,
+            "y2": 936,
+            "text": "2.39am",
+            "context": [
+                "Sit",
+                "Anne"
+            ],
+            "classification": false,
+            "reason": "The term \"2.39am\" represents a time. While times and dates can be part of private information (e.g., birth dates), the term itself does not represent private information in this context.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 165,
+            "x1": 1250,
+            "y1": 977,
+            "x2": 1278,
+            "y2": 991,
+            "text": "You",
+            "context": [
+                "Cum",
+                "ea",
+                "graeci",
+                "commodo."
+            ],
+            "classification": false,
+            "reason": "The term \"You\" is a pronoun and is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 166,
+            "x1": 1249,
+            "y1": 1004,
+            "x2": 1285,
+            "y2": 1021,
+            "text": "Cum",
+            "context": [
+                "ea",
+                "You",
+                "graeci"
+            ],
+            "classification": false,
+            "reason": "The term \"Cum\" itself is a word and there is no context to suggest that it's private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 167,
+            "x1": 1301,
+            "y1": 1007,
+            "x2": 1349,
+            "y2": 1020,
+            "text": "graeci",
+            "context": [
+                "tractatos.",
+                "ea",
+                "Cum",
+                "You"
+            ],
+            "classification": false,
+            "reason": "The term \"graeci\" is a word and there is no context to suggest that it's private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 168,
+            "x1": 1345,
+            "y1": 1004,
+            "x2": 1414,
+            "y2": 1022,
+            "text": "tractatos.",
+            "context": [
+                "graeci",
+                "2aoam",
+                "ea"
+            ],
+            "classification": false,
+            "reason": "The term \"tractatos.\" is a word with a dot at the end and there is no context to suggest that it's private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 169,
+            "x1": 1284,
+            "y1": 1007,
+            "x2": 1303,
+            "y2": 1020,
+            "text": "ea",
+            "context": [
+                "Cum",
+                "graeci",
+                "You",
+                "tractatos."
+            ],
+            "classification": false,
+            "reason": "The term \"ea\" appears to be a short character sequence without any suggestive surrounding words. It's unlikely to be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 170,
+            "x1": 1440,
+            "y1": 1016,
+            "x2": 1488,
+            "y2": 1029,
+            "text": "2aoam",
+            "context": [
+                "tractatos."
+            ],
+            "classification": false,
+            "reason": "The term \"2aoam\" seems to be a short character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 171,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "7637",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"7637\" appears to be a number without context. The surrounding date \"17.04.2025\" does not suggest a personal connection, and thus this term is not necessarily private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 172,
+            "x1": 545,
+            "y1": 1046,
+            "x2": 669,
+            "y2": 1074,
+            "text": "J 7 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J 7 4\" itself appears to be a sequence of characters without a clear meaning and there are no surrounding words that suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 173,
+            "x1": 59,
+            "y1": 1049,
+            "x2": 77,
+            "y2": 1067,
+            "text": "p",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"p\" is a single character and there are no surrounding words that suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 174,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "p"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" itself is not private information. There are no surrounding words that would suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 175,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "7637"
+            ],
+            "classification": false,
+            "reason": "The given term is a date. Dates on their own are not considered private information.",
+            "substitution": "NONE"
+        }
+    ]
+}

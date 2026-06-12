@@ -1,0 +1,3617 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Icon-Profile",
+            "height": 40,
+            "width": 40,
+            "position": {
+                "x1": 1717,
+                "y1": 133,
+                "x2": 1757,
+                "y2": 173
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 1,
+            "class": "Icon-Notification",
+            "height": 26,
+            "width": 20,
+            "position": {
+                "x1": 1684,
+                "y1": 139,
+                "x2": 1704,
+                "y2": 165
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 2,
+            "class": "Icon-Bookmark",
+            "height": 24,
+            "width": 30,
+            "position": {
+                "x1": 24,
+                "y1": 141,
+                "x2": 54,
+                "y2": 165
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 3,
+            "class": "Icon-Options",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 221,
+                "y1": 143,
+                "x2": 239,
+                "y2": 161
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 4,
+            "class": "Icon-Search",
+            "height": 20,
+            "width": 20,
+            "position": {
+                "x1": 408,
+                "y1": 144,
+                "x2": 428,
+                "y2": 164
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 5,
+            "class": "Button",
+            "height": 38,
+            "width": 129,
+            "position": {
+                "x1": 1649,
+                "y1": 202,
+                "x2": 1778,
+                "y2": 240
+            },
+            "children": [
+                69,
+                70
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 6,
+            "class": "Button",
+            "height": 17,
+            "width": 20,
+            "position": {
+                "x1": 23,
+                "y1": 207,
+                "x2": 43,
+                "y2": 224
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 7,
+            "class": "Icon-Calendar",
+            "height": 20,
+            "width": 20,
+            "position": {
+                "x1": 23,
+                "y1": 248,
+                "x2": 43,
+                "y2": 268
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 8,
+            "class": "Block",
+            "height": 538,
+            "width": 920,
+            "position": {
+                "x1": 386,
+                "y1": 280,
+                "x2": 1306,
+                "y2": 818
+            },
+            "children": [
+                12,
+                14,
+                17,
+                19,
+                20,
+                23,
+                24,
+                27,
+                28,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                79,
+                80,
+                82,
+                88,
+                89,
+                90,
+                91,
+                96,
+                97,
+                100,
+                101,
+                104,
+                105,
+                110,
+                111,
+                112,
+                113,
+                114,
+                121,
+                122,
+                125,
+                126,
+                127,
+                128,
+                130,
+                131,
+                135,
+                136,
+                137,
+                138,
+                139,
+                147,
+                148,
+                151,
+                152,
+                154,
+                155,
+                157,
+                158
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 9,
+            "class": "Block",
+            "height": 294,
+            "width": 448,
+            "position": {
+                "x1": 1330,
+                "y1": 280,
+                "x2": 1778,
+                "y2": 574
+            },
+            "children": [
+                11,
+                15,
+                81,
+                83,
+                86,
+                87,
+                92,
+                93,
+                94,
+                99,
+                102,
+                103,
+                107,
+                108,
+                109,
+                115,
+                116,
+                119,
+                120
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 10,
+            "class": "Icon-Shopping Bag",
+            "height": 20,
+            "width": 18,
+            "position": {
+                "x1": 24,
+                "y1": 337,
+                "x2": 42,
+                "y2": 357
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 11,
+            "class": "Icon-Profile",
+            "height": 40,
+            "width": 40,
+            "position": {
+                "x1": 1350,
+                "y1": 353,
+                "x2": 1390,
+                "y2": 393
+            },
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 12,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 406,
+                "y1": 368,
+                "x2": 424,
+                "y2": 386
+            },
+            "parent": 51,
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 13,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 386,
+                "x2": 37,
+                "y2": 396
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 14,
+            "class": "Icon-Options",
+            "height": 39,
+            "width": 40,
+            "position": {
+                "x1": 474,
+                "y1": 418,
+                "x2": 514,
+                "y2": 457
+            },
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 15,
+            "class": "Button",
+            "height": 40,
+            "width": 40,
+            "position": {
+                "x1": 1350,
+                "y1": 418,
+                "x2": 1390,
+                "y2": 458
+            },
+            "children": [
+                99
+            ],
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 16,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 430,
+                "x2": 37,
+                "y2": 440
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 17,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 406,
+                "y1": 429,
+                "x2": 424,
+                "y2": 447
+            },
+            "parent": 52,
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 18,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 474,
+                "x2": 37,
+                "y2": 484
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 19,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 406,
+                "y1": 495,
+                "x2": 424,
+                "y2": 513
+            },
+            "parent": 53,
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 20,
+            "class": "Icon-Options",
+            "height": 20,
+            "width": 34,
+            "position": {
+                "x1": 477,
+                "y1": 494,
+                "x2": 511,
+                "y2": 514
+            },
+            "parent": 53,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 21,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 39,
+                "y1": 518,
+                "x2": 49,
+                "y2": 528
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 22,
+            "class": "Button",
+            "height": 42,
+            "width": 241,
+            "position": {
+                "x1": 0,
+                "y1": 548,
+                "x2": 241,
+                "y2": 590
+            },
+            "children": [
+                123,
+                124
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 23,
+            "class": "Icon-Phone",
+            "height": 39,
+            "width": 40,
+            "position": {
+                "x1": 474,
+                "y1": 550,
+                "x2": 514,
+                "y2": 589
+            },
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 24,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 406,
+                "y1": 561,
+                "x2": 424,
+                "y2": 579
+            },
+            "parent": 54,
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 25,
+            "class": "Block",
+            "height": 153,
+            "width": 448,
+            "position": {
+                "x1": 1330,
+                "y1": 598,
+                "x2": 1778,
+                "y2": 751
+            },
+            "children": [
+                132,
+                133,
+                134,
+                142,
+                143,
+                144,
+                146,
+                150
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 26,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 606,
+                "x2": 37,
+                "y2": 616
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 27,
+            "class": "Icon-Next",
+            "height": 37,
+            "width": 38,
+            "position": {
+                "x1": 474,
+                "y1": 619,
+                "x2": 512,
+                "y2": 656
+            },
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 28,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 406,
+                "y1": 627,
+                "x2": 424,
+                "y2": 645
+            },
+            "parent": 55,
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 29,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 650,
+                "x2": 37,
+                "y2": 660
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 30,
+            "class": "RadioButton",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 738,
+                "x2": 37,
+                "y2": 748
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 31,
+            "class": "EditText",
+            "height": 230,
+            "width": 447,
+            "position": {
+                "x1": 1331,
+                "y1": 775,
+                "x2": 1778,
+                "y2": 1005
+            },
+            "children": [
+                159,
+                160,
+                161,
+                163,
+                164,
+                168,
+                169,
+                170,
+                182,
+                194,
+                195,
+                196
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 32,
+            "class": "RadioButton",
+            "height": 20,
+            "width": 22,
+            "position": {
+                "x1": 22,
+                "y1": 777,
+                "x2": 44,
+                "y2": 797
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 33,
+            "class": "Icon-Profile",
+            "height": 18,
+            "width": 20,
+            "position": {
+                "x1": 23,
+                "y1": 823,
+                "x2": 43,
+                "y2": 841
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 34,
+            "class": "Icon-Notification",
+            "height": 24,
+            "width": 33,
+            "position": {
+                "x1": 165,
+                "y1": 864,
+                "x2": 198,
+                "y2": 888
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 35,
+            "class": "Icon-Menu",
+            "height": 20,
+            "width": 18,
+            "position": {
+                "x1": 24,
+                "y1": 866,
+                "x2": 42,
+                "y2": 886
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 36,
+            "class": "Icon-Edit",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 405,
+                "y1": 919,
+                "x2": 423,
+                "y2": 937
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 37,
+            "class": "Icon-Lock",
+            "height": 20,
+            "width": 18,
+            "position": {
+                "x1": 24,
+                "y1": 955,
+                "x2": 42,
+                "y2": 975
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 38,
+            "class": "Icon-Edit",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "x1": 405,
+                "y1": 991,
+                "x2": 423,
+                "y2": 1009
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 39,
+            "class": "Icon-Bookmark",
+            "height": 18,
+            "width": 20,
+            "position": {
+                "x1": 23,
+                "y1": 1000,
+                "x2": 43,
+                "y2": 1018
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 40,
+            "class": "Button",
+            "height": 38,
+            "width": 290,
+            "position": {
+                "x1": 46,
+                "y1": 1041,
+                "x2": 336,
+                "y2": 1079
+            },
+            "children": [
+                207,
+                208
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 41,
+            "class": "Icon-Profile",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 350,
+                "y1": 1048,
+                "x2": 374,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 42,
+            "class": "Icon-Play",
+            "height": 26,
+            "width": 25,
+            "position": {
+                "x1": 398,
+                "y1": 1046,
+                "x2": 423,
+                "y2": 1072
+            },
+            "children": [
+                209
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 43,
+            "class": "Icon-File",
+            "height": 19,
+            "width": 22,
+            "position": {
+                "x1": 449,
+                "y1": 1050,
+                "x2": 471,
+                "y2": 1069
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 44,
+            "class": "Icon-Wrench",
+            "height": 22,
+            "width": 24,
+            "position": {
+                "x1": 496,
+                "y1": 1050,
+                "x2": 520,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 45,
+            "class": "Icon-Next",
+            "height": 23,
+            "width": 25,
+            "position": {
+                "x1": 546,
+                "y1": 1049,
+                "x2": 571,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 46,
+            "class": "Icon-Share",
+            "height": 25,
+            "width": 24,
+            "position": {
+                "x1": 595,
+                "y1": 1047,
+                "x2": 619,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 47,
+            "class": "Icon-Infinity",
+            "height": 24,
+            "width": 25,
+            "position": {
+                "x1": 643,
+                "y1": 1048,
+                "x2": 668,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 48,
+            "class": "RadioButton",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 693,
+                "y1": 1048,
+                "x2": 717,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 49,
+            "class": "Icon-Download",
+            "height": 20,
+            "width": 17,
+            "position": {
+                "x1": 14,
+                "y1": 1051,
+                "x2": 31,
+                "y2": 1071
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 50,
+            "class": "EditText",
+            "height": 67,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 280,
+                "x2": 1305,
+                "y2": 347
+            },
+            "children": [
+                79,
+                80,
+                82
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 51,
+            "class": "RadioButton",
+            "height": 56,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 348,
+                "x2": 1305,
+                "y2": 404
+            },
+            "children": [
+                12,
+                88,
+                89,
+                90,
+                91
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 52,
+            "class": "EditText",
+            "height": 64,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 405,
+                "x2": 1305,
+                "y2": 469
+            },
+            "children": [
+                14,
+                17,
+                96,
+                97,
+                100,
+                101,
+                104,
+                105
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 53,
+            "class": "EditText",
+            "height": 65,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 471,
+                "x2": 1305,
+                "y2": 536
+            },
+            "children": [
+                19,
+                20,
+                110,
+                111,
+                112,
+                113,
+                114
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 54,
+            "class": "EditText",
+            "height": 64,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 538,
+                "x2": 1305,
+                "y2": 602
+            },
+            "children": [
+                23,
+                24,
+                121,
+                122,
+                125,
+                126,
+                127,
+                128
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 55,
+            "class": "EditText",
+            "height": 64,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 604,
+                "x2": 1305,
+                "y2": 668
+            },
+            "children": [
+                27,
+                28,
+                130,
+                131,
+                135,
+                136,
+                137,
+                138,
+                139
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 56,
+            "class": "EditText",
+            "height": 147,
+            "width": 918,
+            "position": {
+                "x1": 387,
+                "y1": 670,
+                "x2": 1305,
+                "y2": 817
+            },
+            "children": [
+                147,
+                148,
+                151,
+                152,
+                154,
+                155,
+                157,
+                158
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 57,
+            "class": "Text",
+            "height": 31,
+            "width": 103,
+            "position": {
+                "x1": 1567,
+                "y1": 136,
+                "x2": 1670,
+                "y2": 167
+            },
+            "text_content": "YA 0: &",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 58,
+            "class": "Text",
+            "height": 27,
+            "width": 97,
+            "position": {
+                "x1": 64,
+                "y1": 138,
+                "x2": 161,
+                "y2": 165
+            },
+            "text_content": "MATERIO",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 59,
+            "class": "Text",
+            "height": 21,
+            "width": 49,
+            "position": {
+                "x1": 497,
+                "y1": 140,
+                "x2": 546,
+                "y2": 161
+            },
+            "text_content": "[CTRL",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 60,
+            "class": "Text",
+            "height": 19,
+            "width": 57,
+            "position": {
+                "x1": 442,
+                "y1": 142,
+                "x2": 499,
+                "y2": 161
+            },
+            "text_content": "Search",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 61,
+            "class": "Text",
+            "height": 19,
+            "width": 35,
+            "position": {
+                "x1": 545,
+                "y1": 142,
+                "x2": 580,
+                "y2": 161
+            },
+            "text_content": "+ K]",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 62,
+            "class": "Text",
+            "height": 21,
+            "width": 55,
+            "position": {
+                "x1": 384,
+                "y1": 190,
+                "x2": 439,
+                "y2": 211
+            },
+            "text_content": "Order",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 63,
+            "class": "Text",
+            "height": 23,
+            "width": 68,
+            "position": {
+                "x1": 437,
+                "y1": 188,
+                "x2": 505,
+                "y2": 211
+            },
+            "text_content": "#17976",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 64,
+            "class": "Text",
+            "height": 18,
+            "width": 34,
+            "position": {
+                "x1": 520,
+                "y1": 191,
+                "x2": 554,
+                "y2": 209
+            },
+            "text_content": "Paid",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 65,
+            "class": "Text",
+            "height": 20,
+            "width": 46,
+            "position": {
+                "x1": 580,
+                "y1": 191,
+                "x2": 626,
+                "y2": 211
+            },
+            "text_content": "Ready -",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 66,
+            "class": "Text",
+            "height": 21,
+            "width": 47,
+            "position": {
+                "x1": 641,
+                "y1": 190,
+                "x2": 688,
+                "y2": 211
+            },
+            "text_content": "Pickup",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 67,
+            "class": "Text",
+            "height": 13,
+            "width": 17,
+            "position": {
+                "x1": 623,
+                "y1": 194,
+                "x2": 640,
+                "y2": 207
+            },
+            "text_content": "to",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 68,
+            "class": "Text",
+            "height": 19,
+            "width": 41,
+            "position": {
+                "x1": 50,
+                "y1": 205,
+                "x2": 91,
+                "y2": 224
+            },
+            "text_content": "Chat",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 69,
+            "class": "Text",
+            "height": 19,
+            "width": 52,
+            "position": {
+                "x1": 1666,
+                "y1": 211,
+                "x2": 1718,
+                "y2": 230
+            },
+            "text_content": "Delete",
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 70,
+            "class": "Text",
+            "height": 19,
+            "width": 48,
+            "position": {
+                "x1": 1715,
+                "y1": 211,
+                "x2": 1763,
+                "y2": 230
+            },
+            "text_content": "Order",
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 71,
+            "class": "Text",
+            "height": 21,
+            "width": 22,
+            "position": {
+                "x1": 417,
+                "y1": 223,
+                "x2": 439,
+                "y2": 244
+            },
+            "text_content": "17,",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 72,
+            "class": "Text",
+            "height": 21,
+            "width": 46,
+            "position": {
+                "x1": 440,
+                "y1": 223,
+                "x2": 486,
+                "y2": 244
+            },
+            "text_content": "2025,_",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 73,
+            "class": "Text",
+            "height": 19,
+            "width": 39,
+            "position": {
+                "x1": 484,
+                "y1": 223,
+                "x2": 523,
+                "y2": 242
+            },
+            "text_content": "5.48",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 74,
+            "class": "Text",
+            "height": 19,
+            "width": 36,
+            "position": {
+                "x1": 521,
+                "y1": 223,
+                "x2": 557,
+                "y2": 242
+            },
+            "text_content": "(ET)",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 75,
+            "class": "Text",
+            "height": 24,
+            "width": 32,
+            "position": {
+                "x1": 384,
+                "y1": 222,
+                "x2": 416,
+                "y2": 246
+            },
+            "text_content": "Aug",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 76,
+            "class": "Text",
+            "height": 20,
+            "width": 72,
+            "position": {
+                "x1": 50,
+                "y1": 248,
+                "x2": 122,
+                "y2": 268
+            },
+            "text_content": "Calendar",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 77,
+            "class": "Text",
+            "height": 23,
+            "width": 26,
+            "position": {
+                "x1": 20,
+                "y1": 293,
+                "x2": 46,
+                "y2": 316
+            },
+            "text_content": "r",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 78,
+            "class": "Text",
+            "height": 20,
+            "width": 60,
+            "position": {
+                "x1": 50,
+                "y1": 293,
+                "x2": 110,
+                "y2": 313
+            },
+            "text_content": "Kanban",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 79,
+            "class": "Text",
+            "height": 21,
+            "width": 54,
+            "position": {
+                "x1": 405,
+                "y1": 302,
+                "x2": 459,
+                "y2": 323
+            },
+            "text_content": "Order",
+            "parent": 50,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 80,
+            "class": "Text",
+            "height": 21,
+            "width": 63,
+            "position": {
+                "x1": 459,
+                "y1": 302,
+                "x2": 522,
+                "y2": 323
+            },
+            "text_content": "details",
+            "parent": 50,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 81,
+            "class": "Text",
+            "height": 23,
+            "width": 62,
+            "position": {
+                "x1": 1439,
+                "y1": 302,
+                "x2": 1501,
+                "y2": 325
+            },
+            "text_content": "details",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 82,
+            "class": "Text",
+            "height": 19,
+            "width": 35,
+            "position": {
+                "x1": 1256,
+                "y1": 304,
+                "x2": 1291,
+                "y2": 323
+            },
+            "text_content": "Edit",
+            "parent": 50,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 83,
+            "class": "Text",
+            "height": 25,
+            "width": 89,
+            "position": {
+                "x1": 1349,
+                "y1": 302,
+                "x2": 1438,
+                "y2": 327
+            },
+            "text_content": "Customer",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 84,
+            "class": "Text",
+            "height": 21,
+            "width": 23,
+            "position": {
+                "x1": 1874,
+                "y1": 310,
+                "x2": 1897,
+                "y2": 331
+            },
+            "text_content": "0",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 85,
+            "class": "Text",
+            "height": 19,
+            "width": 93,
+            "position": {
+                "x1": 50,
+                "y1": 337,
+                "x2": 143,
+                "y2": 356
+            },
+            "text_content": "eCommerce",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 86,
+            "class": "Text",
+            "height": 22,
+            "width": 91,
+            "position": {
+                "x1": 1400,
+                "y1": 352,
+                "x2": 1491,
+                "y2": 374
+            },
+            "text_content": "Christopher",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 87,
+            "class": "Text",
+            "height": 20,
+            "width": 57,
+            "position": {
+                "x1": 1490,
+                "y1": 353,
+                "x2": 1547,
+                "y2": 373
+            },
+            "text_content": "Combs",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 88,
+            "class": "Text",
+            "height": 20,
+            "width": 81,
+            "position": {
+                "x1": 470,
+                "y1": 365,
+                "x2": 551,
+                "y2": 385
+            },
+            "text_content": "PRODUCTS",
+            "parent": 51,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 89,
+            "class": "Text",
+            "height": 20,
+            "width": 45,
+            "position": {
+                "x1": 931,
+                "y1": 365,
+                "x2": 976,
+                "y2": 385
+            },
+            "text_content": "PRICE",
+            "parent": 51,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 90,
+            "class": "Text",
+            "height": 18,
+            "width": 33,
+            "position": {
+                "x1": 1064,
+                "y1": 365,
+                "x2": 1097,
+                "y2": 383
+            },
+            "text_content": "QTY",
+            "parent": 51,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 91,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "x1": 1180,
+                "y1": 365,
+                "x2": 1228,
+                "y2": 385
+            },
+            "text_content": "TOTAL",
+            "parent": 51,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 92,
+            "class": "Text",
+            "height": 21,
+            "width": 74,
+            "position": {
+                "x1": 1400,
+                "y1": 373,
+                "x2": 1474,
+                "y2": 394
+            },
+            "text_content": "Customer",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 93,
+            "class": "Text",
+            "height": 18,
+            "width": 27,
+            "position": {
+                "x1": 1472,
+                "y1": 374,
+                "x2": 1499,
+                "y2": 392
+            },
+            "text_content": "ID:",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 94,
+            "class": "Text",
+            "height": 21,
+            "width": 52,
+            "position": {
+                "x1": 1499,
+                "y1": 373,
+                "x2": 1551,
+                "y2": 394
+            },
+            "text_content": "#9664",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 95,
+            "class": "Text",
+            "height": 20,
+            "width": 84,
+            "position": {
+                "x1": 50,
+                "y1": 380,
+                "x2": 134,
+                "y2": 400
+            },
+            "text_content": "Dashboard",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 96,
+            "class": "Text",
+            "height": 20,
+            "width": 42,
+            "position": {
+                "x1": 523,
+                "y1": 419,
+                "x2": 565,
+                "y2": 439
+            },
+            "text_content": "Face",
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 97,
+            "class": "Text",
+            "height": 18,
+            "width": 52,
+            "position": {
+                "x1": 562,
+                "y1": 421,
+                "x2": 614,
+                "y2": 439
+            },
+            "text_content": "cream",
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 98,
+            "class": "Text",
+            "height": 20,
+            "width": 71,
+            "position": {
+                "x1": 50,
+                "y1": 425,
+                "x2": 121,
+                "y2": 445
+            },
+            "text_content": "Products",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 99,
+            "class": "Text",
+            "height": 21,
+            "width": 22,
+            "position": {
+                "x1": 1361,
+                "y1": 428,
+                "x2": 1383,
+                "y2": 449
+            },
+            "text_content": "D",
+            "parent": 15,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 100,
+            "class": "Text",
+            "height": 21,
+            "width": 49,
+            "position": {
+                "x1": 1181,
+                "y1": 427,
+                "x2": 1230,
+                "y2": 448
+            },
+            "text_content": "51626",
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 101,
+            "class": "Text",
+            "height": 21,
+            "width": 40,
+            "position": {
+                "x1": 932,
+                "y1": 427,
+                "x2": 972,
+                "y2": 448
+            },
+            "text_content": "5813",
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 102,
+            "class": "Text",
+            "height": 20,
+            "width": 22,
+            "position": {
+                "x1": 1399,
+                "y1": 428,
+                "x2": 1421,
+                "y2": 448
+            },
+            "text_content": "12",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 103,
+            "class": "Text",
+            "height": 23,
+            "width": 53,
+            "position": {
+                "x1": 1421,
+                "y1": 426,
+                "x2": 1474,
+                "y2": 449
+            },
+            "text_content": "Orders",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 104,
+            "class": "Text",
+            "height": 14,
+            "width": 9,
+            "position": {
+                "x1": 1068,
+                "y1": 431,
+                "x2": 1077,
+                "y2": 445
+            },
+            "text_content": "2",
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 105,
+            "class": "Text",
+            "height": 18,
+            "width": 105,
+            "position": {
+                "x1": 523,
+                "y1": 439,
+                "x2": 628,
+                "y2": 457
+            },
+            "text_content": "Gender:Women",
+            "parent": 52,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 106,
+            "class": "Text",
+            "height": 19,
+            "width": 48,
+            "position": {
+                "x1": 50,
+                "y1": 469,
+                "x2": 98,
+                "y2": 488
+            },
+            "text_content": "Order",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 107,
+            "class": "Text",
+            "height": 20,
+            "width": 64,
+            "position": {
+                "x1": 1348,
+                "y1": 482,
+                "x2": 1412,
+                "y2": 502
+            },
+            "text_content": "Contact E",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 108,
+            "class": "Text",
+            "height": 20,
+            "width": 36,
+            "position": {
+                "x1": 1408,
+                "y1": 482,
+                "x2": 1444,
+                "y2": 502
+            },
+            "text_content": "info",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 109,
+            "class": "Text",
+            "height": 20,
+            "width": 35,
+            "position": {
+                "x1": 1727,
+                "y1": 482,
+                "x2": 1762,
+                "y2": 502
+            },
+            "text_content": "Edit",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 110,
+            "class": "Text",
+            "height": 20,
+            "width": 39,
+            "position": {
+                "x1": 524,
+                "y1": 485,
+                "x2": 563,
+                "y2": 505
+            },
+            "text_content": "Nike",
+            "parent": 53,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 111,
+            "class": "Text",
+            "height": 20,
+            "width": 57,
+            "position": {
+                "x1": 560,
+                "y1": 485,
+                "x2": 617,
+                "y2": 505
+            },
+            "text_content": "Jordan",
+            "parent": 53,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 112,
+            "class": "Text",
+            "height": 21,
+            "width": 43,
+            "position": {
+                "x1": 932,
+                "y1": 493,
+                "x2": 975,
+                "y2": 514
+            },
+            "text_content": "5392",
+            "parent": 53,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 113,
+            "class": "Text",
+            "height": 21,
+            "width": 41,
+            "position": {
+                "x1": 1181,
+                "y1": 493,
+                "x2": 1222,
+                "y2": 514
+            },
+            "text_content": "5392",
+            "parent": 53,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 114,
+            "class": "Text",
+            "height": 19,
+            "width": 64,
+            "position": {
+                "x1": 523,
+                "y1": 505,
+                "x2": 587,
+                "y2": 524
+            },
+            "text_content": "Size 8UK",
+            "parent": 53,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 115,
+            "class": "Text",
+            "height": 19,
+            "width": 49,
+            "position": {
+                "x1": 1348,
+                "y1": 508,
+                "x2": 1397,
+                "y2": 527
+            },
+            "text_content": "Email:",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 116,
+            "class": "Text",
+            "height": 21,
+            "width": 190,
+            "position": {
+                "x1": 1395,
+                "y1": 508,
+                "x2": 1585,
+                "y2": 529
+            },
+            "text_content": "clarkallison@example net",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 117,
+            "class": "Text",
+            "height": 20,
+            "width": 33,
+            "position": {
+                "x1": 107,
+                "y1": 512,
+                "x2": 140,
+                "y2": 532
+            },
+            "text_content": "List",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 118,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "x1": 62,
+                "y1": 512,
+                "x2": 110,
+                "y2": 532
+            },
+            "text_content": "Order",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 119,
+            "class": "Text",
+            "height": 21,
+            "width": 58,
+            "position": {
+                "x1": 1349,
+                "y1": 532,
+                "x2": 1407,
+                "y2": 553
+            },
+            "text_content": "Mobile:",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 120,
+            "class": "Text",
+            "height": 19,
+            "width": 118,
+            "position": {
+                "x1": 1405,
+                "y1": 532,
+                "x2": 1523,
+                "y2": 551
+            },
+            "text_content": "+184964713617",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 121,
+            "class": "Text",
+            "height": 24,
+            "width": 65,
+            "position": {
+                "x1": 524,
+                "y1": 549,
+                "x2": 589,
+                "y2": 573
+            },
+            "text_content": "Oneplus ",
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 122,
+            "class": "Text",
+            "height": 18,
+            "width": 23,
+            "position": {
+                "x1": 587,
+                "y1": 551,
+                "x2": 610,
+                "y2": 569
+            },
+            "text_content": "10",
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 123,
+            "class": "Text",
+            "height": 20,
+            "width": 47,
+            "position": {
+                "x1": 62,
+                "y1": 557,
+                "x2": 109,
+                "y2": 577
+            },
+            "text_content": "Order",
+            "parent": 22,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 124,
+            "class": "Text",
+            "height": 20,
+            "width": 56,
+            "position": {
+                "x1": 107,
+                "y1": 557,
+                "x2": 163,
+                "y2": 577
+            },
+            "text_content": "Details",
+            "parent": 22,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 125,
+            "class": "Text",
+            "height": 21,
+            "width": 52,
+            "position": {
+                "x1": 1181,
+                "y1": 559,
+                "x2": 1233,
+                "y2": 580
+            },
+            "text_content": "52688",
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 126,
+            "class": "Text",
+            "height": 21,
+            "width": 43,
+            "position": {
+                "x1": 932,
+                "y1": 559,
+                "x2": 975,
+                "y2": 580
+            },
+            "text_content": "s896",
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 127,
+            "class": "Text",
+            "height": 13,
+            "width": 10,
+            "position": {
+                "x1": 1067,
+                "y1": 563,
+                "x2": 1077,
+                "y2": 576
+            },
+            "text_content": "3",
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 128,
+            "class": "Text",
+            "height": 21,
+            "width": 96,
+            "position": {
+                "x1": 523,
+                "y1": 570,
+                "x2": 619,
+                "y2": 591
+            },
+            "text_content": "Storage:128gb",
+            "parent": 54,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 129,
+            "class": "Text",
+            "height": 19,
+            "width": 77,
+            "position": {
+                "x1": 50,
+                "y1": 601,
+                "x2": 127,
+                "y2": 620
+            },
+            "text_content": "Customer",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 130,
+            "class": "Text",
+            "height": 20,
+            "width": 66,
+            "position": {
+                "x1": 524,
+                "y1": 617,
+                "x2": 590,
+                "y2": 637
+            },
+            "text_content": "Wooden",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 131,
+            "class": "Text",
+            "height": 23,
+            "width": 42,
+            "position": {
+                "x1": 590,
+                "y1": 615,
+                "x2": 632,
+                "y2": 638
+            },
+            "text_content": "Chair",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 132,
+            "class": "Text",
+            "height": 29,
+            "width": 84,
+            "position": {
+                "x1": 1346,
+                "y1": 618,
+                "x2": 1430,
+                "y2": 647
+            },
+            "text_content": "Shipping",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 133,
+            "class": "Text",
+            "height": 21,
+            "width": 74,
+            "position": {
+                "x1": 1430,
+                "y1": 622,
+                "x2": 1504,
+                "y2": 643
+            },
+            "text_content": "address",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 134,
+            "class": "Text",
+            "height": 20,
+            "width": 36,
+            "position": {
+                "x1": 1727,
+                "y1": 623,
+                "x2": 1763,
+                "y2": 643
+            },
+            "text_content": "Edit",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 135,
+            "class": "Text",
+            "height": 21,
+            "width": 40,
+            "position": {
+                "x1": 932,
+                "y1": 625,
+                "x2": 972,
+                "y2": 646
+            },
+            "text_content": "5841",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 136,
+            "class": "Text",
+            "height": 21,
+            "width": 47,
+            "position": {
+                "x1": 1181,
+                "y1": 625,
+                "x2": 1228,
+                "y2": 646
+            },
+            "text_content": "S1682",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 137,
+            "class": "Text",
+            "height": 13,
+            "width": 10,
+            "position": {
+                "x1": 1067,
+                "y1": 629,
+                "x2": 1077,
+                "y2": 642
+            },
+            "text_content": "2",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 138,
+            "class": "Text",
+            "height": 19,
+            "width": 60,
+            "position": {
+                "x1": 524,
+                "y1": 637,
+                "x2": 584,
+                "y2": 656
+            },
+            "text_content": "Material:",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 139,
+            "class": "Text",
+            "height": 18,
+            "width": 59,
+            "position": {
+                "x1": 581,
+                "y1": 637,
+                "x2": 640,
+                "y2": 655
+            },
+            "text_content": "Wooden",
+            "parent": 55,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 140,
+            "class": "Text",
+            "height": 20,
+            "width": 66,
+            "position": {
+                "x1": 113,
+                "y1": 644,
+                "x2": 179,
+                "y2": 664
+            },
+            "text_content": "Reviews",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 141,
+            "class": "Text",
+            "height": 25,
+            "width": 62,
+            "position": {
+                "x1": 51,
+                "y1": 643,
+                "x2": 113,
+                "y2": 668
+            },
+            "text_content": "Manage",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 142,
+            "class": "Text",
+            "height": 19,
+            "width": 102,
+            "position": {
+                "x1": 1348,
+                "y1": 670,
+                "x2": 1450,
+                "y2": 689
+            },
+            "text_content": "HerderstraBe",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 143,
+            "class": "Text",
+            "height": 16,
+            "width": 13,
+            "position": {
+                "x1": 1448,
+                "y1": 671,
+                "x2": 1461,
+                "y2": 687
+            },
+            "text_content": "6",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 144,
+            "class": "Text",
+            "height": 13,
+            "width": 12,
+            "position": {
+                "x1": 1461,
+                "y1": 674,
+                "x2": 1473,
+                "y2": 687
+            },
+            "text_content": "a",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 145,
+            "class": "Text",
+            "height": 22,
+            "width": 68,
+            "position": {
+                "x1": 51,
+                "y1": 687,
+                "x2": 119,
+                "y2": 709
+            },
+            "text_content": "Referrals",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 146,
+            "class": "Text",
+            "height": 23,
+            "width": 105,
+            "position": {
+                "x1": 1347,
+                "y1": 689,
+                "x2": 1452,
+                "y2": 712
+            },
+            "text_content": "12683,Leipzig",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 147,
+            "class": "Text",
+            "height": 20,
+            "width": 70,
+            "position": {
+                "x1": 1096,
+                "y1": 689,
+                "x2": 1166,
+                "y2": 709
+            },
+            "text_content": "Subtotal:",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 148,
+            "class": "Text",
+            "height": 21,
+            "width": 76,
+            "position": {
+                "x1": 1212,
+                "y1": 689,
+                "x2": 1288,
+                "y2": 710
+            },
+            "text_content": "S5000.25",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 149,
+            "class": "Text",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 27,
+                "y1": 695,
+                "x2": 37,
+                "y2": 705
+            },
+            "text_content": "C",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 150,
+            "class": "Text",
+            "height": 21,
+            "width": 36,
+            "position": {
+                "x1": 1347,
+                "y1": 712,
+                "x2": 1383,
+                "y2": 733
+            },
+            "text_content": "Italy",
+            "parent": 25,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 151,
+            "class": "Text",
+            "height": 20,
+            "width": 75,
+            "position": {
+                "x1": 1095,
+                "y1": 719,
+                "x2": 1170,
+                "y2": 739
+            },
+            "text_content": "Discount:",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 152,
+            "class": "Text",
+            "height": 21,
+            "width": 58,
+            "position": {
+                "x1": 1212,
+                "y1": 719,
+                "x2": 1270,
+                "y2": 740
+            },
+            "text_content": "Soo.0o",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 153,
+            "class": "Text",
+            "height": 26,
+            "width": 62,
+            "position": {
+                "x1": 51,
+                "y1": 730,
+                "x2": 113,
+                "y2": 756
+            },
+            "text_content": "Settings",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 154,
+            "class": "Text",
+            "height": 20,
+            "width": 37,
+            "position": {
+                "x1": 1096,
+                "y1": 749,
+                "x2": 1133,
+                "y2": 769
+            },
+            "text_content": "Tax:",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 155,
+            "class": "Text",
+            "height": 21,
+            "width": 64,
+            "position": {
+                "x1": 1212,
+                "y1": 749,
+                "x2": 1276,
+                "y2": 770
+            },
+            "text_content": "S100.00",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 156,
+            "class": "Text",
+            "height": 25,
+            "width": 71,
+            "position": {
+                "x1": 51,
+                "y1": 774,
+                "x2": 122,
+                "y2": 799
+            },
+            "text_content": "Academy",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 157,
+            "class": "Text",
+            "height": 21,
+            "width": 73,
+            "position": {
+                "x1": 1212,
+                "y1": 779,
+                "x2": 1285,
+                "y2": 800
+            },
+            "text_content": "S5100.25",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 158,
+            "class": "Text",
+            "height": 19,
+            "width": 46,
+            "position": {
+                "x1": 1096,
+                "y1": 781,
+                "x2": 1142,
+                "y2": 800
+            },
+            "text_content": "Total:",
+            "parent": 56,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 159,
+            "class": "Text",
+            "height": 34,
+            "width": 57,
+            "position": {
+                "x1": 1348,
+                "y1": 791,
+                "x2": 1405,
+                "y2": 825
+            },
+            "text_content": "Billing",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 160,
+            "class": "Text",
+            "height": 23,
+            "width": 74,
+            "position": {
+                "x1": 1406,
+                "y1": 797,
+                "x2": 1480,
+                "y2": 820
+            },
+            "text_content": "address",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 161,
+            "class": "Text",
+            "height": 20,
+            "width": 36,
+            "position": {
+                "x1": 1727,
+                "y1": 800,
+                "x2": 1763,
+                "y2": 820
+            },
+            "text_content": "Edit",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 162,
+            "class": "Text",
+            "height": 20,
+            "width": 73,
+            "position": {
+                "x1": 48,
+                "y1": 821,
+                "x2": 121,
+                "y2": 841
+            },
+            "text_content": "Logistics",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 163,
+            "class": "Text",
+            "height": 20,
+            "width": 96,
+            "position": {
+                "x1": 1348,
+                "y1": 846,
+                "x2": 1444,
+                "y2": 866
+            },
+            "text_content": "BockhstraBe",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 164,
+            "class": "Text",
+            "height": 19,
+            "width": 26,
+            "position": {
+                "x1": 1442,
+                "y1": 847,
+                "x2": 1468,
+                "y2": 866
+            },
+            "text_content": "36",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 165,
+            "class": "Text",
+            "height": 28,
+            "width": 86,
+            "position": {
+                "x1": 401,
+                "y1": 862,
+                "x2": 487,
+                "y2": 890
+            },
+            "text_content": "Shipping",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 166,
+            "class": "Text",
+            "height": 31,
+            "width": 71,
+            "position": {
+                "x1": 484,
+                "y1": 859,
+                "x2": 555,
+                "y2": 890
+            },
+            "text_content": "activity",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 167,
+            "class": "Text",
+            "height": 20,
+            "width": 58,
+            "position": {
+                "x1": 49,
+                "y1": 866,
+                "x2": 107,
+                "y2": 886
+            },
+            "text_content": "Invoice",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 168,
+            "class": "Text",
+            "height": 21,
+            "width": 120,
+            "position": {
+                "x1": 1347,
+                "y1": 866,
+                "x2": 1467,
+                "y2": 887
+            },
+            "text_content": "14167,Lichtenau",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 169,
+            "class": "Text",
+            "height": 19,
+            "width": 52,
+            "position": {
+                "x1": 1348,
+                "y1": 889,
+                "x2": 1400,
+                "y2": 908
+            },
+            "text_content": "United",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 170,
+            "class": "Text",
+            "height": 19,
+            "width": 52,
+            "position": {
+                "x1": 1399,
+                "y1": 889,
+                "x2": 1451,
+                "y2": 908
+            },
+            "text_content": "States",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 171,
+            "class": "Text",
+            "height": 21,
+            "width": 14,
+            "position": {
+                "x1": 26,
+                "y1": 909,
+                "x2": 40,
+                "y2": 930
+            },
+            "text_content": "9",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 172,
+            "class": "Text",
+            "height": 21,
+            "width": 46,
+            "position": {
+                "x1": 51,
+                "y1": 910,
+                "x2": 97,
+                "y2": 931
+            },
+            "text_content": "Users",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 173,
+            "class": "Text",
+            "height": 19,
+            "width": 48,
+            "position": {
+                "x1": 434,
+                "y1": 916,
+                "x2": 482,
+                "y2": 935
+            },
+            "text_content": "Order",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 174,
+            "class": "Text",
+            "height": 21,
+            "width": 53,
+            "position": {
+                "x1": 515,
+                "y1": 916,
+                "x2": 568,
+                "y2": 937
+            },
+            "text_content": "placed",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 175,
+            "class": "Text",
+            "height": 19,
+            "width": 54,
+            "position": {
+                "x1": 568,
+                "y1": 916,
+                "x2": 622,
+                "y2": 935
+            },
+            "text_content": "(Order",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 176,
+            "class": "Text",
+            "height": 19,
+            "width": 29,
+            "position": {
+                "x1": 617,
+                "y1": 916,
+                "x2": 646,
+                "y2": 935
+            },
+            "text_content": "ID: -",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 177,
+            "class": "Text",
+            "height": 19,
+            "width": 69,
+            "position": {
+                "x1": 643,
+                "y1": 916,
+                "x2": 712,
+                "y2": 935
+            },
+            "text_content": "#55308)",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 178,
+            "class": "Text",
+            "height": 21,
+            "width": 56,
+            "position": {
+                "x1": 1172,
+                "y1": 915,
+                "x2": 1228,
+                "y2": 936
+            },
+            "text_content": "Tuesday-",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 179,
+            "class": "Text",
+            "height": 18,
+            "width": 39,
+            "position": {
+                "x1": 1226,
+                "y1": 916,
+                "x2": 1265,
+                "y2": 934
+            },
+            "text_content": "11.29",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 180,
+            "class": "Text",
+            "height": 18,
+            "width": 27,
+            "position": {
+                "x1": 1262,
+                "y1": 916,
+                "x2": 1289,
+                "y2": 934
+            },
+            "text_content": "AM",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 181,
+            "class": "Text",
+            "height": 18,
+            "width": 36,
+            "position": {
+                "x1": 481,
+                "y1": 917,
+                "x2": 517,
+                "y2": 935
+            },
+            "text_content": "was",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 182,
+            "class": "Text",
+            "height": 21,
+            "width": 102,
+            "position": {
+                "x1": 1350,
+                "y1": 937,
+                "x2": 1452,
+                "y2": 958
+            },
+            "text_content": "Mastercard",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 183,
+            "class": "Text",
+            "height": 21,
+            "width": 39,
+            "position": {
+                "x1": 435,
+                "y1": 940,
+                "x2": 474,
+                "y2": 961
+            },
+            "text_content": "Your",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 184,
+            "class": "Text",
+            "height": 20,
+            "width": 45,
+            "position": {
+                "x1": 472,
+                "y1": 941,
+                "x2": 517,
+                "y2": 961
+            },
+            "text_content": "order",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 185,
+            "class": "Text",
+            "height": 18,
+            "width": 30,
+            "position": {
+                "x1": 515,
+                "y1": 941,
+                "x2": 545,
+                "y2": 959
+            },
+            "text_content": "has",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 186,
+            "class": "Text",
+            "height": 20,
+            "width": 42,
+            "position": {
+                "x1": 545,
+                "y1": 941,
+                "x2": 587,
+                "y2": 961
+            },
+            "text_content": "been",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 187,
+            "class": "Text",
+            "height": 21,
+            "width": 53,
+            "position": {
+                "x1": 587,
+                "y1": 941,
+                "x2": 640,
+                "y2": 962
+            },
+            "text_content": "placed",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 188,
+            "class": "Text",
+            "height": 24,
+            "width": 95,
+            "position": {
+                "x1": 639,
+                "y1": 938,
+                "x2": 734,
+                "y2": 962
+            },
+            "text_content": "successfully",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 189,
+            "class": "Text",
+            "height": 19,
+            "width": 45,
+            "position": {
+                "x1": 50,
+                "y1": 955,
+                "x2": 95,
+                "y2": 974
+            },
+            "text_content": "Roles",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 190,
+            "class": "Text",
+            "height": 19,
+            "width": 90,
+            "position": {
+                "x1": 109,
+                "y1": 955,
+                "x2": 199,
+                "y2": 974
+            },
+            "text_content": "Permissio .",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 191,
+            "class": "Text",
+            "height": 16,
+            "width": 11,
+            "position": {
+                "x1": 95,
+                "y1": 956,
+                "x2": 106,
+                "y2": 972
+            },
+            "text_content": "&",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 192,
+            "class": "Text",
+            "height": 26,
+            "width": 31,
+            "position": {
+                "x1": 1795,
+                "y1": 960,
+                "x2": 1826,
+                "y2": 986
+            },
+            "text_content": "Buy _",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 193,
+            "class": "Text",
+            "height": 19,
+            "width": 39,
+            "position": {
+                "x1": 1826,
+                "y1": 964,
+                "x2": 1865,
+                "y2": 983
+            },
+            "text_content": "Now",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 194,
+            "class": "Text",
+            "height": 21,
+            "width": 38,
+            "position": {
+                "x1": 1349,
+                "y1": 964,
+                "x2": 1387,
+                "y2": 985
+            },
+            "text_content": "Card",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 195,
+            "class": "Text",
+            "height": 20,
+            "width": 67,
+            "position": {
+                "x1": 1387,
+                "y1": 965,
+                "x2": 1454,
+                "y2": 985
+            },
+            "text_content": "Number:",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 196,
+            "class": "Text",
+            "height": 21,
+            "width": 137,
+            "position": {
+                "x1": 1454,
+                "y1": 964,
+                "x2": 1591,
+                "y2": 985
+            },
+            "text_content": "180065127003353",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 197,
+            "class": "Text",
+            "height": 23,
+            "width": 61,
+            "position": {
+                "x1": 435,
+                "y1": 986,
+                "x2": 496,
+                "y2": 1009
+            },
+            "text_content": "Pick-up",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 198,
+            "class": "Text",
+            "height": 20,
+            "width": 79,
+            "position": {
+                "x1": 1150,
+                "y1": 987,
+                "x2": 1229,
+                "y2": 1007
+            },
+            "text_content": "Wednesday",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 199,
+            "class": "Text",
+            "height": 18,
+            "width": 39,
+            "position": {
+                "x1": 1226,
+                "y1": 988,
+                "x2": 1265,
+                "y2": 1006
+            },
+            "text_content": "11.29",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 200,
+            "class": "Text",
+            "height": 18,
+            "width": 27,
+            "position": {
+                "x1": 1262,
+                "y1": 988,
+                "x2": 1289,
+                "y2": 1006
+            },
+            "text_content": "AM",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 201,
+            "class": "Text",
+            "height": 26,
+            "width": 48,
+            "position": {
+                "x1": 51,
+                "y1": 997,
+                "x2": 99,
+                "y2": 1023
+            },
+            "text_content": "Pages",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 202,
+            "class": "Text",
+            "height": 24,
+            "width": 59,
+            "position": {
+                "x1": 435,
+                "y1": 1011,
+                "x2": 494,
+                "y2": 1035
+            },
+            "text_content": "Pick-up",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 203,
+            "class": "Text",
+            "height": 18,
+            "width": 36,
+            "position": {
+                "x1": 574,
+                "y1": 1013,
+                "x2": 610,
+                "y2": 1031
+            },
+            "text_content": "with",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 204,
+            "class": "Text",
+            "height": 20,
+            "width": 59,
+            "position": {
+                "x1": 608,
+                "y1": 1013,
+                "x2": 667,
+                "y2": 1033
+            },
+            "text_content": "courier",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 205,
+            "class": "Text",
+            "height": 20,
+            "width": 81,
+            "position": {
+                "x1": 494,
+                "y1": 1013,
+                "x2": 575,
+                "y2": 1033
+            },
+            "text_content": "scheduled",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 206,
+            "class": "Text",
+            "height": 14,
+            "width": 31,
+            "position": {
+                "x1": 1871,
+                "y1": 1043,
+                "x2": 1902,
+                "y2": 1057
+            },
+            "text_content": "1637",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 207,
+            "class": "Text",
+            "height": 19,
+            "width": 56,
+            "position": {
+                "x1": 83,
+                "y1": 1051,
+                "x2": 139,
+                "y2": 1070
+            },
+            "text_content": "Suchen",
+            "parent": 40,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 208,
+            "class": "Text",
+            "height": 12,
+            "width": 12,
+            "position": {
+                "x1": 63,
+                "y1": 1053,
+                "x2": 75,
+                "y2": 1065
+            },
+            "text_content": "O",
+            "parent": 40,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 209,
+            "class": "Text",
+            "height": 10,
+            "width": 13,
+            "position": {
+                "x1": 404,
+                "y1": 1055,
+                "x2": 417,
+                "y2": 1065
+            },
+            "text_content": "L",
+            "parent": 42,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 210,
+            "class": "Text",
+            "height": 18,
+            "width": 62,
+            "position": {
+                "x1": 1856,
+                "y1": 1060,
+                "x2": 1918,
+                "y2": 1078
+            },
+            "text_content": "17.04.2025",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        }
+    ],
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "raw_texts": "YA 0: &; MATERIO; [CTRL; Search; + K]; Order; #17976; Paid; Ready -; Pickup; to; Chat; Delete; Order; 17,; 2025,_; 5.48; (ET); Aug; Calendar; r; Kanban; Order; details; details; Edit; Customer; 0; eCommerce; Christopher; Combs; PRODUCTS; PRICE; QTY; TOTAL; Customer; ID:; #9664; Dashboard; Face; cream; Products; D; 51626; 5813; 12; Orders; 2; Gender:Women; Order; Contact E; info; Edit; Nike; Jordan; 5392; 5392; Size 8UK; Email:; clarkallison@example net; List; Order; Mobile:; +184964713617; Oneplus ; 10; Order; Details; 52688; s896; 3; Storage:128gb; Customer; Wooden; Chair; Shipping; address; Edit; 5841; S1682; 2; Material:; Wooden; Reviews; Manage; HerderstraBe; 6; a; Referrals; 12683,Leipzig; Subtotal:; S5000.25; C; Italy; Discount:; Soo.0o; Settings; Tax:; S100.00; Academy; S5100.25; Total:; Billing; address; Edit; Logistics; BockhstraBe; 36; Shipping; activity; Invoice; 14167,Lichtenau; United; States; 9; Users; Order; placed; (Order; ID: -; #55308); Tuesday-; 11.29; AM; was; Mastercard; Your; order; has; been; placed; successfully; Roles; Permissio .; &; Buy _; Now; Card; Number:; 180065127003353; Pick-up; Wednesday; 11.29; AM; Pages; Pick-up; with; courier; scheduled; 1637; Suchen; O; L; 17.04.2025"
+}

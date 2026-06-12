@@ -1,0 +1,795 @@
+{
+    "texts": [
+        {
+            "id": 28,
+            "x1": 850,
+            "y1": 154,
+            "x2": 898,
+            "y2": 173,
+            "text": "Mario",
+            "context": [
+                "Bryant"
+            ],
+            "classification": true,
+            "reason": "This is a specific first name and therefore private information. The surrounding word \"Bryant\" suggests that this is a person's name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 29,
+            "x1": 896,
+            "y1": 155,
+            "x2": 953,
+            "y2": 175,
+            "text": "Bryant",
+            "context": [
+                "Mario"
+            ],
+            "classification": true,
+            "reason": "This is a specific last name and therefore private information. The surrounding word \"Mario\" suggests that this is a person's name.",
+            "substitution": "last name"
+        },
+        {
+            "id": 30,
+            "x1": 433,
+            "y1": 165,
+            "x2": 441,
+            "y2": 169,
+            "text": "y",
+            "context": [
+                "Search"
+            ],
+            "classification": false,
+            "reason": "The term \"y\" itself seems to be a character sequence without sense. The surrounding word \"Search\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 31,
+            "x1": 1045,
+            "y1": 208,
+            "x2": 1094,
+            "y2": 226,
+            "text": "Show",
+            "context": [
+                "Previous"
+            ],
+            "classification": false,
+            "reason": "The term \"Show\" itself is just a verb and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 1094,
+            "y1": 206,
+            "x2": 1170,
+            "y2": 225,
+            "text": "Previous",
+            "context": [
+                "Show",
+                "Messagel"
+            ],
+            "classification": false,
+            "reason": "The term \"Previous\" itself is just an adjective and is not private information. The surrounding words \"Show\" and \"Messagel\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 1172,
+            "y1": 208,
+            "x2": 1249,
+            "y2": 229,
+            "text": "Messagel",
+            "context": [
+                "Previous"
+            ],
+            "classification": false,
+            "reason": "The term \"Messagel\" itself is just a noun and is not private information. The given surrounding words \"Previous\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 34,
+            "x1": 418,
+            "y1": 214,
+            "x2": 470,
+            "y2": 233,
+            "text": "Search",
+            "context": [
+                "y"
+            ],
+            "classification": false,
+            "reason": "The term \"Search\" itself is just a noun and is not private information. The given surrounding word \"y\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 35,
+            "x1": 800,
+            "y1": 247,
+            "x2": 824,
+            "y2": 266,
+            "text": "Hi,",
+            "context": [
+                "what",
+                "are",
+                "18:18"
+            ],
+            "classification": false,
+            "reason": "The term \"Hi,\" itself is just a noun and is not private information. The given surrounding words \"what\", \"are\", \"18:18\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 36,
+            "x1": 824,
+            "y1": 247,
+            "x2": 863,
+            "y2": 266,
+            "text": "what",
+            "context": [
+                "Hi,",
+                "are",
+                "you"
+            ],
+            "classification": false,
+            "reason": "The term \"what\" itself is just a noun and is not private information. The given surrounding words \"Hi,\", \"are\", \"you\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 37,
+            "x1": 918,
+            "y1": 247,
+            "x2": 972,
+            "y2": 268,
+            "text": "doing?!",
+            "context": [
+                "Sun",
+                "you",
+                "are"
+            ],
+            "classification": false,
+            "reason": "The term \"doing?!\" itself is just a verb and is not private information. The given surrounding words \"Sun\", \"you\", \"are\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 38,
+            "x1": 860,
+            "y1": 248,
+            "x2": 889,
+            "y2": 265,
+            "text": "are",
+            "context": [
+                "what",
+                "you",
+                "doing?!",
+                "Hi,"
+            ],
+            "classification": false,
+            "reason": "The term \"are\" is a common verb and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 39,
+            "x1": 888,
+            "y1": 251,
+            "x2": 916,
+            "y2": 265,
+            "text": "you",
+            "context": [
+                "are",
+                "doing?!",
+                "what",
+                "Sun"
+            ],
+            "classification": false,
+            "reason": "The term \"you\" is a common pronoun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 40,
+            "x1": 950,
+            "y1": 266,
+            "x2": 976,
+            "y2": 280,
+            "text": "Sun",
+            "context": [
+                "doing?!",
+                "you"
+            ],
+            "classification": false,
+            "reason": "The term \"Sun\" is a common noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 41,
+            "x1": 714,
+            "y1": 275,
+            "x2": 753,
+            "y2": 289,
+            "text": "18:18",
+            "context": [
+                "Hi,"
+            ],
+            "classification": false,
+            "reason": "The term \"18:18\" represents a time. While time can be indirectly linked to personal events, the time itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 42,
+            "x1": 505,
+            "y1": 275,
+            "x2": 559,
+            "y2": 295,
+            "text": "Kristen",
+            "context": [
+                "Parsons",
+                "Kathleen",
+                "Anthony"
+            ],
+            "classification": true,
+            "reason": "The term \"Kristen\" is a first name. First names are generally private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 43,
+            "x1": 558,
+            "y1": 278,
+            "x2": 613,
+            "y2": 292,
+            "text": "Parsons",
+            "context": [
+                "Kristen"
+            ],
+            "classification": true,
+            "reason": "The term \"Parsons\" is likely a surname and therefore private information. The surrounding word \"Kristen\" suggests that this is a last name of a person.",
+            "substitution": "last name"
+        },
+        {
+            "id": 44,
+            "x1": 1352,
+            "y1": 305,
+            "x2": 1393,
+            "y2": 326,
+            "text": "doing",
+            "context": [
+                "nothing",
+                "Kam"
+            ],
+            "classification": false,
+            "reason": "The term \"doing\" itself is a verb and not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 45,
+            "x1": 1394,
+            "y1": 305,
+            "x2": 1449,
+            "y2": 326,
+            "text": "nothing",
+            "context": [
+                "man!",
+                "doing",
+                "Sun",
+                "Kam"
+            ],
+            "classification": false,
+            "reason": "The term \"nothing\" itself is a pronoun and not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 46,
+            "x1": 1315,
+            "y1": 305,
+            "x2": 1351,
+            "y2": 322,
+            "text": "Kam",
+            "context": [
+                "doing",
+                "nothing"
+            ],
+            "classification": true,
+            "reason": "The term \"Kam\" is likely a first name and therefore private information. The surrounding words \"doing\" and \"nothing\" suggest that this is a first name of a person.",
+            "substitution": "first name"
+        },
+        {
+            "id": 47,
+            "x1": 1449,
+            "y1": 308,
+            "x2": 1488,
+            "y2": 321,
+            "text": "man!",
+            "context": [
+                "nothing",
+                "Sun"
+            ],
+            "classification": false,
+            "reason": "The term \"man!\" itself is not private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 48,
+            "x1": 1466,
+            "y1": 323,
+            "x2": 1493,
+            "y2": 340,
+            "text": "Sun",
+            "context": [
+                "man!",
+                "nothing"
+            ],
+            "classification": false,
+            "reason": "The term \"Sun\" is a common noun and is not private information. The surrounding words \"man!\" and \"nothing\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 49,
+            "x1": 505,
+            "y1": 344,
+            "x2": 571,
+            "y2": 364,
+            "text": "Kathleen",
+            "context": [
+                "Anthony",
+                "Kristen",
+                "Thompson"
+            ],
+            "classification": true,
+            "reason": "\"Kathleen\" is a specific first name and therefore private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 50,
+            "x1": 570,
+            "y1": 343,
+            "x2": 629,
+            "y2": 365,
+            "text": "Anthony",
+            "context": [
+                "Kathleen",
+                "Thompson",
+                "Kristen"
+            ],
+            "classification": true,
+            "reason": "\"Anthony\" is a specific first name and therefore private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 51,
+            "x1": 714,
+            "y1": 344,
+            "x2": 753,
+            "y2": 358,
+            "text": "18:18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18:18\" is likely a time or a date and not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 52,
+            "x1": 557,
+            "y1": 413,
+            "x2": 631,
+            "y2": 435,
+            "text": "Thompson",
+            "context": [
+                "Lauren",
+                "Keller",
+                "Anthony",
+                "Louis",
+                "Kathleen"
+            ],
+            "classification": true,
+            "reason": "\"Thompson\" is a specific last name and therefore private information.",
+            "substitution": "last name"
+        },
+        {
+            "id": 53,
+            "x1": 713,
+            "y1": 413,
+            "x2": 754,
+            "y2": 430,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without surrounding words. Therefore, it is not considered private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 54,
+            "x1": 506,
+            "y1": 416,
+            "x2": 555,
+            "y2": 430,
+            "text": "Lauren",
+            "context": [
+                "Thompson"
+            ],
+            "classification": true,
+            "reason": "The term \"Lauren\" is a first name, and the surrounding word \"Thompson\" suggests that this is private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 55,
+            "x1": 505,
+            "y1": 482,
+            "x2": 547,
+            "y2": 502,
+            "text": "Louis",
+            "context": [
+                "Keller",
+                "Thompson",
+                "Diane",
+                "Nelson"
+            ],
+            "classification": true,
+            "reason": "The term \"Louis\" is a first name, and the surrounding words \"Keller\", \"Thompson\", \"Diane\", and \"Nelson\" suggest that this is private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 56,
+            "x1": 544,
+            "y1": 482,
+            "x2": 590,
+            "y2": 502,
+            "text": "Keller",
+            "context": [
+                "Louis",
+                "Thompson",
+                "Diane",
+                "Nelson"
+            ],
+            "classification": true,
+            "reason": "The term \"Keller\" is a surname, and the surrounding words \"Louis\", \"Thompson\", \"Diane\", and \"Nelson\" suggest that this is private information.",
+            "substitution": "last name"
+        },
+        {
+            "id": 57,
+            "x1": 713,
+            "y1": 482,
+            "x2": 755,
+            "y2": 500,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without surrounding words. Therefore, it is not considered private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 58,
+            "x1": 505,
+            "y1": 551,
+            "x2": 550,
+            "y2": 571,
+            "text": "Diane",
+            "context": [
+                "Nelson",
+                "Keller",
+                "Louis"
+            ],
+            "classification": true,
+            "reason": "The term \"Diane\" is a specific name and therefore private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 59,
+            "x1": 548,
+            "y1": 551,
+            "x2": 601,
+            "y2": 571,
+            "text": "Nelson",
+            "context": [
+                "Diane",
+                "Keller",
+                "Louis"
+            ],
+            "classification": true,
+            "reason": "The term \"Nelson\" is a specific surname and therefore private information.",
+            "substitution": "last name"
+        },
+        {
+            "id": 60,
+            "x1": 713,
+            "y1": 551,
+            "x2": 754,
+            "y2": 568,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without context and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 61,
+            "x1": 713,
+            "y1": 620,
+            "x2": 755,
+            "y2": 638,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without context and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 62,
+            "x1": 505,
+            "y1": 622,
+            "x2": 559,
+            "y2": 640,
+            "text": "Kristen",
+            "context": [
+                "Parsons"
+            ],
+            "classification": true,
+            "reason": "The term \"Kristen\" is a specific name and therefore private information.",
+            "substitution": "first name"
+        },
+        {
+            "id": 63,
+            "x1": 558,
+            "y1": 624,
+            "x2": 613,
+            "y2": 637,
+            "text": "Parsons",
+            "context": [
+                "Kristen"
+            ],
+            "classification": true,
+            "reason": "This is a specific surname and therefore private information. The surrounding name \"Kristen\" confirms that this is a surname.",
+            "substitution": "surname"
+        },
+        {
+            "id": 64,
+            "x1": 713,
+            "y1": 689,
+            "x2": 754,
+            "y2": 706,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without any context. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 65,
+            "x1": 505,
+            "y1": 691,
+            "x2": 559,
+            "y2": 709,
+            "text": "Donald",
+            "context": [
+                "williams",
+                "Ramirez"
+            ],
+            "classification": true,
+            "reason": "This is a specific first name and therefore private information. The surrounding surnames \"williams\" and \"Ramirez\" confirm that this is a name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 66,
+            "x1": 557,
+            "y1": 691,
+            "x2": 620,
+            "y2": 709,
+            "text": "williams",
+            "context": [
+                "Donald",
+                "Ramirez"
+            ],
+            "classification": true,
+            "reason": "This is a specific surname and therefore private information. The surrounding name \"Donald\" and the surname \"Ramirez\" confirm that this is a surname.",
+            "substitution": "surname"
+        },
+        {
+            "id": 67,
+            "x1": 713,
+            "y1": 758,
+            "x2": 755,
+            "y2": 776,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without any context. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 68,
+            "x1": 539,
+            "y1": 758,
+            "x2": 598,
+            "y2": 779,
+            "text": "Ramirez",
+            "context": [
+                "Tara",
+                "williams",
+                "Donald"
+            ],
+            "classification": true,
+            "reason": "The term \"Ramirez\" is a specific surname and therefore private information. The surrounding words \"Tara\", \"williams\", and \"Donald\" are names, which reinforces the classification.",
+            "substitution": "surname"
+        },
+        {
+            "id": 69,
+            "x1": 506,
+            "y1": 761,
+            "x2": 537,
+            "y2": 775,
+            "text": "Tara",
+            "context": [
+                "Ramirez"
+            ],
+            "classification": true,
+            "reason": "The term \"Tara\" is a specific name and therefore private information. The surrounding word \"Ramirez\" is a surname, which reinforces the classification.",
+            "substitution": "name"
+        },
+        {
+            "id": 70,
+            "x1": 713,
+            "y1": 827,
+            "x2": 754,
+            "y2": 844,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" is a number without context. There are no surrounding words that suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 71,
+            "x1": 506,
+            "y1": 829,
+            "x2": 545,
+            "y2": 847,
+            "text": "Mark",
+            "context": [
+                "Reed",
+                "Andrea"
+            ],
+            "classification": true,
+            "reason": "The term \"Mark\" is a specific name and therefore private information. The surrounding words \"Reed\" and \"Andrea\" are also names, which reinforces the classification.",
+            "substitution": "name"
+        },
+        {
+            "id": 72,
+            "x1": 544,
+            "y1": 829,
+            "x2": 583,
+            "y2": 848,
+            "text": "Reed",
+            "context": [
+                "Mark",
+                "Andrea"
+            ],
+            "classification": true,
+            "reason": "The term \"Reed\" is a specific name and therefore private information. The surrounding words \"Mark\" and \"Andrea\" are also names, which reinforces the classification.",
+            "substitution": "name"
+        },
+        {
+            "id": 73,
+            "x1": 713,
+            "y1": 896,
+            "x2": 754,
+            "y2": 913,
+            "text": "18.18",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"18.18\" itself does not seem to be private information. There are also no surrounding words that suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 506,
+            "y1": 896,
+            "x2": 557,
+            "y2": 917,
+            "text": "Andrea",
+            "context": [
+                "Wilson",
+                "Reed",
+                "Mark"
+            ],
+            "classification": true,
+            "reason": "The term \"Andrea\" is a specific first name and is therefore private information. The surrounding words \"Wilson\", \"Reed\", and \"Mark\" further suggest that this is a person's name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 75,
+            "x1": 557,
+            "y1": 898,
+            "x2": 608,
+            "y2": 916,
+            "text": "Wilson",
+            "context": [
+                "Andrea"
+            ],
+            "classification": true,
+            "reason": "The term \"Wilson\" is a specific surname and is therefore private information. The surrounding word \"Andrea\" further suggests that this is a person's name.",
+            "substitution": "last name"
+        },
+        {
+            "id": 76,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "7637",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"7637\" is a number and does not seem to be private information. The surrounding words \"17.04.2025_\" do not suggest that this is private information, either.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 77,
+            "x1": 549,
+            "y1": 1049,
+            "x2": 666,
+            "y2": 1070,
+            "text": "MiEA",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"MiEA\" itself does not seem to be private information. There are also no surrounding words that suggest that it is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 78,
+            "x1": 59,
+            "y1": 1049,
+            "x2": 77,
+            "y2": 1067,
+            "text": "p",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"p\" is a single letter and inherently not private. The surrounding word \"Suchen\" does not suggest that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "p"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a German verb meaning \"search\" and is inherently not private. The surrounding word \"p\" does not suggest that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 80,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "7637"
+            ],
+            "classification": true,
+            "reason": "The term \"17.04.2025_\" appears to be a date and is private. The surrounding words do not suggest otherwise.",
+            "substitution": "date"
+        }
+    ]
+}

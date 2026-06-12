@@ -1,0 +1,603 @@
+{
+    "img_resize_shape": [
+        1040,
+        1920,
+        3
+    ],
+    "activity_names": [
+        {
+            "bbox": {
+                "x1": 530,
+                "y1": 137,
+                "x2": 1310,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " Q Search",
+                "Surrounding Text": "Q Search + Create Create project"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1662,
+                "y1": 137,
+                "x2": 1767,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "  Upgrade",
+                "Surrounding Text": " Upgrade Templates\n Preview a template for your next project"
+            },
+            "is_vism": false,
+            "activity_name": "Add a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1780,
+                "y1": 145,
+                "x2": 1794,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Notification",
+                "Surrounding Text": " Upgrade Templates\n Preview a template for your next project"
+            },
+            "is_vism": false,
+            "activity_name": "View the latest version of the project",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1815,
+                "y1": 145,
+                "x2": 1831,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Info",
+                "Surrounding Text": " Upgrade Templates\n Preview a template for your next project"
+            },
+            "is_vism": false,
+            "activity_name": "Update the task 'Prepare for the next project'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1851,
+                "y1": 145,
+                "x2": 1867,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Settings",
+                "Surrounding Text": "LD Templates\n Preview a template for your next project"
+            },
+            "is_vism": false,
+            "activity_name": "View the LD Templates",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1450,
+                "y1": 201,
+                "x2": 1538,
+                "y2": 233
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": " Templates",
+                "Surrounding Text": "+ Create Create project Templates Templates\n Preview a template for your next project"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1877,
+                "y1": 211,
+                "x2": 1889,
+                "y2": 223
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Cancel",
+                "Surrounding Text": "LD Templates\n Preview a template for your next project"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 271,
+                "y1": 257,
+                "x2": 471,
+                "y2": 297
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": " Q Search projects",
+                "Surrounding Text": "Projects Q Search projects Filter by product Name "
+            },
+            "is_vism": false,
+            "activity_name": "Search for projects by name",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 479,
+                "y1": 257,
+                "x2": 679,
+                "y2": 297
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": " Filter by product",
+                "Surrounding Text": "Filter by product Key Type"
+            },
+            "is_vism": false,
+            "activity_name": "Filter tasks by product",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1585,
+                "y1": 264,
+                "x2": 1904,
+                "y2": 339
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " Icon-Battery Kanban\nVisualize your work on a board.",
+                "Surrounding Text": "Templates\n Preview a template for your next project Kanban\nVisualize your work on a board. Work requests [TRY]"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task in Jira",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 271,
+                "y1": 313,
+                "x2": 1538,
+                "y2": 398
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": " Name  Key Type Lead Project URL  More actions Bug Tracking System BTS  Team-managed software  Luca Deweri",
+                "Surrounding Text": "Q Search projects Filter by product Name  Key Type Lead Project URL  More actions Bug Tracking System BTS  Team-managed software  Luca Deweri"
+            },
+            "is_vism": false,
+            "activity_name": "Search for projects with a name of Lead Project URL More actions Bug Tracking System BTS Team-managed software Luca Deweri",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 185,
+                "y1": 360,
+                "x2": 195,
+                "y2": 370
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Add",
+                "Surrounding Text": " Starred\n8 Apps\n Plans\n53 Projects\nRecent\n Bug Tracking System\nI = View all projects\n= Filters"
+            },
+            "is_vism": false,
+            "activity_name": "Add a new project",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1585,
+                "y1": 356,
+                "x2": 1904,
+                "y2": 431
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Upload",
+                "Surrounding Text": "Kanban\nVisualize your work on a board. Work requests [TRY]"
+            },
+            "is_vism": false,
+            "activity_name": "Upload a new file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 890,
+                "y1": 422,
+                "x2": 919,
+                "y2": 454
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Team-managed software"
+            },
+            "is_vism": false,
+            "activity_name": "Toggle the task manager on/off",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 31,
+                "y1": 445,
+                "x2": 234,
+                "y2": 477
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": "",
+                "Surrounding Text": " Starred\n8 Apps\n Plans\n53 Projects\nRecent\n Bug Tracking System\nI = View all projects\n= Filters  Dashboards"
+            },
+            "is_vism": false,
+            "activity_name": "View all projects",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1585,
+                "y1": 448,
+                "x2": 1904,
+                "y2": 523
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": " Icon-Refresh Deliver work in short time blocks",
+                "Surrounding Text": "Deliver work in short time blocks Product roadmap TRY\nCreate custom roadmapse"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1585,
+                "y1": 540,
+                "x2": 1904,
+                "y2": 615
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Options",
+                "Surrounding Text": "Deliver work in short time blocks Product roadmap TRY\nCreate custom roadmapse Personal tasks\nCreate your to-do list"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1585,
+                "y1": 632,
+                "x2": 1904,
+                "y2": 707
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Button",
+                "Inner Text": " Icon-Edit Personal tasks\nCreate your to-do list",
+                "Surrounding Text": "Product roadmap TRY\nCreate custom roadmapse Personal tasks\nCreate your to-do list More templates"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 273,
+                "y1": 314,
+                "x2": 1537,
+                "y2": 347
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " Name  Key Type Lead Project URL  More actions",
+                "Surrounding Text": "Q Search projects Filter by product Name  Key Type Lead Project URL  More actions Bug Tracking System BTS  Team-managed software  Luca Deweri"
+            },
+            "is_vism": false,
+            "activity_name": "Search for projects with a lead URL",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 273,
+                "y1": 349,
+                "x2": 1537,
+                "y2": 396
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "EditText",
+                "Inner Text": " Bug Tracking System BTS  Team-managed software  Luca Deweri",
+                "Surrounding Text": "Name  Key Type Lead Project URL  More actions Bug Tracking System BTS  Team-managed software  Luca Deweri"
+            },
+            "is_vism": false,
+            "activity_name": "Name the task 'Lead Project URL'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1603,
+                "y1": 373,
+                "x2": 1642,
+                "y2": 412
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Clipboard",
+                "Surrounding Text": "Kanban\nVisualize your work on a board. Work requests [TRY]"
+            },
+            "is_vism": false,
+            "activity_name": "View task list",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1603,
+                "y1": 557,
+                "x2": 1642,
+                "y2": 596
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Icon",
+                "Inner Text": "Options",
+                "Surrounding Text": "Product roadmap TRY\nCreate custom roadmapse"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 22,
+                "y1": 142,
+                "x2": 160,
+                "y2": 165
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "  Jira",
+                "Surrounding Text": "  Jira  Your work"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1322,
+                "y1": 138,
+                "x2": 1402,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "+ Create",
+                "Surrounding Text": "+ Create Create project"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1886,
+                "y1": 142,
+                "x2": 1908,
+                "y2": 162
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "LD",
+                "Surrounding Text": "LD"
+            },
+            "is_vism": false,
+            "activity_name": "nan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 24,
+                "y1": 193,
+                "x2": 118,
+                "y2": 215
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Your work",
+                "Surrounding Text": "  Jira  Your work  Recent  Starred\n8 Apps\n Plans\n53 Projects\nRecent\n Bug Tracking System\nI = View all projects\n= Filters"
+            },
+            "is_vism": false,
+            "activity_name": "View all projects",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 270,
+                "y1": 203,
+                "x2": 366,
+                "y2": 232
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Projects",
+                "Surrounding Text": "Projects Q Search projects"
+            },
+            "is_vism": false,
+            "activity_name": "Search for projects",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1338,
+                "y1": 203,
+                "x2": 1438,
+                "y2": 232
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "Create project",
+                "Surrounding Text": "+ Create Create project Templates"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 24,
+                "y1": 225,
+                "x2": 98,
+                "y2": 248
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Recent",
+                "Surrounding Text": " Your work  Recent  Starred\n8 Apps\n Plans\n53 Projects\nRecent\n Bug Tracking System\nI = View all projects\n= Filters"
+            },
+            "is_vism": false,
+            "activity_name": "View all projects",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 26,
+                "y1": 514,
+                "x2": 128,
+                "y2": 536
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": " Dashboards",
+                "Surrounding Text": " Starred\n8 Apps\n Plans\n53 Projects\nRecent\n Bug Tracking System\nI = View all projects\n= Filters  Dashboards 28 Teams 2 Customize sidebale"
+            },
+            "is_vism": false,
+            "activity_name": "Filter projects by status",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 24,
+                "y1": 546,
+                "x2": 92,
+                "y2": 569
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "28 Teams",
+                "Surrounding Text": " Starred\n8 Apps\n Plans\n53 Projects\nRecent\n Bug Tracking System\nI = View all projects\n= Filters  Dashboards 28 Teams 2 Customize sidebale"
+            },
+            "is_vism": false,
+            "activity_name": "Filter projects by 'Show all projects'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 24,
+                "y1": 579,
+                "x2": 166,
+                "y2": 599
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "2 Customize sidebale",
+                "Surrounding Text": " Dashboards 28 Teams 2 Customize sidebale"
+            },
+            "is_vism": false,
+            "activity_name": "Customize the task 'Sidebale'",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1584,
+                "y1": 715,
+                "x2": 1686,
+                "y2": 740
+            },
+            "prompt_info": {
+                "Context (App Name)": "Jira",
+                "Context (App Category)": "Task Management",
+                "Component Class": "Text",
+                "Inner Text": "More templates",
+                "Surrounding Text": "Personal tasks\nCreate your to-do list More templates"
+            },
+            "is_vism": false,
+            "activity_name": "Create a new task",
+            "existing": "true"
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "texts": [
+        {
+            "id": 10,
+            "x1": 848,
+            "y1": 367,
+            "x2": 973,
+            "y2": 395,
+            "text": "ACcOUNT",
+            "context": [
+                "LOGIN"
+            ],
+            "classification": false,
+            "reason": "The term \"ACcOUNT\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 11,
+            "x1": 982,
+            "y1": 367,
+            "x2": 1073,
+            "y2": 395,
+            "text": "LOGIN",
+            "context": [
+                "ACcOUNT"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 12,
+            "x1": 845,
+            "y1": 485,
+            "x2": 931,
+            "y2": 508,
+            "text": "creitve",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"creitve\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 13,
+            "x1": 848,
+            "y1": 593,
+            "x2": 955,
+            "y2": 616,
+            "text": "(^154.al",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"(^154.al\" itself seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 929,
+            "y1": 703,
+            "x2": 989,
+            "y2": 721,
+            "text": "LOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is just a noun and is not private information. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" itself could be private, for example as part of a credit card number. However, the surrounding words don't suggest that this is the case. It also doesn't seem to be a currency, blood pressure, or other typical personal information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 550,
+            "y1": 1047,
+            "x2": 668,
+            "y2": 1073,
+            "text": "Ji 5 A",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Ji 5 A\" does not appear to be private information. It does not match any of the defined categories of private data, and there are no surrounding words to suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "O"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a german word which translated means search. It does not appear to be private information. It does not match any of the defined categories of private data, and the surrounding word does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 63,
+            "y1": 1053,
+            "x2": 75,
+            "y2": 1065,
+            "text": "O",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"O\" is a single letter and does not appear to be private information. It does not match any of the defined categories of private data, and the surrounding word does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 19,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" is a date. Without context to a person, it is not private information.",
+            "substitution": "NONE"
+        }
+    ]
+}

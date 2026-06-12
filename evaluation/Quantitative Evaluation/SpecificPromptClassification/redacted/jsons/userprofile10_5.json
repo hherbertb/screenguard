@@ -1,0 +1,1035 @@
+{
+    "texts": [
+        {
+            "id": 32,
+            "x1": 356,
+            "y1": 146,
+            "x2": 392,
+            "y2": 166,
+            "text": "Type",
+            "context": [
+                "something_."
+            ],
+            "classification": false,
+            "reason": "The term \"Type\" itself is just a noun and is not private information. The surrounding word \"something_.\" does not suggest that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 389,
+            "y1": 146,
+            "x2": 470,
+            "y2": 166,
+            "text": "something_.",
+            "context": [
+                "Type"
+            ],
+            "classification": false,
+            "reason": "The term \"something_.\" seems to be a character sequence without sense. The surrounding word \"Type\" does not suggest that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 34,
+            "x1": 556,
+            "y1": 203,
+            "x2": 655,
+            "y2": 242,
+            "text": "Settings",
+            "context": [
+                "Profile",
+                "Security"
+            ],
+            "classification": false,
+            "reason": "The term \"Settings\" itself is just a noun and is not private information. The surrounding words \"Profile\" and \"Security\" do not suggest that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 35,
+            "x1": 56,
+            "y1": 212,
+            "x2": 130,
+            "y2": 232,
+            "text": "Dashboard",
+            "context": [
+                "Components"
+            ],
+            "classification": false,
+            "reason": "The term \"Dashboard\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 36,
+            "x1": 707,
+            "y1": 272,
+            "x2": 797,
+            "y2": 290,
+            "text": "Notifications",
+            "context": [
+                "Security"
+            ],
+            "classification": false,
+            "reason": "The term \"Notifications\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 37,
+            "x1": 556,
+            "y1": 272,
+            "x2": 605,
+            "y2": 290,
+            "text": "Profile",
+            "context": [
+                "Security",
+                "Settings"
+            ],
+            "classification": false,
+            "reason": "The term \"Profile\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 38,
+            "x1": 625,
+            "y1": 272,
+            "x2": 686,
+            "y2": 292,
+            "text": "Security",
+            "context": [
+                "Profile",
+                "Notifications",
+                "Settings"
+            ],
+            "classification": false,
+            "reason": "The term \"Security\" itself is just a noun and is not private information. The surrounding words are not related to private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 39,
+            "x1": 13,
+            "y1": 274,
+            "x2": 98,
+            "y2": 293,
+            "text": "Components",
+            "context": [
+                "Ulelements",
+                "Dashboard"
+            ],
+            "classification": false,
+            "reason": "The term \"Components\" itself is just a noun and is not private information. The surrounding words are not related to private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 40,
+            "x1": 56,
+            "y1": 307,
+            "x2": 137,
+            "y2": 326,
+            "text": "Ulelements",
+            "context": [
+                "Components",
+                "Widgets"
+            ],
+            "classification": false,
+            "reason": "The term \"Ulelements\" itself is just a noun and is not private information. The surrounding words are not related to private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 41,
+            "x1": 201,
+            "y1": 344,
+            "x2": 226,
+            "y2": 355,
+            "text": "Wey",
+            "context": [
+                "NONE"
+            ],
+            "classification": true,
+            "reason": "The term \"Wey\" seems to be a surname. There are no surrounding words that suggest otherwise.",
+            "substitution": "name"
+        },
+        {
+            "id": 42,
+            "x1": 56,
+            "y1": 346,
+            "x2": 113,
+            "y2": 365,
+            "text": "Widgets",
+            "context": [
+                "Forms",
+                "Ulelements"
+            ],
+            "classification": false,
+            "reason": "The term \"Widgets\" is a general noun and is not private information. The surrounding words \"Forms\" and \"Ulelements\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 43,
+            "x1": 871,
+            "y1": 381,
+            "x2": 992,
+            "y2": 410,
+            "text": "Christopher",
+            "context": [
+                "Ball,"
+            ],
+            "classification": true,
+            "reason": "The term \"Christopher\" is a specific first name and therefore private information. The surrounding word \"Ball\" does not suggest otherwise.",
+            "substitution": "name"
+        },
+        {
+            "id": 44,
+            "x1": 823,
+            "y1": 380,
+            "x2": 873,
+            "y2": 408,
+            "text": "Ball,",
+            "context": [
+                "Christopher"
+            ],
+            "classification": true,
+            "reason": "The term \"Ball,\" is likely a surname based on the surrounding word \"Christopher\". Surnames are private information.",
+            "substitution": "surname"
+        },
+        {
+            "id": 45,
+            "x1": 57,
+            "y1": 384,
+            "x2": 98,
+            "y2": 400,
+            "text": "Forms",
+            "context": [
+                "Widgets",
+                "Tables",
+                "83"
+            ],
+            "classification": false,
+            "reason": "The term \"Forms\" is a noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 46,
+            "x1": 1295,
+            "y1": 410,
+            "x2": 1373,
+            "y2": 433,
+            "text": "Feldsiedlung",
+            "context": [
+                "57,",
+                "+1343943712776",
+                "08538"
+            ],
+            "classification": true,
+            "reason": "The term \"Feldsiedlung\" is an address and therefore private information. The surrounding numbers also reinforce this claim.",
+            "substitution": "address"
+        },
+        {
+            "id": 47,
+            "x1": 1373,
+            "y1": 412,
+            "x2": 1394,
+            "y2": 430,
+            "text": "57,",
+            "context": [
+                "Feldsiedlung",
+                "08538",
+                "+1343943712776",
+                "Borna"
+            ],
+            "classification": false,
+            "reason": "The term \"57,\" seems to be a number, but it is unclear whether it is private information. The surrounding words \"Feldsiedlung\", \"08538\", \"+1343943712776\", and \"Borna\" don't make it clear. It is classified as not private, but it might be part of an address.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 48,
+            "x1": 1393,
+            "y1": 412,
+            "x2": 1439,
+            "y2": 430,
+            "text": "08538",
+            "context": [
+                "57,",
+                "Borna",
+                "+1343943712776",
+                "Feldsiedlung"
+            ],
+            "classification": true,
+            "reason": "\"08538\" could be a postal code and the surrounding words \"57,\", \"Borna\", \"+1343943712776\", and \"Feldsiedlung\" support that this is indeed a postal code of a location, making it private.",
+            "substitution": "postal code"
+        },
+        {
+            "id": 49,
+            "x1": 1437,
+            "y1": 414,
+            "x2": 1476,
+            "y2": 427,
+            "text": "Borna",
+            "context": [
+                "08538",
+                "+1343943712776",
+                "57,"
+            ],
+            "classification": true,
+            "reason": "\"Borna\" is a German municipality. The surrounding words \"08538\", \"+1343943712776\", and \"57,\" support that this is indeed a location, making it private.",
+            "substitution": "location"
+        },
+        {
+            "id": 50,
+            "x1": 23,
+            "y1": 419,
+            "x2": 42,
+            "y2": 440,
+            "text": "83",
+            "context": [
+                "Tables",
+                "Forms",
+                "Charts"
+            ],
+            "classification": false,
+            "reason": "The number 83, in the context of 'Tables', 'Forms', 'Charts', is likely a version number, count, or other non-private identifier. Therefore, it is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 51,
+            "x1": 56,
+            "y1": 422,
+            "x2": 103,
+            "y2": 440,
+            "text": "Tables",
+            "context": [
+                "83",
+                "Charts",
+                "Forms"
+            ],
+            "classification": false,
+            "reason": "The term \"Tables\" is a common noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 52,
+            "x1": 1294,
+            "y1": 431,
+            "x2": 1403,
+            "y2": 450,
+            "text": "+1343943712776",
+            "context": [
+                "Feldsiedlung",
+                "08538",
+                "57,",
+                "Borna"
+            ],
+            "classification": true,
+            "reason": "The term \"+1343943712776\" appears to be a phone number, given the leading '+1' and the sequence of digits. Phone numbers are considered private information.",
+            "substitution": "phone number"
+        },
+        {
+            "id": 53,
+            "x1": 56,
+            "y1": 460,
+            "x2": 104,
+            "y2": 478,
+            "text": "Charts",
+            "context": [
+                "Tables",
+                "83",
+                "Apps"
+            ],
+            "classification": false,
+            "reason": "The term \"Charts\" itself is just a noun and is not private information. The surrounding words \"Tables\", \"83\", and \"Apps\" do not indicate any private information related to the term.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 54,
+            "x1": 13,
+            "y1": 521,
+            "x2": 52,
+            "y2": 541,
+            "text": "Apps",
+            "context": [
+                "A",
+                "Calendar",
+                "Charts"
+            ],
+            "classification": false,
+            "reason": "The term \"Apps\" itself is just a noun and is not private information. The surrounding words \"A\", \"Calendar\", and \"Charts\" do not indicate any private information related to the term.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 55,
+            "x1": 24,
+            "y1": 554,
+            "x2": 39,
+            "y2": 568,
+            "text": "A",
+            "context": [
+                "Apps",
+                "Calendar",
+                "Contacts"
+            ],
+            "classification": false,
+            "reason": "The term \"A\" itself is a letter and is not private information. The surrounding words \"Apps\", \"Calendar\", and \"Contacts\" do not indicate any private information related to the term.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 56,
+            "x1": 56,
+            "y1": 554,
+            "x2": 119,
+            "y2": 574,
+            "text": "Calendar",
+            "context": [
+                "Apps",
+                "A",
+                "Contacts"
+            ],
+            "classification": false,
+            "reason": "The term \"Calendar\" itself is just a noun and is not private information. The surrounding words \"Apps\", \"A\", and \"Contacts\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 57,
+            "x1": 556,
+            "y1": 559,
+            "x2": 592,
+            "y2": 577,
+            "text": "First /",
+            "context": [
+                "name",
+                "Christopher"
+            ],
+            "classification": false,
+            "reason": "The term \"First /\" itself is not private information. The surrounding words \"name\" and \"Christopher\" indicate a first name is mentioned, however the term itself is not the first name.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 58,
+            "x1": 1083,
+            "y1": 560,
+            "x2": 1114,
+            "y2": 574,
+            "text": "Last",
+            "context": [
+                "name",
+                "Ball"
+            ],
+            "classification": false,
+            "reason": "The term \"Last\" itself is not private information. The surrounding words \"name\" and \"Ball\" indicate a last name is mentioned, however the term itself is not the last name.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 59,
+            "x1": 587,
+            "y1": 560,
+            "x2": 628,
+            "y2": 577,
+            "text": "name",
+            "context": [
+                "First /",
+                "Christopher"
+            ],
+            "classification": false,
+            "reason": "The term \"name\" itself is just a noun and is not private information. While there is a name \"Christopher\" in the surrounding words, the term \"name\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 60,
+            "x1": 1113,
+            "y1": 561,
+            "x2": 1152,
+            "y2": 574,
+            "text": "name",
+            "context": [
+                "Last",
+                "Ball"
+            ],
+            "classification": false,
+            "reason": "The term \"name\" itself is just a noun and is not private information. While there is a name \"Ball\" in the surrounding words, the term \"name\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 61,
+            "x1": 56,
+            "y1": 593,
+            "x2": 118,
+            "y2": 611,
+            "text": "Contacts",
+            "context": [
+                "Calendar",
+                "Profile",
+                "2",
+                "A"
+            ],
+            "classification": false,
+            "reason": "The term \"Contacts\" itself is just a noun and is not private information. The given surrounding words \"Calendar\", \"Profile\", \"2\", \"A\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 62,
+            "x1": 569,
+            "y1": 593,
+            "x2": 649,
+            "y2": 615,
+            "text": "Christopher",
+            "context": [
+                "First /",
+                "name",
+                "Email"
+            ],
+            "classification": true,
+            "reason": "The term \"Christopher\" is a specific first name and therefore private information. The surrounding words \"First name\" confirm that this is indeed a name.",
+            "substitution": "first name"
+        },
+        {
+            "id": 63,
+            "x1": 1097,
+            "y1": 596,
+            "x2": 1123,
+            "y2": 610,
+            "text": "Ball",
+            "context": [
+                "Last",
+                "name"
+            ],
+            "classification": true,
+            "reason": "The term \"Ball\" is a specific last name and therefore private information. The surrounding words \"Last name\" confirm that this is indeed a name.",
+            "substitution": "last name"
+        },
+        {
+            "id": 64,
+            "x1": 27,
+            "y1": 630,
+            "x2": 37,
+            "y2": 643,
+            "text": "2",
+            "context": [
+                "Profile",
+                "D",
+                "Contacts",
+                "File="
+            ],
+            "classification": false,
+            "reason": "The term \"2\" is a number that does not seem to represent any private information. The surrounding words do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 65,
+            "x1": 56,
+            "y1": 631,
+            "x2": 104,
+            "y2": 649,
+            "text": "Profile",
+            "context": [
+                "File=",
+                "Manager",
+                "2",
+                "Contacts",
+                "D"
+            ],
+            "classification": false,
+            "reason": "The term \"Profile\" itself is just a noun and is not private information. The given surrounding words do not suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 66,
+            "x1": 556,
+            "y1": 638,
+            "x2": 598,
+            "y2": 658,
+            "text": "Email",
+            "context": [
+                "joseph76@example.org",
+                "Christopher"
+            ],
+            "classification": false,
+            "reason": "The term \"Email\" itself is just a noun and is not private information. While there is a specific email address in the surrounding words, the term \"Email\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 67,
+            "x1": 24,
+            "y1": 668,
+            "x2": 40,
+            "y2": 682,
+            "text": "D",
+            "context": [
+                "File=",
+                "Profile",
+                "2",
+                "Help.",
+                "Manager"
+            ],
+            "classification": false,
+            "reason": "The term \"D\" itself is a character and not private information. The surrounding words do not suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 68,
+            "x1": 57,
+            "y1": 667,
+            "x2": 83,
+            "y2": 688,
+            "text": "File=",
+            "context": [
+                "Manager",
+                "D",
+                "Profile",
+                "Help.",
+                "Desk",
+                "2"
+            ],
+            "classification": false,
+            "reason": "The term \"File=\" itself is just a noun and is not private information, regardless of the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 69,
+            "x1": 84,
+            "y1": 667,
+            "x2": 142,
+            "y2": 691,
+            "text": "Manager",
+            "context": [
+                "File=",
+                "Desk",
+                "Help.",
+                "Profile",
+                "D"
+            ],
+            "classification": false,
+            "reason": "The term \"Manager\" itself is just a noun and is not private information, regardless of the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 70,
+            "x1": 567,
+            "y1": 674,
+            "x2": 716,
+            "y2": 695,
+            "text": "joseph76@example.org",
+            "context": [
+                "Email",
+                "Address"
+            ],
+            "classification": true,
+            "reason": "This is a specific mail address and therefore private information. The surrounding words \"Email\" and \"Address\" confirm that this is indeed a private email address.",
+            "substitution": "email address"
+        },
+        {
+            "id": 71,
+            "x1": 56,
+            "y1": 707,
+            "x2": 91,
+            "y2": 727,
+            "text": "Help.",
+            "context": [
+                "Desk",
+                "Manager",
+                "File=",
+                "D",
+                "Extra"
+            ],
+            "classification": false,
+            "reason": "The term \"Help.\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 72,
+            "x1": 89,
+            "y1": 707,
+            "x2": 125,
+            "y2": 725,
+            "text": "Desk",
+            "context": [
+                "Help.",
+                "Manager",
+                "File="
+            ],
+            "classification": false,
+            "reason": "The term \"Desk\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 73,
+            "x1": 556,
+            "y1": 719,
+            "x2": 613,
+            "y2": 737,
+            "text": "Address",
+            "context": [
+                "Theodor-Korner-Strape",
+                "joseph76@example.org"
+            ],
+            "classification": false,
+            "reason": "The term \"Address\" itself is a noun and is not private information. While there is an address in the surrounding words, the term itself is not the address.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 569,
+            "y1": 752,
+            "x2": 721,
+            "y2": 775,
+            "text": "Theodor-Korner-Strape",
+            "context": [
+                "28,",
+                "Address",
+                "12524",
+                "Birth",
+                "date"
+            ],
+            "classification": true,
+            "reason": "The term \"Theodor-Korner-Strape\" is part of a street address and therefore private information. The surrounding words \"Address\" and the zip code \"12524\" confirms this.",
+            "substitution": "address"
+        },
+        {
+            "id": 75,
+            "x1": 719,
+            "y1": 754,
+            "x2": 746,
+            "y2": 773,
+            "text": "28,",
+            "context": [
+                "Theodor-Korner-Strape",
+                "12524",
+                "Oschatz"
+            ],
+            "classification": true,
+            "reason": "The term \"28,\" is part of a street address and therefore private information.",
+            "substitution": "address"
+        },
+        {
+            "id": 76,
+            "x1": 742,
+            "y1": 754,
+            "x2": 788,
+            "y2": 773,
+            "text": "12524",
+            "context": [
+                "28,",
+                "Oschatz",
+                "Theodor-Korner-Strape"
+            ],
+            "classification": true,
+            "reason": "The term \"12524\" is a zip code and part of an address, which is private information.",
+            "substitution": "address"
+        },
+        {
+            "id": 77,
+            "x1": 785,
+            "y1": 754,
+            "x2": 842,
+            "y2": 773,
+            "text": "Oschatz",
+            "context": [
+                "12524",
+                "28,"
+            ],
+            "classification": true,
+            "reason": "The term \"Oschatz\" is a city in Saxony, Germany and is part of an address. Specific addresses and locations are private information.",
+            "substitution": "location"
+        },
+        {
+            "id": 78,
+            "x1": 13,
+            "y1": 766,
+            "x2": 50,
+            "y2": 786,
+            "text": "Extra",
+            "context": [
+                "0",
+                "Pages",
+                "Help."
+            ],
+            "classification": false,
+            "reason": "The term \"Extra\" itself is just a word and not private information. The surrounding words do not indicate otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 556,
+            "y1": 799,
+            "x2": 593,
+            "y2": 817,
+            "text": "Birth",
+            "context": [
+                "date",
+                "1951-09-14",
+                "Theodor-Korner-Strape"
+            ],
+            "classification": false,
+            "reason": "The term \"Birth\" itself is just a noun and is not private information. While there is a date of birth \"1951-09-14\" in the surrounding words, the term \"Birth\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 80,
+            "x1": 590,
+            "y1": 799,
+            "x2": 625,
+            "y2": 817,
+            "text": "date",
+            "context": [
+                "Birth",
+                "1951-09-14",
+                "Theodor-Korner-Strape"
+            ],
+            "classification": false,
+            "reason": "The term \"date\" itself is just a noun and is not private information. While there is a birth date \"1951-09-14\" in the surrounding words, the term \"date\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 81,
+            "x1": 1083,
+            "y1": 799,
+            "x2": 1149,
+            "y2": 820,
+            "text": "Diagnosis",
+            "context": [
+                "Rheumatoid",
+                "Arthritis"
+            ],
+            "classification": false,
+            "reason": "The term \"Diagnosis\" itself is a medical term, but not a specific private medical value. It is related to Rheumatoid Arthritis in the surrounding words.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 82,
+            "x1": 23,
+            "y1": 799,
+            "x2": 40,
+            "y2": 818,
+            "text": "0",
+            "context": [
+                "Extra",
+                "Pages",
+                "Authentication"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" is a number. The surrounding words do not suggest private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 83,
+            "x1": 57,
+            "y1": 801,
+            "x2": 100,
+            "y2": 824,
+            "text": "Pages",
+            "context": [
+                "Authentication",
+                "Extra",
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"Pages\" is a common noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 84,
+            "x1": 569,
+            "y1": 833,
+            "x2": 646,
+            "y2": 856,
+            "text": "1951-09-14",
+            "context": [
+                "Birth",
+                "date",
+                "Change",
+                "Save"
+            ],
+            "classification": true,
+            "reason": "The term \"1951-09-14\" represents a specific date. Given the surrounding words \"Birth\", \"date\", \"Change\", and \"Save\", it is likely that this is a birth date and therefore private information.",
+            "substitution": "date of birth"
+        },
+        {
+            "id": 85,
+            "x1": 1096,
+            "y1": 835,
+            "x2": 1178,
+            "y2": 854,
+            "text": "Rheumatoid",
+            "context": [
+                "Arthritis",
+                "Diagnosis"
+            ],
+            "classification": false,
+            "reason": "The term \"Rheumatoid\" is a medical term but not private by itself. The surrounding words \"Arthritis\" and \"Diagnosis\" confirm that this is a medical term and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 86,
+            "x1": 1175,
+            "y1": 835,
+            "x2": 1234,
+            "y2": 853,
+            "text": "Arthritis",
+            "context": [
+                "Rheumatoid",
+                "Diagnosis"
+            ],
+            "classification": false,
+            "reason": "The term \"Arthritis\" is a medical term, but not private. It is a diagnosis and therefore not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 87,
+            "x1": 56,
+            "y1": 839,
+            "x2": 155,
+            "y2": 859,
+            "text": "Authentication",
+            "context": [
+                "Pages",
+                "Layout",
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"Authentication\" itself is a noun and not private information. While a specific password is private information, the term \"Authentication\" itself can never be private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 88,
+            "x1": 56,
+            "y1": 878,
+            "x2": 107,
+            "y2": 898,
+            "text": "Layout",
+            "context": [
+                "Authentication",
+                "Documentation"
+            ],
+            "classification": false,
+            "reason": "The term \"Layout\" itself is a noun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 89,
+            "x1": 599,
+            "y1": 885,
+            "x2": 650,
+            "y2": 907,
+            "text": "Change",
+            "context": [
+                "Save",
+                "1951-09-14"
+            ],
+            "classification": false,
+            "reason": "The term \"Change\" is not private information. The surrounding words \"Save\" and \"1951-09-14\" don't make this term private either.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 90,
+            "x1": 563,
+            "y1": 886,
+            "x2": 599,
+            "y2": 904,
+            "text": "Save",
+            "context": [
+                "Change",
+                "1951-09-14"
+            ],
+            "classification": false,
+            "reason": "The term \"Save\" is not private information. The surrounding words \"Change\" and \"1951-09-14\" don't make this term private either.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 91,
+            "x1": 13,
+            "y1": 938,
+            "x2": 113,
+            "y2": 958,
+            "text": "Documentation",
+            "context": [
+                "Getting",
+                "Start",
+                "Layout"
+            ],
+            "classification": false,
+            "reason": "The term \"Documentation\" is not private information. The surrounding words \"Getting\", \"Start\" and \"Layout\" do not make this term private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 92,
+            "x1": 57,
+            "y1": 970,
+            "x2": 107,
+            "y2": 994,
+            "text": "Getting",
+            "context": [
+                "Start",
+                "Documentation"
+            ],
+            "classification": false,
+            "reason": "The term \"Getting\" itself is just a verb and is not private information. The surrounding words \"Start\" and \"Documentation\" do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 93,
+            "x1": 106,
+            "y1": 973,
+            "x2": 145,
+            "y2": 991,
+            "text": "Start",
+            "context": [
+                "Getting",
+                "Documentation"
+            ],
+            "classification": false,
+            "reason": "The term \"Start\" itself is just a verb and is not private information. The surrounding words \"Getting\" and \"Documentation\" do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 94,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.38",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.38\" is a number that could be private, especially considering it is mentioned with a date. However, in this context, it is not clearly a monetary value, medical value, or other private information. Therefore, without further context, it can't be classified as private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 95,
+            "x1": 545,
+            "y1": 1047,
+            "x2": 670,
+            "y2": 1074,
+            "text": "J 6 4",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"J 6 4\" seems to be a sequence of characters without specific meaning and without surrounding words that indicate it being private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 96,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a german verb which translates to \"search\" and is therefore not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 97,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.38"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" seems to be a date, but without surrounding words that indicate personal information like birth date. Also, dates by themselves are not private information. The surrounding numbers 76.38 do not indicate that it is private information. Therefore it is classified as not private.",
+            "substitution": "NONE"
+        }
+    ]
+}

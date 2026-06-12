@@ -1,0 +1,130 @@
+{
+    "texts": [
+        {
+            "id": 10,
+            "x1": 854,
+            "y1": 366,
+            "x2": 1066,
+            "y2": 398,
+            "text": "ACCOUNTALOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"ACCOUNTALOGIN\" appears to be a combination of \"ACCOUNT\" and \"LOGIN\", and it is not private information on its own.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 11,
+            "x1": 845,
+            "y1": 487,
+            "x2": 925,
+            "y2": 509,
+            "text": "Rosichan",
+            "context": [
+                "NONE"
+            ],
+            "classification": true,
+            "reason": "\"Rosichan\" appears to be a username or a name, which can be considered private information.",
+            "substitution": "username"
+        },
+        {
+            "id": 12,
+            "x1": 842,
+            "y1": 592,
+            "x2": 955,
+            "y2": 620,
+            "text": "#SGHnMCv) ~",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "\"#SGHnMCv) ~\" appears to be a random string and it is not possible to classify it as private information without additional context.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 13,
+            "x1": 931,
+            "y1": 699,
+            "x2": 988,
+            "y2": 725,
+            "text": "LOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" is a number. There are no surrounding words that suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 550,
+            "y1": 1047,
+            "x2": 668,
+            "y2": 1073,
+            "text": "Ji 5 A",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Ji 5 A\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "O"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a German verb and not private information. There is only the surrounding word \"O\" given, which does not change the classification.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 63,
+            "y1": 1053,
+            "x2": 75,
+            "y2": 1065,
+            "text": "O",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"O\" is a letter and not private information. There is only the surrounding word \"Suchen\" given, which does not change the classification.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" seems to be a date, however, there are no surrounding words given that link the date to a specific person. The date itself is in the future, so it is not sensitive, as the date does not correspond to a birth date or other person-specific information.",
+            "substitution": "NONE"
+        }
+    ]
+}

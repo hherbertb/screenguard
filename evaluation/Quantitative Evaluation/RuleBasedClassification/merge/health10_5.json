@@ -1,0 +1,1466 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Icon-Minus",
+            "height": 12,
+            "width": 14,
+            "position": {
+                "x1": 1790,
+                "y1": 151,
+                "x2": 1804,
+                "y2": 163
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 1,
+            "class": "Block",
+            "height": 352,
+            "width": 513,
+            "position": {
+                "x1": 282,
+                "y1": 224,
+                "x2": 795,
+                "y2": 576
+            },
+            "children": [
+                24,
+                25,
+                65,
+                66,
+                67
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 2,
+            "class": "Block",
+            "height": 382,
+            "width": 1054,
+            "position": {
+                "x1": 822,
+                "y1": 224,
+                "x2": 1876,
+                "y2": 606
+            },
+            "children": [
+                5,
+                6,
+                8,
+                9,
+                10,
+                13,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                51,
+                52,
+                55,
+                56,
+                57,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                68,
+                70,
+                71,
+                73,
+                74
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 3,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 240,
+                "x2": 48,
+                "y2": 258
+            },
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 4,
+            "class": "Icon-Minus",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 298,
+                "x2": 48,
+                "y2": 316
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 5,
+            "class": "EditText",
+            "height": 39,
+            "width": 505,
+            "position": {
+                "x1": 838,
+                "y1": 315,
+                "x2": 1343,
+                "y2": 354
+            },
+            "children": [
+                26,
+                52
+            ],
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 6,
+            "class": "EditText",
+            "height": 39,
+            "width": 505,
+            "position": {
+                "x1": 1355,
+                "y1": 315,
+                "x2": 1860,
+                "y2": 354
+            },
+            "children": [
+                27,
+                51
+            ],
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 7,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 357,
+                "x2": 48,
+                "y2": 375
+            },
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 8,
+            "class": "EditText",
+            "height": 39,
+            "width": 330,
+            "position": {
+                "x1": 838,
+                "y1": 406,
+                "x2": 1168,
+                "y2": 445
+            },
+            "children": [
+                28,
+                59,
+                63
+            ],
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 9,
+            "class": "EditText",
+            "height": 39,
+            "width": 338,
+            "position": {
+                "x1": 1180,
+                "y1": 406,
+                "x2": 1518,
+                "y2": 445
+            },
+            "children": [
+                29,
+                60,
+                64
+            ],
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 10,
+            "class": "EditText",
+            "height": 39,
+            "width": 330,
+            "position": {
+                "x1": 1530,
+                "y1": 406,
+                "x2": 1860,
+                "y2": 445
+            },
+            "children": [
+                30,
+                61,
+                62
+            ],
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 11,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 416,
+                "x2": 48,
+                "y2": 434
+            },
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 12,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 475,
+                "x2": 48,
+                "y2": 493
+            },
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 13,
+            "class": "EditText",
+            "height": 39,
+            "width": 321,
+            "position": {
+                "x1": 838,
+                "y1": 498,
+                "x2": 1159,
+                "y2": 537
+            },
+            "children": [
+                31,
+                70,
+                71
+            ],
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 14,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 534,
+                "x2": 48,
+                "y2": 552
+            },
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 15,
+            "class": "Checkbox",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 592,
+                "x2": 48,
+                "y2": 610
+            },
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 16,
+            "class": "Icon-Minus",
+            "height": 18,
+            "width": 19,
+            "position": {
+                "x1": 29,
+                "y1": 969,
+                "x2": 48,
+                "y2": 987
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 17,
+            "class": "Button",
+            "height": 38,
+            "width": 290,
+            "position": {
+                "x1": 46,
+                "y1": 1041,
+                "x2": 336,
+                "y2": 1079
+            },
+            "children": [
+                81,
+                82
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 18,
+            "class": "Icon-Profile",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 350,
+                "y1": 1048,
+                "x2": 374,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 19,
+            "class": "Icon-Play",
+            "height": 26,
+            "width": 25,
+            "position": {
+                "x1": 398,
+                "y1": 1046,
+                "x2": 423,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 20,
+            "class": "Icon-File",
+            "height": 19,
+            "width": 22,
+            "position": {
+                "x1": 449,
+                "y1": 1050,
+                "x2": 471,
+                "y2": 1069
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 21,
+            "class": "Icon-Wrench",
+            "height": 22,
+            "width": 24,
+            "position": {
+                "x1": 496,
+                "y1": 1050,
+                "x2": 520,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 22,
+            "class": "RadioButton",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 693,
+                "y1": 1048,
+                "x2": 717,
+                "y2": 1072
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 23,
+            "class": "Icon-Download",
+            "height": 20,
+            "width": 17,
+            "position": {
+                "x1": 14,
+                "y1": 1051,
+                "x2": 31,
+                "y2": 1071
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 24,
+            "class": "Icon-Bookmark",
+            "height": 121,
+            "width": 25,
+            "position": {
+                "x1": 413,
+                "y1": 249,
+                "x2": 438,
+                "y2": 370
+            },
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 25,
+            "class": "Button",
+            "height": 121,
+            "width": 25,
+            "position": {
+                "x1": 638,
+                "y1": 249,
+                "x2": 663,
+                "y2": 370
+            },
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 26,
+            "class": "EditText",
+            "height": 36,
+            "width": 502,
+            "position": {
+                "x1": 840,
+                "y1": 316,
+                "x2": 1342,
+                "y2": 352
+            },
+            "children": [
+                52
+            ],
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 27,
+            "class": "EditText",
+            "height": 36,
+            "width": 502,
+            "position": {
+                "x1": 1357,
+                "y1": 316,
+                "x2": 1859,
+                "y2": 352
+            },
+            "children": [
+                51
+            ],
+            "parent": 6,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 28,
+            "class": "EditText",
+            "height": 36,
+            "width": 327,
+            "position": {
+                "x1": 840,
+                "y1": 407,
+                "x2": 1167,
+                "y2": 443
+            },
+            "children": [
+                59,
+                63
+            ],
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 29,
+            "class": "EditText",
+            "height": 36,
+            "width": 335,
+            "position": {
+                "x1": 1182,
+                "y1": 407,
+                "x2": 1517,
+                "y2": 443
+            },
+            "children": [
+                60,
+                64
+            ],
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 30,
+            "class": "EditText",
+            "height": 36,
+            "width": 327,
+            "position": {
+                "x1": 1532,
+                "y1": 407,
+                "x2": 1859,
+                "y2": 443
+            },
+            "children": [
+                61,
+                62
+            ],
+            "parent": 10,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 31,
+            "class": "EditText",
+            "height": 36,
+            "width": 318,
+            "position": {
+                "x1": 840,
+                "y1": 499,
+                "x2": 1158,
+                "y2": 535
+            },
+            "children": [
+                70,
+                71
+            ],
+            "parent": 13,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 32,
+            "class": "Text",
+            "height": 27,
+            "width": 80,
+            "position": {
+                "x1": 332,
+                "y1": 139,
+                "x2": 412,
+                "y2": 166
+            },
+            "text_content": "Profile",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 33,
+            "class": "Text",
+            "height": 23,
+            "width": 52,
+            "position": {
+                "x1": 279,
+                "y1": 143,
+                "x2": 331,
+                "y2": 166
+            },
+            "text_content": "User",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 34,
+            "class": "Text",
+            "height": 21,
+            "width": 101,
+            "position": {
+                "x1": 1649,
+                "y1": 145,
+                "x2": 1750,
+                "y2": 166
+            },
+            "text_content": "Notifications",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 35,
+            "class": "Text",
+            "height": 28,
+            "width": 69,
+            "position": {
+                "x1": 1808,
+                "y1": 142,
+                "x2": 1877,
+                "y2": 170
+            },
+            "text_content": "Settings",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 36,
+            "class": "Text",
+            "height": 26,
+            "width": 96,
+            "position": {
+                "x1": 59,
+                "y1": 144,
+                "x2": 155,
+                "y2": 170
+            },
+            "text_content": "CREATIVE",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 37,
+            "class": "Text",
+            "height": 21,
+            "width": 36,
+            "position": {
+                "x1": 156,
+                "y1": 146,
+                "x2": 192,
+                "y2": 167
+            },
+            "text_content": "TIM",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 38,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "x1": 1540,
+                "y1": 146,
+                "x2": 1588,
+                "y2": 166
+            },
+            "text_content": "Stats",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 39,
+            "class": "Text",
+            "height": 16,
+            "width": 13,
+            "position": {
+                "x1": 1632,
+                "y1": 147,
+                "x2": 1645,
+                "y2": 163
+            },
+            "text_content": "5",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 40,
+            "class": "Text",
+            "height": 11,
+            "width": 13,
+            "position": {
+                "x1": 1523,
+                "y1": 152,
+                "x2": 1536,
+                "y2": 163
+            },
+            "text_content": "D",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 41,
+            "class": "Text",
+            "height": 11,
+            "width": 12,
+            "position": {
+                "x1": 1614,
+                "y1": 152,
+                "x2": 1626,
+                "y2": 163
+            },
+            "text_content": "D",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 42,
+            "class": "Text",
+            "height": 18,
+            "width": 90,
+            "position": {
+                "x1": 65,
+                "y1": 239,
+                "x2": 155,
+                "y2": 257
+            },
+            "text_content": "DASHBOARD",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 43,
+            "class": "Text",
+            "height": 27,
+            "width": 46,
+            "position": {
+                "x1": 841,
+                "y1": 240,
+                "x2": 887,
+                "y2": 267
+            },
+            "text_content": "Edit",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 44,
+            "class": "Text",
+            "height": 27,
+            "width": 71,
+            "position": {
+                "x1": 887,
+                "y1": 240,
+                "x2": 958,
+                "y2": 267
+            },
+            "text_content": "Profile",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 45,
+            "class": "Text",
+            "height": 20,
+            "width": 39,
+            "position": {
+                "x1": 836,
+                "y1": 290,
+                "x2": 875,
+                "y2": 310
+            },
+            "text_content": "First",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 46,
+            "class": "Text",
+            "height": 20,
+            "width": 49,
+            "position": {
+                "x1": 874,
+                "y1": 290,
+                "x2": 923,
+                "y2": 310
+            },
+            "text_content": "Name",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 47,
+            "class": "Text",
+            "height": 20,
+            "width": 38,
+            "position": {
+                "x1": 1352,
+                "y1": 290,
+                "x2": 1390,
+                "y2": 310
+            },
+            "text_content": "Last",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 48,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "x1": 1390,
+                "y1": 290,
+                "x2": 1438,
+                "y2": 310
+            },
+            "text_content": "Name",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 49,
+            "class": "Text",
+            "height": 18,
+            "width": 42,
+            "position": {
+                "x1": 65,
+                "y1": 298,
+                "x2": 107,
+                "y2": 316
+            },
+            "text_content": "USER",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 50,
+            "class": "Text",
+            "height": 20,
+            "width": 65,
+            "position": {
+                "x1": 104,
+                "y1": 296,
+                "x2": 169,
+                "y2": 316
+            },
+            "text_content": "PROFILE",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 51,
+            "class": "Text",
+            "height": 21,
+            "width": 68,
+            "position": {
+                "x1": 1373,
+                "y1": 325,
+                "x2": 1441,
+                "y2": 346
+            },
+            "text_content": "Sandoval",
+            "parent": 27,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 52,
+            "class": "Text",
+            "height": 21,
+            "width": 46,
+            "position": {
+                "x1": 855,
+                "y1": 326,
+                "x2": 901,
+                "y2": 347
+            },
+            "text_content": "Casey",
+            "parent": 26,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 53,
+            "class": "Text",
+            "height": 18,
+            "width": 50,
+            "position": {
+                "x1": 65,
+                "y1": 356,
+                "x2": 115,
+                "y2": 374
+            },
+            "text_content": "TABLE",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 54,
+            "class": "Text",
+            "height": 18,
+            "width": 38,
+            "position": {
+                "x1": 110,
+                "y1": 356,
+                "x2": 148,
+                "y2": 374
+            },
+            "text_content": "LIST",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 55,
+            "class": "Text",
+            "height": 20,
+            "width": 26,
+            "position": {
+                "x1": 836,
+                "y1": 380,
+                "x2": 862,
+                "y2": 400
+            },
+            "text_content": "CA",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 56,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "x1": 1178,
+                "y1": 380,
+                "x2": 1226,
+                "y2": 400
+            },
+            "text_content": "PHOS",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 57,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "x1": 1528,
+                "y1": 380,
+                "x2": 1576,
+                "y2": 400
+            },
+            "text_content": "GLUC",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 58,
+            "class": "Text",
+            "height": 18,
+            "width": 98,
+            "position": {
+                "x1": 65,
+                "y1": 415,
+                "x2": 163,
+                "y2": 433
+            },
+            "text_content": "TYPOGRAPHY",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 59,
+            "class": "Text",
+            "height": 21,
+            "width": 44,
+            "position": {
+                "x1": 884,
+                "y1": 416,
+                "x2": 928,
+                "y2": 437
+            },
+            "text_content": "mg/dl",
+            "parent": 28,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 60,
+            "class": "Text",
+            "height": 21,
+            "width": 45,
+            "position": {
+                "x1": 1224,
+                "y1": 416,
+                "x2": 1269,
+                "y2": 437
+            },
+            "text_content": "mg/dl",
+            "parent": 29,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 61,
+            "class": "Text",
+            "height": 20,
+            "width": 37,
+            "position": {
+                "x1": 1546,
+                "y1": 416,
+                "x2": 1583,
+                "y2": 436
+            },
+            "text_content": "71.2",
+            "parent": 30,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 62,
+            "class": "Text",
+            "height": 21,
+            "width": 45,
+            "position": {
+                "x1": 1584,
+                "y1": 416,
+                "x2": 1629,
+                "y2": 437
+            },
+            "text_content": "mg/dl",
+            "parent": 30,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 63,
+            "class": "Text",
+            "height": 20,
+            "width": 30,
+            "position": {
+                "x1": 854,
+                "y1": 416,
+                "x2": 884,
+                "y2": 436
+            },
+            "text_content": "9.8",
+            "parent": 28,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 64,
+            "class": "Text",
+            "height": 20,
+            "width": 29,
+            "position": {
+                "x1": 1196,
+                "y1": 416,
+                "x2": 1225,
+                "y2": 436
+            },
+            "text_content": "3.0",
+            "parent": 29,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 65,
+            "class": "Text",
+            "height": 21,
+            "width": 42,
+            "position": {
+                "x1": 474,
+                "y1": 436,
+                "x2": 516,
+                "y2": 457
+            },
+            "text_content": "Lisa",
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 66,
+            "class": "Text",
+            "height": 21,
+            "width": 85,
+            "position": {
+                "x1": 519,
+                "y1": 435,
+                "x2": 604,
+                "y2": 456
+            },
+            "text_content": "Johnson",
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 67,
+            "class": "Text",
+            "height": 18,
+            "width": 58,
+            "position": {
+                "x1": 511,
+                "y1": 463,
+                "x2": 569,
+                "y2": 481
+            },
+            "text_content": "=63230",
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 68,
+            "class": "Text",
+            "height": 18,
+            "width": 45,
+            "position": {
+                "x1": 836,
+                "y1": 473,
+                "x2": 881,
+                "y2": 491
+            },
+            "text_content": "CREA",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 69,
+            "class": "Text",
+            "height": 20,
+            "width": 52,
+            "position": {
+                "x1": 64,
+                "y1": 473,
+                "x2": 116,
+                "y2": 493
+            },
+            "text_content": "ICONS",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 70,
+            "class": "Text",
+            "height": 21,
+            "width": 44,
+            "position": {
+                "x1": 884,
+                "y1": 508,
+                "x2": 928,
+                "y2": 529
+            },
+            "text_content": "mg/dl",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 71,
+            "class": "Text",
+            "height": 18,
+            "width": 29,
+            "position": {
+                "x1": 854,
+                "y1": 509,
+                "x2": 883,
+                "y2": 527
+            },
+            "text_content": "1.1",
+            "parent": 31,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 72,
+            "class": "Text",
+            "height": 18,
+            "width": 44,
+            "position": {
+                "x1": 65,
+                "y1": 533,
+                "x2": 109,
+                "y2": 551
+            },
+            "text_content": "MAPS",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 73,
+            "class": "Text",
+            "height": 21,
+            "width": 54,
+            "position": {
+                "x1": 1305,
+                "y1": 575,
+                "x2": 1359,
+                "y2": 596
+            },
+            "text_content": "Update",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 74,
+            "class": "Text",
+            "height": 20,
+            "width": 38,
+            "position": {
+                "x1": 1358,
+                "y1": 575,
+                "x2": 1396,
+                "y2": 595
+            },
+            "text_content": "Data",
+            "parent": 2,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 75,
+            "class": "Text",
+            "height": 20,
+            "width": 116,
+            "position": {
+                "x1": 65,
+                "y1": 590,
+                "x2": 181,
+                "y2": 610
+            },
+            "text_content": "NOTIFICATIONS",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 76,
+            "class": "Text",
+            "height": 18,
+            "width": 71,
+            "position": {
+                "x1": 65,
+                "y1": 968,
+                "x2": 136,
+                "y2": 986
+            },
+            "text_content": "UPGRADE -",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 77,
+            "class": "Text",
+            "height": 17,
+            "width": 22,
+            "position": {
+                "x1": 133,
+                "y1": 968,
+                "x2": 155,
+                "y2": 985
+            },
+            "text_content": "To",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 78,
+            "class": "Text",
+            "height": 18,
+            "width": 35,
+            "position": {
+                "x1": 155,
+                "y1": 968,
+                "x2": 190,
+                "y2": 986
+            },
+            "text_content": "PRO",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 79,
+            "class": "Text",
+            "height": 14,
+            "width": 31,
+            "position": {
+                "x1": 1871,
+                "y1": 1043,
+                "x2": 1902,
+                "y2": 1057
+            },
+            "text_content": "1638",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 80,
+            "class": "Text",
+            "height": 21,
+            "width": 118,
+            "position": {
+                "x1": 548,
+                "y1": 1049,
+                "x2": 666,
+                "y2": 1070
+            },
+            "text_content": "NE E K",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 81,
+            "class": "Text",
+            "height": 19,
+            "width": 56,
+            "position": {
+                "x1": 83,
+                "y1": 1051,
+                "x2": 139,
+                "y2": 1070
+            },
+            "text_content": "Suchen",
+            "parent": 17,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 82,
+            "class": "Text",
+            "height": 10,
+            "width": 10,
+            "position": {
+                "x1": 63,
+                "y1": 1055,
+                "x2": 73,
+                "y2": 1065
+            },
+            "text_content": "L",
+            "parent": 17,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 83,
+            "class": "Text",
+            "height": 18,
+            "width": 62,
+            "position": {
+                "x1": 1856,
+                "y1": 1060,
+                "x2": 1918,
+                "y2": 1078
+            },
+            "text_content": "17.04.2025",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        }
+    ],
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "raw_texts": "Profile; User; Notifications; Settings; CREATIVE; TIM; Stats; 5; D; D; DASHBOARD; Edit; Profile; First; Name; Last; Name; USER; PROFILE; Sandoval; Casey; TABLE; LIST; CA; PHOS; GLUC; TYPOGRAPHY; mg/dl; mg/dl; 71.2; mg/dl; 9.8; 3.0; Lisa; Johnson; =63230; CREA; ICONS; mg/dl; 1.1; MAPS; Update; Data; NOTIFICATIONS; UPGRADE -; To; PRO; 1638; NE E K; Suchen; L; 17.04.2025"
+}

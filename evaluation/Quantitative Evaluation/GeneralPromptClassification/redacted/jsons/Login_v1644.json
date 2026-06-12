@@ -1,0 +1,130 @@
+{
+    "texts": [
+        {
+            "id": 10,
+            "x1": 854,
+            "y1": 366,
+            "x2": 1066,
+            "y2": 398,
+            "text": "ACCOUNTALOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"ACCOUNTALOGIN\" itself is not private information, it seems to be a technical term.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 11,
+            "x1": 845,
+            "y1": 487,
+            "x2": 925,
+            "y2": 509,
+            "text": "Rosichan",
+            "context": [
+                "NONE"
+            ],
+            "classification": true,
+            "reason": "The term \"Rosichan\" could be a name and is therefore private information.",
+            "substitution": "name"
+        },
+        {
+            "id": 12,
+            "x1": 842,
+            "y1": 592,
+            "x2": 955,
+            "y2": 620,
+            "text": "#SGHnMCv) ~",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"#SGHnMCv) ~\" itself seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 13,
+            "x1": 931,
+            "y1": 699,
+            "x2": 988,
+            "y2": 725,
+            "text": "LOGIN",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"LOGIN\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 1871,
+            "y1": 1043,
+            "x2": 1902,
+            "y2": 1057,
+            "text": "76.36",
+            "context": [
+                "17.04.2025_"
+            ],
+            "classification": false,
+            "reason": "The term \"76.36\" itself is a number without any context, the surrounding words do not add any helpful context to make a classification.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 550,
+            "y1": 1047,
+            "x2": 668,
+            "y2": 1073,
+            "text": "Ji 5 A",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Ji 5 A\" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 83,
+            "y1": 1051,
+            "x2": 139,
+            "y2": 1070,
+            "text": "Suchen",
+            "context": [
+                "O"
+            ],
+            "classification": false,
+            "reason": "The term \"Suchen\" is a German word that means search. The surrounding word \"O\" does not provide enough context to suggest that the term is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 63,
+            "y1": 1053,
+            "x2": 75,
+            "y2": 1065,
+            "text": "O",
+            "context": [
+                "Suchen"
+            ],
+            "classification": false,
+            "reason": "The term \"O\" itself is just a letter and is not private information. The surrounding word \"Suchen\" does not provide enough context to suggest that the term is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 1856,
+            "y1": 1060,
+            "x2": 1918,
+            "y2": 1078,
+            "text": "17.04.2025_",
+            "context": [
+                "76.36"
+            ],
+            "classification": false,
+            "reason": "The term \"17.04.2025_\" represents a date, which by itself is not considered private information.",
+            "substitution": "NONE"
+        }
+    ]
+}

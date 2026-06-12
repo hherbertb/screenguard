@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+
+# Model weights (too large for git)
+*.onnx
+activitygen/models/classifier_model.pth
+
+# API keys
+configs/api_keys.cfg
+
+# Dataset generator (contains files too large for git)
+privacydatagenerator/
+
+# Runtime I/O
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

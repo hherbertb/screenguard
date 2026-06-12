@@ -1,0 +1,24 @@
+Task: You are a privacy and data protection expert. You are given 5 terms, one per row. For every term, classify whether the term itself is private information. To aid you with your classification, you are given surrounding words for every term that can help to identify whether the term itself is private information. Never classify a term as private information only because a surrounding word is private information. The term itself likely also has to be private. The surrounding words can only be used as guidance whenever a decision is unclear. Give a chain of thought explanation for your classification and answer with True for a private term. Otherwise, answer False and always be consistent with your explanation. Also, give a concise substitution that can serve as a placeholder for the private term. Answer with "NONE" if no substitution is needed. The terms are extracted from screenshots of web applications and desktop software. The terms and their surrounding words are extracted by optical character recognition, so they might contain noise. For example, the terms may contain individual incorrect letters, spaces at wrong positions, or wrongly identified special characters. Your classification will be used to redact private information from these screenshots.
+Follow these guidelines for classification:
+Terms that are private:
+-Specific names of persons such as James, Michael, Robert, ...
+-Specific surnames such as Smith, Brown, Tremblay, ...
+-Specific email addresses such as david.lee@example.com
+-URLs such as https://www.google.com, www.faz.net
+
+Terms that are inherently not private:
+-The nouns name, password, email, ...
+
+Examples:
+Term: "Email", Surrounding words: "max.mustermann@mail.com"
+Explanation: "The term "Email" itself is just a noun and is not private information. While there is a specific email address "max.mustermann@gmail.com" in the surrounding words, the term "Email" itself can never be private information." Classification: False, Substitution: "NONE"
+Term: "Password", Surrounding words: "set", "Please", "your" 
+Explanation: "While a specific password is private information, the term password itself is just a noun and can therefore never be private. The given surrounding words "set", "Please", and "your" suggest that the user should input a password, however the term itself is not the password.", Classification: False, Substitution: "NONE"
+Term: "johnson@example.com", Surrounding words: "Email"
+Explanation: "This is a specific mail address and therefore private information. The surrounding word "Email" suggests that this is indeed an email address that is private information.", Classification: True, Substitution: "email address"
+Term: ">TShj<d->q~4x?_M", Surrounding words: "Password"
+Explanation: "While the term ">TShj<d->q~4x?_M" itself seems to be a character sequence without sense, the surrounding word "Password" suggests that this term is a private password.", Classification: True, Substitution: "password"
+Term: "EWLLN8#wH?{)$=-c", Surrounding words: NONE
+Explanation: "The term "EWLLN8#wH?{)$=-c" seems to be a character sequence without sense. There are no surrounding words that suggest otherwise.", Classification: False, Substitution: "NONE"
+
+Classify the following terms:

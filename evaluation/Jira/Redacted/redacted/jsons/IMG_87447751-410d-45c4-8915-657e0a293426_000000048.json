@@ -1,0 +1,531 @@
+{
+    "texts": [
+        {
+            "id": 4,
+            "x1": 61,
+            "y1": 197,
+            "x2": 466,
+            "y2": 327,
+            "text": "celonis",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"celonis\" does not resemble private information such as a name, email address or password. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 5,
+            "x1": 126,
+            "y1": 466,
+            "x2": 224,
+            "y2": 515,
+            "text": "Task",
+            "context": [
+                "Mining"
+            ],
+            "classification": false,
+            "reason": "The term \"Task\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 6,
+            "x1": 227,
+            "y1": 459,
+            "x2": 378,
+            "y2": 524,
+            "text": "Mining",
+            "context": [
+                "Details",
+                "Task"
+            ],
+            "classification": false,
+            "reason": "The term \"Mining\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 7,
+            "x1": 380,
+            "y1": 466,
+            "x2": 532,
+            "y2": 515,
+            "text": "Details",
+            "context": [
+                "Mining"
+            ],
+            "classification": false,
+            "reason": "The term \"Details\" itself is just a noun and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 8,
+            "x1": 1013,
+            "y1": 463,
+            "x2": 1193,
+            "y2": 522,
+            "text": "Recently",
+            "context": [
+                "Captured"
+            ],
+            "classification": false,
+            "reason": "The term \"Recently\" itself is just an adverb and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 9,
+            "x1": 1196,
+            "y1": 463,
+            "x2": 1399,
+            "y2": 529,
+            "text": "Captured",
+            "context": [
+                "Recently"
+            ],
+            "classification": false,
+            "reason": "The term \"Captured\" itself is just a verb and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 10,
+            "x1": 192,
+            "y1": 578,
+            "x2": 290,
+            "y2": 632,
+            "text": "Mining",
+            "context": [
+                "Task",
+                "Status:"
+            ],
+            "classification": false,
+            "reason": "The term \"Mining\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 11,
+            "x1": 1242,
+            "y1": 581,
+            "x2": 1364,
+            "y2": 634,
+            "text": "Mining_.",
+            "context": [
+                "Task"
+            ],
+            "classification": false,
+            "reason": "The term \"Mining_.\" itself is just a noun and is not private information. The trailing characters do not change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 12,
+            "x1": 129,
+            "y1": 590,
+            "x2": 195,
+            "y2": 622,
+            "text": "Task",
+            "context": [
+                "Mining"
+            ],
+            "classification": false,
+            "reason": "The term \"Task\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 13,
+            "x1": 293,
+            "y1": 590,
+            "x2": 395,
+            "y2": 622,
+            "text": "Status:",
+            "context": [
+                "Mining"
+            ],
+            "classification": false,
+            "reason": "The term \"Status:\" itself is just a noun and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 14,
+            "x1": 459,
+            "y1": 581,
+            "x2": 595,
+            "y2": 632,
+            "text": "Capturing",
+            "context": [
+                "Paused"
+            ],
+            "classification": false,
+            "reason": "The term \"Capturing\" is an action and does not represent private information. The surrounding word \"Paused\" does not indicate private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 15,
+            "x1": 598,
+            "y1": 590,
+            "x2": 698,
+            "y2": 622,
+            "text": "Paused",
+            "context": [
+                "Capturing",
+                "oo"
+            ],
+            "classification": false,
+            "reason": "The term \"Paused\" is an action and does not represent private information. The surrounding words \"Capturing\" and \"oo\" do not indicate private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 16,
+            "x1": 1025,
+            "y1": 590,
+            "x2": 1115,
+            "y2": 622,
+            "text": "Please.",
+            "context": [
+                "stant"
+            ],
+            "classification": false,
+            "reason": "The term \"Please.\" is a polite word and does not represent private information. The surrounding word \"stant\" does not indicate private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 17,
+            "x1": 1176,
+            "y1": 590,
+            "x2": 1242,
+            "y2": 622,
+            "text": "Task",
+            "context": [
+                "Mining_.",
+                "stant"
+            ],
+            "classification": false,
+            "reason": "The term \"Task\" is a noun and does not represent private information. The surrounding words \"Mining_.\" and \"stant\" do not indicate private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 18,
+            "x1": 1113,
+            "y1": 593,
+            "x2": 1179,
+            "y2": 622,
+            "text": "stant",
+            "context": [
+                "Please.",
+                "Task"
+            ],
+            "classification": false,
+            "reason": "The term \"stant\" is a non-dictionary term and doesn't represent private information. The surrounding words \"Please.\" and \"Task\" do not indicate private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 19,
+            "x1": 703,
+            "y1": 610,
+            "x2": 727,
+            "y2": 620,
+            "text": "oo",
+            "context": [
+                "Paused"
+            ],
+            "classification": false,
+            "reason": "The term \"oo\" itself is a sequence of letters without a clear meaning and it is not private information. The surrounding word \"Paused\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 20,
+            "x1": 126,
+            "y1": 690,
+            "x2": 231,
+            "y2": 734,
+            "text": "Upload",
+            "context": [
+                "Status"
+            ],
+            "classification": false,
+            "reason": "The term \"Upload\" itself is a noun and is not private information. The surrounding word \"Status\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 21,
+            "x1": 229,
+            "y1": 695,
+            "x2": 319,
+            "y2": 727,
+            "text": "Status",
+            "context": [
+                "Upload"
+            ],
+            "classification": false,
+            "reason": "The term \"Status\" itself is a noun and is not private information. The surrounding word \"Upload\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 22,
+            "x1": 459,
+            "y1": 688,
+            "x2": 659,
+            "y2": 734,
+            "text": "12.screenshots",
+            "context": [
+                "uploaded"
+            ],
+            "classification": false,
+            "reason": "The term \"12.screenshots\" seems to be a file name. While file names can be private information if they contain private information such as names, this term is not private. The surrounding word \"uploaded\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 23,
+            "x1": 654,
+            "y1": 693,
+            "x2": 788,
+            "y2": 734,
+            "text": "uploaded",
+            "context": [
+                "12.screenshots",
+                "successfully"
+            ],
+            "classification": false,
+            "reason": "The term \"uploaded\" itself is a verb and is not private information. The surrounding words \"12.screenshots\" and \"successfully\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 24,
+            "x1": 783,
+            "y1": 693,
+            "x2": 952,
+            "y2": 734,
+            "text": "successfully",
+            "context": [
+                "uploaded"
+            ],
+            "classification": false,
+            "reason": "The term \"successfully\" is an adverb and is therefore not private information. The surrounding word \"uploaded\" doesn't change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 25,
+            "x1": 129,
+            "y1": 861,
+            "x2": 229,
+            "y2": 900,
+            "text": "Startup",
+            "context": [
+                "Mode"
+            ],
+            "classification": false,
+            "reason": "The term \"Startup\" is a noun and is therefore not private information. The surrounding word \"Mode\" doesn't change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 26,
+            "x1": 234,
+            "y1": 864,
+            "x2": 317,
+            "y2": 896,
+            "text": "Mode",
+            "context": [
+                "Startup"
+            ],
+            "classification": false,
+            "reason": "The term \"Mode\" is a noun and is therefore not private information. The surrounding word \"Startup\" doesn't change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 27,
+            "x1": 402,
+            "y1": 864,
+            "x2": 471,
+            "y2": 896,
+            "text": "Stant",
+            "context": [
+                "manually"
+            ],
+            "classification": false,
+            "reason": "The term \"Stant\" seems to be a character sequence without sense. The surrounding word \"manually\" doesn't change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 28,
+            "x1": 468,
+            "y1": 861,
+            "x2": 600,
+            "y2": 903,
+            "text": "manually",
+            "context": [
+                "Stant"
+            ],
+            "classification": false,
+            "reason": "The term \"manually\" is an adverb and is therefore not private information. The surrounding word \"Stant\" doesn't change that.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 29,
+            "x1": 129,
+            "y1": 981,
+            "x2": 197,
+            "y2": 1013,
+            "text": "Your",
+            "context": [
+                "Jeam"
+            ],
+            "classification": false,
+            "reason": "The term \"Your\" itself is a possessive pronoun and not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 30,
+            "x1": 195,
+            "y1": 981,
+            "x2": 273,
+            "y2": 1013,
+            "text": "Jeam",
+            "context": [
+                "Your"
+            ],
+            "classification": true,
+            "reason": "\"Jeam\" seems to be a name. Therefore it is private information.",
+            "substitution": "name"
+        },
+        {
+            "id": 31,
+            "x1": 400,
+            "y1": 981,
+            "x2": 886,
+            "y2": 1015,
+            "text": "academic-luca-dewert-mwth-aachen-",
+            "context": [
+                "de.eu-2.celonis.cloud",
+                "JiraWorkflow"
+            ],
+            "classification": true,
+            "reason": "The term \"academic-luca-dewert-mwth-aachen-\" contains the name \"luca-dewert\", which is private. Therefore, the whole term is private.",
+            "substitution": "name"
+        },
+        {
+            "id": 32,
+            "x1": 405,
+            "y1": 1018,
+            "x2": 686,
+            "y2": 1049,
+            "text": "de.eu-2.celonis.cloud",
+            "context": [
+                "academic-luca-dewert-mwth-aachen-",
+                "JiraWorkflow"
+            ],
+            "classification": true,
+            "reason": "The term \"de.eu-2.celonis.cloud\" is a URL and therefore private information.",
+            "substitution": "URL"
+        },
+        {
+            "id": 33,
+            "x1": 397,
+            "y1": 1054,
+            "x2": 576,
+            "y2": 1086,
+            "text": "JiraWorkflow",
+            "context": [
+                "de.eu-2.celonis.cloud",
+                "academic-luca-dewert-mwth-aachen-"
+            ],
+            "classification": false,
+            "reason": "\"JiraWorkflow\" is a generic term and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 34,
+            "x1": 1633,
+            "y1": 1413,
+            "x2": 1660,
+            "y2": 1438,
+            "text": "I",
+            "context": [
+                "Pause"
+            ],
+            "classification": false,
+            "reason": "The term \"I\" is a pronoun and is not private information. The surrounding word \"Pause\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 35,
+            "x1": 161,
+            "y1": 1406,
+            "x2": 314,
+            "y2": 1447,
+            "text": "Annotate",
+            "context": [
+                "Activity"
+            ],
+            "classification": false,
+            "reason": "The term \"Annotate\" is a verb and is not private information. The surrounding word \"Activity\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 36,
+            "x1": 312,
+            "y1": 1401,
+            "x2": 437,
+            "y2": 1452,
+            "text": "Activity",
+            "context": [
+                "Annotate"
+            ],
+            "classification": false,
+            "reason": "The term \"Activity\" is a noun and is not private information. The surrounding word \"Annotate\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 37,
+            "x1": 1362,
+            "y1": 1406,
+            "x2": 1452,
+            "y2": 1447,
+            "text": "Start",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Start\" is a verb and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 38,
+            "x1": 1701,
+            "y1": 1411,
+            "x2": 1799,
+            "y2": 1445,
+            "text": "Pause",
+            "context": [
+                "I"
+            ],
+            "classification": false,
+            "reason": "The term \"Pause\" is a verb and is not private information. The surrounding word \"I\" does not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 39,
+            "x1": 129,
+            "y1": 1511,
+            "x2": 241,
+            "y2": 1552,
+            "text": "2.18.0.0",
+            "context": [
+                "Version"
+            ],
+            "classification": false,
+            "reason": "The term \"2.18.0.0\" appears to be a version number and does not inherently represent private information. The surrounding word \"Version\" confirms this.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 40,
+            "x1": 26,
+            "y1": 1518,
+            "x2": 134,
+            "y2": 1550,
+            "text": "Version",
+            "context": [
+                "2.18.0.0"
+            ],
+            "classification": false,
+            "reason": "The term \"Version\" itself is just a noun and is not private information. The surrounding word \"2.18.0.0\" which is a version number does not change that the term itself is not private.",
+            "substitution": "NONE"
+        }
+    ]
+}

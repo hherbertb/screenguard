@@ -1,0 +1,949 @@
+{
+    "texts": [
+        {
+            "id": 31,
+            "x1": 79,
+            "y1": 144,
+            "x2": 121,
+            "y2": 170,
+            "text": "Jira",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Jira\" itself is a software name and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 32,
+            "x1": 950,
+            "y1": 210,
+            "x2": 1007,
+            "y2": 249,
+            "text": "Jira",
+            "context": [
+                "fortzufahren",
+                "Einloggen,",
+                "um"
+            ],
+            "classification": false,
+            "reason": "The term \"Jira\" itself is a software name and is not private information. The surrounding words \"fortzufahren\", \"Einloggen,\", \"um\" do not suggest that the term itself is private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 33,
+            "x1": 1761,
+            "y1": 218,
+            "x2": 1846,
+            "y2": 241,
+            "text": "0 16 <",
+            "context": [
+                "0"
+            ],
+            "classification": false,
+            "reason": "The term \"0 16 <\" itself seems to be a meaningless character sequence. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 34,
+            "x1": 1730,
+            "y1": 222,
+            "x2": 1744,
+            "y2": 237,
+            "text": "0",
+            "context": [
+                "0 16 <"
+            ],
+            "classification": false,
+            "reason": "The term \"0\" itself is just a number and is not private information. The surrounding words \"0 16 <\" do not suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 35,
+            "x1": 857,
+            "y1": 274,
+            "x2": 940,
+            "y2": 300,
+            "text": "Einloggen,",
+            "context": [
+                "um",
+                "luca.dewert@rwth-aachen.de",
+                "fortzufahren",
+                "Jira"
+            ],
+            "classification": false,
+            "reason": "The term \"Einloggen,\" itself seems to be a verb and is not private information. While there is a specific email address \"luca.dewert@rwth-aachen.de\" in the surrounding words, the term \"Einloggen,\" itself can never be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 36,
+            "x1": 964,
+            "y1": 275,
+            "x2": 1061,
+            "y2": 295,
+            "text": "fortzufahren",
+            "context": [
+                "um",
+                "Einloggen,",
+                "Jira",
+                "luca.dewert@rwth-aachen.de"
+            ],
+            "classification": false,
+            "reason": "The term \"fortzufahren\" itself is just a verb and is not private information. The surrounding words contains a specific email address, however the term itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 37,
+            "x1": 939,
+            "y1": 279,
+            "x2": 964,
+            "y2": 292,
+            "text": "um",
+            "context": [
+                "Einloggen,",
+                "fortzufahren",
+                "Jira",
+                "luca.dewert@rwth-aachen.de"
+            ],
+            "classification": false,
+            "reason": "The term \"um\" itself is just a preposition and is not private information. The surrounding words contains a specific email address, however the term itself is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 38,
+            "x1": 1596,
+            "y1": 484,
+            "x2": 1683,
+            "y2": 765,
+            "text": "",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \",\" itself is a punctuation mark and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 39,
+            "x1": 804,
+            "y1": 322,
+            "x2": 992,
+            "y2": 340,
+            "text": "luca.dewert@rwth-aachen.de",
+            "context": [
+                "Einloggen,",
+                "fortzufahren",
+                "um"
+            ],
+            "classification": true,
+            "reason": "This is a specific email address and therefore private information. The surrounding words suggest that this is indeed an email address that is private information.",
+            "substitution": "email address"
+        },
+        {
+            "id": 40,
+            "x1": 824,
+            "y1": 409,
+            "x2": 878,
+            "y2": 427,
+            "text": "Merken",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "The term \"Merken\" itself is just a verb and is not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 41,
+            "x1": 926,
+            "y1": 455,
+            "x2": 993,
+            "y2": 480,
+            "text": "Einloggen",
+            "context": [
+                "fortfahren",
+                "Oder",
+                "mit:"
+            ],
+            "classification": false,
+            "reason": "The term \"Einloggen\" itself is a German verb meaning \"log in\" and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 42,
+            "x1": 1781,
+            "y1": 606,
+            "x2": 1872,
+            "y2": 759,
+            "text": "",
+            "context": [
+                "NONE"
+            ],
+            "classification": false,
+            "reason": "There is no term provided, therefore it cannot be private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 43,
+            "x1": 926,
+            "y1": 508,
+            "x2": 998,
+            "y2": 527,
+            "text": "fortfahren",
+            "context": [
+                "mit:",
+                "Oder",
+                "Google",
+                "Einloggen"
+            ],
+            "classification": false,
+            "reason": "The term \"fortfahren\" itself is a German verb meaning \"continue\" and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 44,
+            "x1": 995,
+            "y1": 509,
+            "x2": 1028,
+            "y2": 527,
+            "text": "mit:",
+            "context": [
+                "fortfahren",
+                "Google",
+                "Einloggen"
+            ],
+            "classification": false,
+            "reason": "The term \"mit:\" itself is a German preposition meaning \"with:\" and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 45,
+            "x1": 892,
+            "y1": 508,
+            "x2": 931,
+            "y2": 527,
+            "text": "Oder",
+            "context": [
+                "fortfahren",
+                "Einloggen",
+                "Google"
+            ],
+            "classification": false,
+            "reason": "The term \"Oder\" itself is a German conjunction meaning \"Or\" and is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 46,
+            "x1": 948,
+            "y1": 552,
+            "x2": 1000,
+            "y2": 576,
+            "text": "Google",
+            "context": [
+                "fortfahren",
+                "mit:",
+                "Oder",
+                "Microsoft"
+            ],
+            "classification": false,
+            "reason": "The term \"Google\" is a brand name. There are no surrounding words that suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 47,
+            "x1": 940,
+            "y1": 608,
+            "x2": 1010,
+            "y2": 628,
+            "text": "Microsoft",
+            "context": [
+                "Google",
+                "Apple"
+            ],
+            "classification": false,
+            "reason": "The term \"Microsoft\" is a brand name. There are no surrounding words that suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 48,
+            "x1": 953,
+            "y1": 665,
+            "x2": 996,
+            "y2": 686,
+            "text": "Apple",
+            "context": [
+                "Slack",
+                "Microsoft"
+            ],
+            "classification": false,
+            "reason": "The term \"Apple\" is a brand name. There are no surrounding words that suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 49,
+            "x1": 953,
+            "y1": 721,
+            "x2": 995,
+            "y2": 740,
+            "text": "Slack",
+            "context": [
+                "Apple",
+                "nicht",
+                "sich!"
+            ],
+            "classification": false,
+            "reason": "The term \"Slack\" is a brand name. There are no surrounding words that suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 50,
+            "x1": 827,
+            "y1": 776,
+            "x2": 849,
+            "y2": 790,
+            "text": "Sie",
+            "context": [
+                "konnen.",
+                "einloggen?",
+                "sich!"
+            ],
+            "classification": false,
+            "reason": "The term \"Sie\" is a pronoun in German and therefore not private information. There are no surrounding words that suggest otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 51,
+            "x1": 848,
+            "y1": 775,
+            "x2": 901,
+            "y2": 793,
+            "text": "konnen.",
+            "context": [
+                "Sie",
+                "sich!",
+                "einloggen?",
+                "nicht"
+            ],
+            "classification": false,
+            "reason": "The term \"konnen.\" does not appear to be private information, as it is a German word meaning \"can\" or \"to be able to\".",
+            "substitution": "NONE"
+        },
+        {
+            "id": 52,
+            "x1": 898,
+            "y1": 775,
+            "x2": 929,
+            "y2": 793,
+            "text": "sich!",
+            "context": [
+                "konnen.",
+                "nicht",
+                "einloggen?",
+                "Slack",
+                "Sie"
+            ],
+            "classification": false,
+            "reason": "The term \"sich!\" does not appear to be private information, as it is a German word often used in reflexive verbs.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 53,
+            "x1": 925,
+            "y1": 775,
+            "x2": 964,
+            "y2": 793,
+            "text": "nicht",
+            "context": [
+                "sich!",
+                "einloggen?",
+                "konnen.",
+                "Slack"
+            ],
+            "classification": false,
+            "reason": "The term \"nicht\" does not appear to be private information, as it is a German word meaning \"not\".",
+            "substitution": "NONE"
+        },
+        {
+            "id": 54,
+            "x1": 1034,
+            "y1": 776,
+            "x2": 1054,
+            "y2": 790,
+            "text": "Ein",
+            "context": [
+                "Konto",
+                "erstellen"
+            ],
+            "classification": false,
+            "reason": "The term \"Ein\" does not appear to be private information, as it is a German word meaning \"a\" or \"an\".",
+            "substitution": "NONE"
+        },
+        {
+            "id": 55,
+            "x1": 1056,
+            "y1": 776,
+            "x2": 1096,
+            "y2": 790,
+            "text": "Konto",
+            "context": [
+                "Ein",
+                "erstellen"
+            ],
+            "classification": false,
+            "reason": "The term \"Konto\" does not appear to be private information, as it is a German word meaning \"account\".",
+            "substitution": "NONE"
+        },
+        {
+            "id": 56,
+            "x1": 858,
+            "y1": 794,
+            "x2": 931,
+            "y2": 815,
+            "text": "einloggen?",
+            "context": [
+                "konnen.",
+                "nicht",
+                "sich!",
+                "Sie",
+                "ATLASSIAN"
+            ],
+            "classification": false,
+            "reason": "The term \"einloggen?\" itself is a german verb that translates to login. It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 57,
+            "x1": 1036,
+            "y1": 794,
+            "x2": 1094,
+            "y2": 811,
+            "text": "erstellen",
+            "context": [
+                "Ein",
+                "Konto",
+                "ATLASSIAN"
+            ],
+            "classification": false,
+            "reason": "The term \"erstellen\" itself is a german verb that translates to create. It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 58,
+            "x1": 908,
+            "y1": 855,
+            "x2": 1034,
+            "y2": 881,
+            "text": "ATLASSIAN",
+            "context": [
+                "Trello",
+                "Confluence,",
+                "tur Jir.",
+                "wno",
+                "mehr.",
+                "Konto",
+                "Datenschutzricntlinie",
+                "Benutzerhinxas",
+                "einloggen?",
+                "erstellen",
+                "Elo"
+            ],
+            "classification": false,
+            "reason": "The term \"ATLASSIAN\" itself is a company name and therefore not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 59,
+            "x1": 843,
+            "y1": 887,
+            "x2": 862,
+            "y2": 900,
+            "text": "Elo",
+            "context": [
+                "Konto",
+                "Datenschutzricntlinie",
+                "tur Jir.",
+                "Website .",
+                "Diese",
+                "istmit.feCAPTCHA",
+                "ATLASSIAN",
+                "Datenschutzerkklaning"
+            ],
+            "classification": false,
+            "reason": "The term \"Elo\" itself is a proper noun that is likely related to the Atlassian services in the surrounding words. It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 60,
+            "x1": 861,
+            "y1": 887,
+            "x2": 894,
+            "y2": 900,
+            "text": "Konto",
+            "context": [
+                "Elo",
+                "tur Jir.",
+                "Datenschutzricntlinie",
+                "ATLASSIAN",
+                "istmit.feCAPTCHA",
+                "Website .",
+                "Diese",
+                "Confluence,",
+                "Datenschutzerkklaning"
+            ],
+            "classification": false,
+            "reason": "The term \"Konto\" itself is a german noun that translates to account. It is not private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 61,
+            "x1": 893,
+            "y1": 887,
+            "x2": 930,
+            "y2": 900,
+            "text": "tur Jir.",
+            "context": [
+                "Konto",
+                "Confluence,",
+                "ATLASSIAN",
+                "Datenschutzricntlinie",
+                "Elo",
+                "istmit.feCAPTCHA",
+                "Website .",
+                "Datenschutzerkklaning",
+                "uno",
+                "Benutzerhinxas"
+            ],
+            "classification": false,
+            "reason": "The term \"tur Jir.\" itself does not seem to be private information. There are no surrounding words that would indicate otherwise.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 62,
+            "x1": 931,
+            "y1": 884,
+            "x2": 991,
+            "y2": 901,
+            "text": "Confluence,",
+            "context": [
+                "Trello",
+                "tur Jir.",
+                "ATLASSIAN",
+                "Datenschutzricntlinie",
+                "Benutzerhinxas",
+                "wno",
+                "istmit.feCAPTCHA",
+                "geschutzt",
+                "Konto",
+                "Datenschutzerkklaning",
+                "uno",
+                "Nurzungsbedingungen",
+                "die",
+                "Website ."
+            ],
+            "classification": false,
+            "reason": "The term \"Confluence,\" itself does not seem to be private information. The surrounding words do not indicate that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 63,
+            "x1": 989,
+            "y1": 884,
+            "x2": 1022,
+            "y2": 901,
+            "text": "Trello",
+            "context": [
+                "Confluence,",
+                "wno",
+                "ATLASSIAN",
+                "Benutzerhinxas",
+                "mehr.",
+                "Datenschutzricntlinie",
+                "istmit.feCAPTCHA",
+                "geschutzt",
+                "Egelten",
+                "Nurzungsbedingungen"
+            ],
+            "classification": false,
+            "reason": "The term \"Trello\" itself does not seem to be private information. The surrounding words do not indicate that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 64,
+            "x1": 1020,
+            "y1": 887,
+            "x2": 1042,
+            "y2": 900,
+            "text": "wno",
+            "context": [
+                "Trello",
+                "mehr.",
+                "ATLASSIAN",
+                "Benutzerhinxas",
+                "Confluence,",
+                "geschutzt",
+                "Egelten",
+                "Nurzungsbedingungen",
+                "istmit.feCAPTCHA"
+            ],
+            "classification": false,
+            "reason": "The term \"wno\" itself does not seem to be private information. The surrounding words do not indicate that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 65,
+            "x1": 1043,
+            "y1": 887,
+            "x2": 1074,
+            "y2": 900,
+            "text": "mehr.",
+            "context": [
+                "wno",
+                "ATLASSIAN",
+                "Benutzerhinxas",
+                "Trello",
+                "Egelten",
+                "dle",
+                "geschutzt",
+                "Nurzungsbedingungen"
+            ],
+            "classification": false,
+            "reason": "The term \"mehr.\" itself does not seem to be private information. The surrounding words do not indicate that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 66,
+            "x1": 856,
+            "y1": 911,
+            "x2": 964,
+            "y2": 928,
+            "text": "Datenschutzricntlinie",
+            "context": [
+                "istmit.feCAPTCHA",
+                "Website .",
+                "Diese",
+                "Confluence,",
+                "tur Jir.",
+                "Elo",
+                "Konto",
+                "Benutzerhinxas",
+                "geschutzt",
+                "Datenschutzerkklaning",
+                "uno",
+                "die",
+                "Nurzungsbedingungen",
+                "Trello",
+                "ATLASSIAN",
+                "Google."
+            ],
+            "classification": false,
+            "reason": "The term Datenschutzricntlinie seems to be a word from a foreign language. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 67,
+            "x1": 978,
+            "y1": 912,
+            "x2": 1062,
+            "y2": 925,
+            "text": "Benutzerhinxas",
+            "context": [
+                "istmit.feCAPTCHA",
+                "geschutzt",
+                "Egelten",
+                "Confluence,",
+                "Trello",
+                "mehr.",
+                "wno",
+                "Datenschutzricntlinie",
+                "dle",
+                "Nurzungsbedingungen",
+                "die",
+                "won",
+                "ATLASSIAN",
+                "Google.",
+                "uno",
+                "tur Jir."
+            ],
+            "classification": false,
+            "reason": "The term Benutzerhinxas seems to be a word from a foreign language. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 68,
+            "x1": 889,
+            "y1": 932,
+            "x2": 983,
+            "y2": 949,
+            "text": "istmit.feCAPTCHA",
+            "context": [
+                "Datenschutzerkklaning",
+                "Nurzungsbedingungen",
+                "uno",
+                "die",
+                "geschutzt",
+                "Website .",
+                "Datenschutzricntlinie",
+                "Benutzerhinxas",
+                "Google.",
+                "Confluence,",
+                "Trello",
+                "tur Jir.",
+                "Konto",
+                "Diese",
+                "Elo",
+                "wno"
+            ],
+            "classification": false,
+            "reason": "The term istmit.feCAPTCHA seems to be a word from a foreign language. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 69,
+            "x1": 980,
+            "y1": 935,
+            "x2": 1035,
+            "y2": 947,
+            "text": "geschutzt",
+            "context": [
+                "istmit.feCAPTCHA",
+                "Egelten",
+                "Nurzungsbedingungen",
+                "Benutzerhinxas",
+                "die",
+                "Google.",
+                "Datenschutzricntlinie",
+                "uno",
+                "Trello",
+                "Confluence,",
+                "wno",
+                "mehr.",
+                "won",
+                "dle"
+            ],
+            "classification": false,
+            "reason": "The term geschutzt seems to be a word from a foreign language. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 70,
+            "x1": 817,
+            "y1": 932,
+            "x2": 850,
+            "y2": 949,
+            "text": "Diese",
+            "context": [
+                "Website .",
+                "Datenschutzerkklaning",
+                "Datenschutzricntlinie",
+                "Elo",
+                "Konto",
+                "istmit.feCAPTCHA"
+            ],
+            "classification": false,
+            "reason": "The term Diese seems to be a word from a foreign language. There are no surrounding words that suggest that this term is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 71,
+            "x1": 847,
+            "y1": 932,
+            "x2": 892,
+            "y2": 949,
+            "text": "Website .",
+            "context": [
+                "Diese",
+                "istmit.feCAPTCHA",
+                "Datenschutzerkklaning",
+                "Datenschutzricntlinie",
+                "Konto",
+                "Elo",
+                "tur Jir.",
+                "uno",
+                "Google.",
+                "Confluence,"
+            ],
+            "classification": false,
+            "reason": "The term \"Website .\" itself is just a noun and is not private information. The surrounding words do not suggest that this is a URL, hence this is not private.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 72,
+            "x1": 1034,
+            "y1": 935,
+            "x2": 1081,
+            "y2": 949,
+            "text": "Egelten",
+            "context": [
+                "Nurzungsbedingungen",
+                "dle",
+                "geschutzt",
+                "won",
+                "Benutzerhinxas",
+                "mehr.",
+                "wno",
+                "Trello"
+            ],
+            "classification": false,
+            "reason": "The term \"Egelten\" does not seem to be private information. The surrounding words do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 73,
+            "x1": 1080,
+            "y1": 935,
+            "x2": 1099,
+            "y2": 948,
+            "text": "dle",
+            "context": [
+                "Egelten",
+                "Nurzungsbedingungen",
+                "won",
+                "Benutzerhinxas",
+                "mehr.",
+                "geschutzt"
+            ],
+            "classification": false,
+            "reason": "The term \"dle\" does not seem to be private information. The surrounding words do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 74,
+            "x1": 816,
+            "y1": 947,
+            "x2": 925,
+            "y2": 963,
+            "text": "Datenschutzerkklaning",
+            "context": [
+                "Diese",
+                "Website .",
+                "istmit.feCAPTCHA",
+                "uno",
+                "Google.",
+                "Datenschutzricntlinie",
+                "die",
+                "Nurzungsbedingungen",
+                "Confluence,",
+                "tur Jir.",
+                "Elo",
+                "Konto"
+            ],
+            "classification": false,
+            "reason": "The term \"Datenschutzerkklaning\" does not seem to be private information. The surrounding words do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 75,
+            "x1": 926,
+            "y1": 948,
+            "x2": 948,
+            "y2": 961,
+            "text": "uno",
+            "context": [
+                "istmit.feCAPTCHA",
+                "Google.",
+                "die",
+                "Datenschutzerkklaning",
+                "Nurzungsbedingungen",
+                "Datenschutzricntlinie",
+                "geschutzt",
+                "Website .",
+                "Benutzerhinxas",
+                "Confluence,",
+                "tur Jir."
+            ],
+            "classification": false,
+            "reason": "The term \"uno\" does not seem to be private information. The surrounding words do not suggest that this is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 76,
+            "x1": 947,
+            "y1": 948,
+            "x2": 966,
+            "y2": 961,
+            "text": "die",
+            "context": [
+                "istmit.feCAPTCHA",
+                "uno",
+                "Nurzungsbedingungen",
+                "Google.",
+                "geschutzt",
+                "Datenschutzricntlinie",
+                "Datenschutzerkklaning",
+                "Benutzerhinxas",
+                "Confluence,"
+            ],
+            "classification": false,
+            "reason": "The term \"die\" itself is just a German word and is not private information. The surrounding words do not suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 77,
+            "x1": 964,
+            "y1": 948,
+            "x2": 1079,
+            "y2": 962,
+            "text": "Nurzungsbedingungen",
+            "context": [
+                "istmit.feCAPTCHA",
+                "won",
+                "Google.",
+                "die",
+                "Egelten",
+                "dle",
+                "geschutzt",
+                "uno",
+                "Datenschutzricntlinie",
+                "Benutzerhinxas",
+                "Datenschutzerkklaning",
+                "Confluence,",
+                "Trello",
+                "wno",
+                "mehr."
+            ],
+            "classification": false,
+            "reason": "The term \"Nurzungsbedingungen\" itself is just a German word for terms of service and is not private information. The surrounding words do not suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 78,
+            "x1": 1079,
+            "y1": 950,
+            "x2": 1101,
+            "y2": 961,
+            "text": "won",
+            "context": [
+                "Nurzungsbedingungen",
+                "Egelten",
+                "dle",
+                "Benutzerhinxas",
+                "geschutzt"
+            ],
+            "classification": false,
+            "reason": "The term \"won\" itself is just a word and is not private information. The surrounding words do not suggest that the term itself is private information.",
+            "substitution": "NONE"
+        },
+        {
+            "id": 79,
+            "x1": 939,
+            "y1": 961,
+            "x2": 977,
+            "y2": 977,
+            "text": "Google.",
+            "context": [
+                "uno",
+                "die",
+                "Nurzungsbedingungen",
+                "istmit.feCAPTCHA",
+                "Datenschutzerkklaning",
+                "geschutzt",
+                "Datenschutzricntlinie",
+                "Benutzerhinxas",
+                "Website ."
+            ],
+            "classification": false,
+            "reason": "The term \"Google.\" itself is just a noun and is not private information. The surrounding words do not suggest that the term itself is private information.",
+            "substitution": "NONE"
+        }
+    ]
+}
