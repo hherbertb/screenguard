@@ -141,8 +141,6 @@ screenguard/
 └── requirements.txt
 ```
 
----
-
 ## License
 
 To be added.
