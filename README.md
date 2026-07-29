@@ -105,7 +105,7 @@ screenguard/
 │   │   └── TableDetector.py       # Table detection (DETR-based)
 │   └── logging/
 │       └── ScreenLogger.py
-├── activitygen/                   # UI component detection (from ActivityGen)
+├── activitygen/                   # UI component detection
 │   ├── compo_detector/            # Component detection
 │   ├── compo_classifier/          # ResNet-based component classification
 │   ├── merge/                     # Element merging
@@ -139,19 +139,6 @@ screenguard/
 ├── best_accuracy.yaml             # Fine-tuned EasyOCR model config
 ├── best_accuracy.py               # Model definition
 └── requirements.txt
-```
-
----
-
-## Citation
-
-If you use ScreenGuard in your research, please cite:
-
-```bibtex
-@inproceedings{beyel2025screenguard,
-  title  = {Redacting Sensitive Information in Screenshots},
-  author = {Beyel, Harry H. and van der Aalst, Wil M. P.},
-}
 ```
 
 ---
