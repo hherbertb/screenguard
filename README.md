@@ -121,18 +121,22 @@ screenguard/
 │   └── fonts/
 │       └── Arial.ttf
 ├── data/
-│   ├── JiraCelonis/               # Raw Jira screenshots (case study input)
 │   └── PII_keywords.txt           # PII keyword list for rule-based classifier
-├── evaluation/                    # Evaluation data
-│   ├── Quantitative Evaluation/   # Quantitative benchmark
-│   │   ├── dataset/               # Screenshots + bounding box annotations
-│   │   ├── RuleBasedClassification/
-│   │   ├── GeneralPromptClassification/
-│   │   ├── SpecificPromptClassification/
-│   │   ├── EvaluationRuleBased/
-│   │   ├── EvaluationGeneralPrompt/
-│   │   └── EvaluationSpecificPrompt/
-│   └── Jira/                      # Jira case study (unredacted + redacted)
+├── experiments/                   # Quantitative evaluation (paper Sec. 5.1)
+│   ├── README.md                  # Description of the benchmark
+│   ├── dataset/                   # 188 screenshots + sensitivity annotations
+│   ├── RuleBasedClassification/
+│   ├── GeneralPromptClassification/
+│   ├── SpecificPromptClassification/
+│   ├── EvaluationRuleBased/
+│   ├── EvaluationGeneralPrompt/
+│   ├── EvaluationSpecificPrompt/
+│   └── QuantitativeEvaluation.docx
+├── case_study_jira/               # Jira case study (paper Sec. 5.2)
+│   ├── README.md                  # Description of the case study
+│   ├── JiraCelonis/               # Raw Jira screenshots (17-step workflow)
+│   ├── JiraUnredacted/            # Pipeline output on original screenshots
+│   └── Redacted/                  # Pipeline output on redacted screenshots
 ├── input/                         # Place input screenshots here
 ├── output/                        # Redaction results (generated at runtime)
 ├── best_accuracy.pth              # Fine-tuned EasyOCR model weights
